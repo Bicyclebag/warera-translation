@@ -384,7 +384,7 @@ msgstr "<0>{0}</0> от союза с <1/>"
 #. placeholder {0}: region.depositBonus
 #: src/components/_economy/company/RecommendedCompanyRegions.tsx:141
 msgid "<0>{0}</0> from deposit resources."
-msgstr "<0>{0}</0> из ресурсного депозита."
+msgstr "<0>{0}</0> от залежей ресурсов."
 
 #. placeholder {0}: sideBonus.allyEthicsBonusPercent
 #: src/components/_military/battle/BattleDamageBonuses.tsx:242
