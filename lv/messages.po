@@ -22,6 +22,10 @@ msgstr " - Iemesls: {0}"
 msgid " Gift a sub"
 msgstr " Uzdāvināt abonementu"
 
+#: src/components/_user/worker/WorkerItem.tsx:202
+#~ msgid " Stats"
+#~ msgstr " Stati"
+
 #. placeholder {0}: gameConfig?.battle.regionNotLinkedToCapitalMalusPercent
 #: src/pages/region/[regionId]/index.tsx:182
 msgid "- Defending this region will have a malus of <0>{0}</0>."
@@ -125,10 +129,25 @@ msgstr "*Ja lietotājam jau ir dažas lietas no komplekta, cena būs mazāka"
 msgid "*May burn"
 msgstr "*Var aizdegties"
 
+#~ msgid "+{0}% from deposit"
+#~ msgstr "+{0}% no atradnes"
+
+#: src/components/_economy/company/RecommendedCompanyRegions.tsx:132
+#~ msgid "+{0}% from pacifist ethics"
+#~ msgstr "+{0}% no pacifistu ideoloģijas"
+
+#: src/components/_economy/company/RecommendedCompanyRegions.tsx:125
+#~ msgid "+{0}% from strategic resources"
+#~ msgstr "+{0}% no stratēģiskajiem resursiem"
+
 #: src/components/_user/notification/notification.frontConfig.tsx:392
 #: src/components/_user/notification/notification.frontConfig.tsx:1215
 msgid "<0/> applied to join <1/>"
 msgstr "<0/> pieteicās pievienoties <1/>"
+
+#: src/components/_economy/workOffer/WorkOfferList.tsx:67
+#~ msgid "<0/> at <1>{0}</1> wage."
+#~ msgstr "<0/> ar <1>{0}</1> algu."
 
 #. placeholder {0}: myWorker.data.wage
 #. placeholder {1}: incomeTax > 0 && ( <Typo as='span' opacity={0.7}> {' ('} <Money static precision={3} color='yellowText'> {wageAfterTax} </Money> {' after taxes)'} </Typo> )
@@ -171,7 +190,11 @@ msgstr "<0/> tev uzdāvināja premium abonementu!"
 #. placeholder {0}: data.bannerTitle
 #: src/components/_user/notification/notification.frontConfig.tsx:1592
 msgid "<0/> gifted you the banner \"{0}\"!"
-msgstr "<0/> uzdāvināja tev baneri \\\"{0}\\\"!"
+msgstr "<0/> uzdāvināja tev baneri \"{0}\"!"
+
+#: src/components/_user/notification/notification.frontConfig.tsx:1690
+#~ msgid "<0/> gifted you the skin \"{0}\"!"
+#~ msgstr "<0/> uzdāvināja tev veidolu \"{0}\"!"
 
 #: src/components/_user/notification/notification.frontConfig.tsx:1693
 msgid "<0/> gifted you the skin \"{skinTitle}\"!"
@@ -185,6 +208,10 @@ msgstr "<0/> uzdāvināja tev veidolu komplektu \"{0}\"!"
 #: src/components/_user/notification/notification.frontConfig.tsx:1422
 msgid "<0/> has been created, it gonna start soon!"
 msgstr "<0/> tika izveidots, tas drīz sāksies!"
+
+#: src/components/_user/notification/notification.frontConfig.tsx:1155
+#~ msgid "<0/> has been created, you can now register!"
+#~ msgstr "<0/> tika izveidots, tagad tu vari reģistrēties!"
 
 #: src/components/_user/notification/notification.frontConfig.tsx:225
 msgid "<0/> has been elected president of <1/>"
@@ -218,6 +245,10 @@ msgstr "<0/> pievienojās spēlei, izmantojot tavu ieteikuma saiti!"
 #: src/components/_user/notification/notification.frontConfig.tsx:515
 msgid "<0/> joined your company <1/> for <2>{0}</2> wage"
 msgstr "<0/> pievienojās tavam uzņēmumam <1/> par <2>{0}</2> algu"
+
+#: src/components/_user/notification/notification.frontConfig.tsx:1155
+#~ msgid "<0/> just started!"
+#~ msgstr "<0/> tikko sākās!"
 
 #. placeholder {0}: data.company && <CompanyNameById companyId={data.company} />
 #: src/components/_user/notification/notification.frontConfig.tsx:531
@@ -369,6 +400,10 @@ msgstr "<0>{0}</0> no agrāriešu ideoloģijas atradnes bonusa."
 msgid "<0>{0}</0> from alliance with <1/>"
 msgstr "<0>{0}</0> no alianses ar <1/>"
 
+#: src/components/_military/battle/BattleDamageBonuses.tsx:65
+#~ msgid "<0>{0}</0> from defense of your country's core region"
+#~ msgstr "<0>{0}</0> no savas valsts pamatreģiona aizsardzības"
+
 #. placeholder {0}: region.depositBonus
 #: src/components/_economy/company/RecommendedCompanyRegions.tsx:141
 msgid "<0>{0}</0> from deposit resources."
@@ -393,6 +428,10 @@ msgstr "<0>{0}</0> no industriālistu ideoloģijas specializācijas bonusa."
 #: src/components/_military/battle/BattleDamageBonuses.tsx:252
 msgid "<0>{0}</0> from Isolationist ethics (fighting enemy)"
 msgstr "<0>{0}</0> no izolacionistu ideoloģijas (kauja pret ienaidnieku)"
+
+#: src/components/_military/battle/BattleDamageBonuses.tsx:214
+#~ msgid "<0>{0}</0> from Militarist ethics"
+#~ msgstr "<0>{0}</0> no Militāristu ideoloģijas"
 
 #. placeholder {0}: sideBonus.militarismBonusPercent
 #: src/components/_military/battle/BattleDamageBonuses.tsx:222
@@ -424,6 +463,10 @@ msgstr "<0>{0}</0> ieņemšanas punktu ir nepieciešams, lai uzvarētu raundā. 
 msgid "<0>{0}</0>/day"
 msgstr "<0>{0}</0>/dienā"
 
+#: src/components/_economy/company/CompanyProductionBonusTag.tsx:81
+#~ msgid "<0>{citizenBonus}</0> from <1/> militarist ethics (citizen owner bonus)."
+#~ msgstr "<0>{citizenBonus}</0> from <1/> militāristu ideoloģijas (pilsoņa īpašnieka bonuss)."
+
 #: src/components/_economy/company/CompanyProductionBonusTag.tsx:75
 msgid "<0>{depositBonus}</0> from deposit resources in <1/>."
 msgstr "<0>{depositBonus}</0> no resursu atradnēm reģionā <1/>."
@@ -436,6 +479,10 @@ msgstr "<0>{ethicDepositBonus}</0> no <1/> agrāriešu ideoloģijas atradnes bon
 msgid "<0>{ethicSpecializationBonus}</0> from <1/> industrialist ethics specialization bonus."
 msgstr "<0>{ethicSpecializationBonus}</0> no <1/> industriālistu ideoloģijas specializācijas bonusa."
 
+#: src/components/_economy/company/CompanyProductionBonusTag.tsx:70
+#~ msgid "<0>{pacifistBonus}</0> from <1/> pacifist ethics."
+#~ msgstr "<0>{pacifistBonus}</0> no <1/> pacifistu ideoloģijas."
+
 #: src/components/_economy/company/CompanyProductionBonusTag.tsx:53
 msgid "<0>{strategicBonus}</0> from <1/> strategic resources production bonus."
 msgstr "<0>{strategicBonus}</0> no <1/> stratēģisko resursu ražošanas bonusa."
@@ -444,6 +491,16 @@ msgstr "<0>{strategicBonus}</0> no <1/> stratēģisko resursu ražošanas bonusa
 #: src/pages/country/[countryId]/index.tsx:448
 msgid "<0>#{key}</0> resource of each type = <1>{value}</1>"
 msgstr "<0>#{key}</0> katra tipa resurss = <1>{value}</1>"
+
+#: src/components/_political/party/party.frontConfig.tsx:319
+#: src/components/_political/party/party.frontConfig.tsx:332
+#~ msgid "<0>+{0}</0> bonus towards ammo or construction specialization good."
+#~ msgstr "<0>+{0}</0> bonuss munīcijas vai celtniecības specializācijas produktam."
+
+#: src/components/_political/party/party.frontConfig.tsx:280
+#: src/components/_political/party/party.frontConfig.tsx:299
+#~ msgid "<0>+{0}</0> from deposits in your country."
+#~ msgstr "<0>+{0}</0> no valsts atradnēm."
 
 #: src/components/_user/user/UserTooltip.tsx:122
 msgid "<0>Buff</0> ends <1/>"
@@ -479,6 +536,26 @@ msgstr "<0>Piepildās ar <1>Ražošanas Punktiem</1> strādājot, kā arī no au
 #: src/components/_political/unrest/UnrestBar.tsx:25
 msgid "<0>Unrest</0> represents internal tension in the country.<1/><2/>Citizens can contribute by spending <3>{0}</3> or <4>{1}</4> to add <5>{2}</5> to the bar. Unrest decays daily by <6>{3}-{4}%</6>.<7/><8/>When the bar is full, any party can vote via motion to start a <9>Civil war</9> (cost: <10>development × 10</10>, cooldown: {5}h). The battle takes place in the capital region, and <11>only citizens</11> can fight.<12/><13/>If revolutionaries win:<14/>- Government is impeached<15/>- Borders are opened for {6} days<16/>- Presidential elections begin<17/><18/>After a revolution, contributions are disabled for {7}h."
 msgstr "<0>Nemieri</0>atspoguļo iekšējo spriedzi valstī. <1><2> Pilsoņi var sniegt ieguldījumu, patērējot <3>{0}</3> vai <4>{1}</4>, lai papildinātu stabiņu ar<5>{2}</5>. Nemieri sarūk katru dienu par <6>{3}-{4}%</6>.<7/><8/>Kad stabiņš ir pilns, jebkura partija var nobalsot priekšlikumu, lai uzsāktu <9>Civilo karu</9>(maksa: <10>attīstība × 10</10>, atdzišanas periods: {5} stundas). Kauja norisinās valsts galvaspilsētā un piedalīties tajā var <11>tikai tās valsts pilsoņi</11>.<12/><13/>Ja revolucionāri uzvar:<14/>- Valdība ir atlaista<15/>- Valsts robežas ir atvērtas {6} dienas<16/>- Sākas jaunas prezidenta vēlēšanas<17/><18/>Pēc revolūcijas, ieguldījuma sniegšana ir izslēgta uz {7} stundām."
+
+#: src/components/_political/unrest/UnrestBar.tsx:24
+#~ msgid "<0>Unrest</0> represents internal tension in the country.<1/><2/>Citizens can contribute by spending <3>{0}</3> to add <4>{1}</4> to the bar. Unrest decays daily by <5>{2}-{3}%</5>.<6/><7/>When the bar is full, any party can vote via motion to start a <8>Civil war</8> (cost: <9>development × 10</9>, cooldown: {4}h). The battle takes place in the capital region, and <10>only citizens</10> can fight.<11/><12/>If revolutionaries win:<13/>- Government is impeached<14/>- Borders are opened for {5} days<15/>- Presidential elections begin"
+#~ msgstr "<0>Unrest</0> represents internal tension in the country.<1/><2/>Citizens can contribute by spending <3>{0}</3> to add <4>{1}</4> to the bar. Unrest decays daily by <5>{2}-{3}%</5>.<6/><7/>When the bar is full, any party can vote via motion to start a <8>Civil war</8> (cost: <9>development × 10</9>, cooldown: {4}h). The battle takes place in the capital region, and <10>only citizens</10> can fight.<11/><12/>If revolutionaries win:<13/>- Government is impeached<14/>- Borders are opened for {5} days<15/>- Presidential elections begin"
+
+#: src/components/_political/unrest/UnrestBar.tsx:24
+#~ msgid "<0>Unrest</0> represents internal tension in the country.<1/><2/>Citizens can contribute by spending <3>{0}</3> to add <4>{1}</4> to the bar. Unrest decays daily by <5>{2}-{3}%</5>.<6/><7/>When the bar is full, any party can vote via motion to start a <8>Civil war</8> (cost: <9>development × 10</9>, cooldown: {4}h). The battle takes place in the capital region, and <10>only citizens</10> can fight.<11/><12/>If revolutionaries win:<13/>- Government is impeached<14/>- Borders are opened for {5} days<15/>- Presidential elections begin<16/><17/>After a revolution, contributions are disabled for {6}h."
+#~ msgstr "<0>Unrest</0> represents internal tension in the country.<1/><2/>Citizens can contribute by spending <3>{0}</3> to add <4>{1}</4> to the bar. Unrest decays daily by <5>{2}-{3}%</5>.<6/><7/>When the bar is full, any party can vote via motion to start a <8>Civil war</8> (cost: <9>development × 10</9>, cooldown: {4}h). The battle takes place in the capital region, and <10>only citizens</10> can fight.<11/><12/>If revolutionaries win:<13/>- Government is impeached<14/>- Borders are opened for {5} days<15/>- Presidential elections begin<16/><17/>After a revolution, contributions are disabled for {6}h."
+
+#: src/components/_political/unrest/UnrestBar.tsx:24
+#~ msgid "<0>Unrest</0> represents internal tension in the country.<1/><2/>Citizens can contribute by spending <3>{0}</3> to add <4>{1}</4> to the bar. Unrest decays daily by <5>50-100%</5> of country initial development.<6/><7/>When the bar is full, any party can vote via motion to start a <8>Civil war</8> (cost: <9>development × 10</9>, cooldown: {2}h). The battle takes place in the capital region, and <10>only citizens</10> can fight.<11/><12/>If revolutionaries win:<13/>- Government is impeached<14/>- Borders are opened for {3} days<15/>- Presidential elections begin"
+#~ msgstr "<0>Unrest</0> represents internal tension in the country.<1/><2/>Citizens can contribute by spending <3>{0}</3> to add <4>{1}</4> to the bar. Unrest decays daily by <5>50-100%</5> of country initial development.<6/><7/>When the bar is full, any party can vote via motion to start a <8>Civil war</8> (cost: <9>development × 10</9>, cooldown: {2}h). The battle takes place in the capital region, and <10>only citizens</10> can fight.<11/><12/>If revolutionaries win:<13/>- Government is impeached<14/>- Borders are opened for {3} days<15/>- Presidential elections begin"
+
+#: src/components/_political/unrest/UnrestBar.tsx:22
+#~ msgid "<0>Unrest</0> represents internal tension in the country.<1/><2/>Citizens can contribute by spending energy or health. Unrest decays daily by <3>{0}%</3> of max.<4/><5/>When the bar is full, any party leader can pay to start a <6>Civil war</6>. If revolutionaries win:<7/>- Government is impeached<8/>- Borders are opened for {1} days<9/>- Presidential elections begin"
+#~ msgstr "<0>Unrest</0> represents internal tension in the country.<1/><2/>Citizens can contribute by spending energy or health. Unrest decays daily by <3>{0}%</3> of max.<4/><5/>When the bar is full, any party leader can pay to start a <6>Civil war</6>. If revolutionaries win:<7/>- Government is impeached<8/>- Borders are opened for {1} days<9/>- Presidential elections begin"
+
+#: src/components/_political/unrest/UnrestBar.tsx:22
+#~ msgid "<0>Unrest</0> represents internal tension in the country.<1/><2/>Citizens can contribute by spending energy or health. Unrest decays daily by <3>50-100%</3> of country development.<4/><5/>When the bar is full, any party leader can pay to start a <6>Civil war</6>. If revolutionaries win:<7/>- Government is impeached<8/>- Borders are opened for {0} days<9/>- Presidential elections begin"
+#~ msgstr "<0>Unrest</0> represents internal tension in the country.<1/><2/>Citizens can contribute by spending energy or health. Unrest decays daily by <3>50-100%</3> of country development.<4/><5/>When the bar is full, any party leader can pay to start a <6>Civil war</6>. If revolutionaries win:<7/>- Government is impeached<8/>- Borders are opened for {0} days<9/>- Presidential elections begin"
 
 #: src/components/_economy/inventory/case/cases.frontConfig.tsx:86
 msgid "1 legendary down, 5 more to go for a full stuff, keep gambling!"
@@ -965,6 +1042,10 @@ msgstr "Administratora paziņojums"
 msgid "Admiral"
 msgstr "Admirālis"
 
+#: src/components/_political/partyMotion/partyMotion.frontConfig.tsx:113
+#~ msgid "Adopt a new moderate ethic on an empty axis"
+#~ msgstr "Pieņemt jaunu nefanātisku vērtību tukšā asī"
+
 #: src/utils/translations.tsx:183
 msgid "Advanced Boots"
 msgstr "Zilie Zābaki"
@@ -1017,6 +1098,11 @@ msgstr "Visas koka auga, labības, govju un zivju atradnes jūsu valstī iegūst
 #: src/components/_political/party/party.frontConfig.tsx:337
 msgid "All companies in your borders get <0>+{0}</0> bonus towards ammo or construction specialization good."
 msgstr "Visi uzņēmumi, kas ir jūsu valstī saņem <0>+{0}</0> bonusu munīcijas vai celtniecības specializācijas produktiem."
+
+#: src/components/_political/party/party.frontConfig.tsx:280
+#: src/components/_political/party/party.frontConfig.tsx:301
+#~ msgid "All companies in your borders get <0>+{0}</0> from deposits."
+#~ msgstr "Visi uzņēmumi valstī saņem <0>+{0}</0> no atradnēm."
 
 #: src/components/_political/event/EventList.tsx:134
 msgid "All event types"
@@ -1076,6 +1162,18 @@ msgstr "Gandrīz gatavs..."
 msgid "Ammo"
 msgstr "Munīcija"
 
+#: src/components/_political/party/party.frontConfig.tsx:208
+#~ msgid "Ammo and Construction goods companies get <0>-50%</0> production bonus."
+#~ msgstr "Munīciju un Celtniecības produktu ražotāji iegūst <0>-50%</0> ražošanas bonusu."
+
+#: src/components/_political/party/party.frontConfig.tsx:242
+#~ msgid "Ammo and Construction goods companies get <0>+10%</0> production bonus."
+#~ msgstr "Munīciju un Celtniecības produktu ražotāji iegūst <0>+10%</0> ražošanas bonusu."
+
+#: src/components/_political/party/party.frontConfig.tsx:233
+#~ msgid "Ammo and Construction goods companies get <0>+5%</0> production bonus."
+#~ msgstr "Munīciju un Celtniecības produktu ražotāji iegūst <0>+5%</0> ražošanas bonusu."
+
 #: src/components/_political/law/LawFormModal.tsx:229
 #: src/components/_political/law/LawFormModal.tsx:230
 msgid "Amount"
@@ -1118,6 +1216,10 @@ msgid "API Tokens"
 msgstr "API Žetons"
 
 #: src/components/_user/apiToken/ApiTokenList.tsx:101
+#~ msgid "API tokens allow external applications to access the API on your behalf. Each token has a rate limit of 200 requests per minute."
+#~ msgstr "API žetoni ļauj ārpusējām aplikācijām izmantot API tavā vietā. Katram žetonam ir limits - 200 vaicājumi minūtē."
+
+#: src/components/_user/apiToken/ApiTokenList.tsx:101
 msgid "API tokens allow external applications to access the API on your behalf. Use the token in the <0>X-API-Key</0> header. Each token has a rate limit of 200 requests per minute."
 msgstr "API žetoni ļauj ārējām lietotnēm piekļūt API tavā vārdā. Lieto žetonu <0>X-API-Key</0> vaicājuma galvenē. Katram žetonam ir ierobežojums 200 pieprasījumu minūtē."
 
@@ -1133,7 +1235,7 @@ msgstr "Pieteikšanās maksa"
 msgid "Apply"
 msgstr "Pieteikties"
 
-#: src/components/_user/worker/WorkerEditFormModal.tsx:101
+#: src/components/_user/worker/WorkerEditFormModal.tsx:102
 msgid "Are you sure you want to fire this worker?"
 msgstr "Vai esi pārliecināts, ka gribi atlaist šo strādnieku?"
 
@@ -1199,6 +1301,10 @@ msgstr "Raksti"
 #: src/pages/user/[userId]/articles.tsx:25
 msgid "Articles by <0/>"
 msgstr "<0/> Raksti"
+
+#: src/components/_other/shop/ShopHeader.tsx:21
+#~ msgid "Assets"
+#~ msgstr "Lietiņas"
 
 #: src/components/_military/damageRanking/DamageRankingList.tsx:253
 msgid "At end of battle/rounds, <0>Top 30%</0> of the ranking, get <1>Loot chance</1> to get cases depending on total <2>Damages</2> of the side. "
@@ -1344,7 +1450,8 @@ msgstr "Kaujas Kopvērtējuma Atlīdzība"
 #: src/components/_layout/LayoutMenu.tsx:152
 #: src/components/_military/battle/BattlesHeader.tsx:19
 #: src/components/_military/war/WarHeader.tsx:83
-#: src/pages/region/[regionId]/index.tsx:132 src/pages/war/[warId]/index.tsx:75
+#: src/pages/region/[regionId]/index.tsx:132
+#: src/pages/war/[warId]/index.tsx:75
 msgid "Battles"
 msgstr "Kaujas"
 
@@ -1386,7 +1493,8 @@ msgstr "Bonusa bojājumi"
 msgid "Boost your production!"
 msgstr "Palielini savu ražotspēju!"
 
-#: src/components/_user/UserEquipments.tsx:180 src/utils/translations.tsx:180
+#: src/components/_user/UserEquipments.tsx:180
+#: src/utils/translations.tsx:180
 msgid "Boots"
 msgstr "Zābaki"
 
@@ -1421,6 +1529,18 @@ msgstr "Pastiprinājums beidzies"
 #: src/components/_user/notification/notification.frontConfig.tsx:837
 msgid "Buff started"
 msgstr "Pastiprinājums sācies"
+
+#: src/components/_political/party/party.frontConfig.tsx:246
+#~ msgid "Buffs and Food goods companies get <0>-50%</0> production bonus."
+#~ msgstr "Effektu un Ēdienu ražotāji iegūst <0>-50%</0> ražošanas bonusu."
+
+#: src/components/_political/party/party.frontConfig.tsx:204
+#~ msgid "Buffs and Food goods companies get <0>+10%</0> production bonus."
+#~ msgstr "Effektu un Ēdienu ražotāji iegūst <0>+10%</0> ražošanas bonusu."
+
+#: src/components/_political/party/party.frontConfig.tsx:220
+#~ msgid "Buffs and Food goods companies get <0>+5%</0> production bonus."
+#~ msgstr "Effektu un Ēdienu ražotāji iegūst <0>+5%</0> ražošanas bonusu."
 
 #: src/components/_user/user/UserDropdown.tsx:138
 msgid "Bug Finder badge given"
@@ -1567,11 +1687,24 @@ msgstr "Pamainīt valsts krāsu uz <0>{0}</0> ar <1>{1}</1> kartes toni"
 msgid "Change the tax of {0} to"
 msgstr "Pamainīt {0} nodokli uz"
 
+#: src/components/_other/ActionLogList.tsx:69
+#~ msgid "Changed citizenship"
+#~ msgstr "Nomainīja pilsonību"
+
+#: src/components/_other/ActionLogList.tsx:73
+#~ msgid "Changed description"
+#~ msgstr "Nomainīja aprakstu"
+
+#: src/components/_other/ActionLogList.tsx:66
+#~ msgid "Changed username"
+#~ msgstr "Nomainīja lietotājvārdu"
+
 #: src/components/_other/tour/tuto.frontConfig.tsx:83
 msgid "Check your loot!"
 msgstr "Apskati savu salaupīto!"
 
-#: src/components/_user/UserEquipments.tsx:146 src/utils/translations.tsx:171
+#: src/components/_user/UserEquipments.tsx:146
+#: src/utils/translations.tsx:171
 msgid "Chest"
 msgstr "Bruņuveste"
 
@@ -1624,12 +1757,54 @@ msgstr "Pilsoņi iegūst papildus <0>{0}</0> bonusu kaujās pret zvērētajiem i
 msgid "Citizens get an additional <0>{0}</0> battle bonus fighting for allies."
 msgstr "Pilsoņi iegūst papildus <0>{0}</0> bonusu sabiedroto kaujās."
 
+#: src/components/_political/party/party.frontConfig.tsx:86
+#: src/components/_political/party/party.frontConfig.tsx:100
+#~ msgid "Citizens get an additional <0>{0}</0> battle bonus."
+#~ msgstr "Pilsoņi iegūst papildus <0>{0}</0> kaujas bonusu."
+
 #. placeholder {0}: formatPercent(ethicsBonuses.militarism['-1'].defenseBattleBonus)
 #. placeholder {0}: formatPercent(ethicsBonuses.militarism['-2'].defenseBattleBonus)
 #: src/components/_political/party/party.frontConfig.tsx:51
 #: src/components/_political/party/party.frontConfig.tsx:68
 msgid "Citizens get an additional <0>{0}</0> defensive battle bonus."
 msgstr "Pilsoņi iegūst papildus <0>{0}</0> bonusu valsts aizsardzības kaujās."
+
+#: src/components/_political/party/party.frontConfig.tsx:51
+#: src/components/_political/party/party.frontConfig.tsx:68
+#~ msgid "Citizens get an additional <0>{0}</0> production bonus."
+#~ msgstr "Pilsoņi iegūst papildus <0>{0}</0> ražošanas bonusu."
+
+#: src/components/_political/party/party.frontConfig.tsx:94
+#~ msgid "Citizens get an additional <0>10%</0> battle bonus against sworn enemies."
+#~ msgstr "Pilsoņi iegūst papildus <0>10%</0> kaujas bonusu pret zvērētiem ienaidniekiem."
+
+#: src/components/_political/party/party.frontConfig.tsx:126
+#~ msgid "Citizens get an additional <0>10%</0> battle bonus fighting for allies."
+#~ msgstr "Pilsoņi iegūst papildus <0>10%</0> battle bonus fighting for allies."
+
+#: src/components/_political/party/party.frontConfig.tsx:73
+#~ msgid "Citizens get an additional <0>10%</0> battle bonus."
+#~ msgstr "Pilsoņi iegūst papildus <0>10%</0> kaujas bonusu."
+
+#: src/components/_political/party/party.frontConfig.tsx:40
+#~ msgid "Citizens get an additional <0>10%</0> production bonus."
+#~ msgstr "Pilsoņi iegūst papildus <0>10%</0> ražošanas bonusu."
+
+#: src/components/_political/party/party.frontConfig.tsx:104
+#~ msgid "Citizens get an additional <0>5%</0> battle bonus against sworn enemies."
+#~ msgstr "Pilsoņi iegūst papildus <0>5%</0> kaujas bonusu pret zvērētiem ienaidniekiem."
+
+#: src/components/_political/party/party.frontConfig.tsx:117
+#~ msgid "Citizens get an additional <0>5%</0> battle bonus fighting for allies."
+#~ msgstr "Pilsoņi iegūst papildus <0>5%</0> kaujas bonusu cīnoties par sabiedrotajiem."
+
+#: src/components/_political/party/party.frontConfig.tsx:65
+#~ msgid "Citizens get an additional <0>5%</0> battle bonus."
+#~ msgstr "Pilsoņi iegūst papildus <0>5%</0> kaujas bonusu."
+
+#: src/components/_political/party/party.frontConfig.tsx:52
+#~ msgid "Citizens get an additional <0>5%</0> production bonus."
+#~ msgstr "Pilsoņi iegūst papildus <0>5%</0> ražošanas bonusu."
 
 #: src/components/_political/country/CountryHeader.tsx:107
 msgid "Citizenship"
@@ -1647,6 +1822,14 @@ msgstr "Civilais karš"
 #: src/components/_user/mission/MissionsFinishedProgress.tsx:128
 msgid "Claim"
 msgstr "Apstiprināt"
+
+#: src/components/_other/ActionLogList.tsx:78
+#~ msgid "Claim finished mission"
+#~ msgstr "Izpilda pabeigto uzdevumu"
+
+#: src/components/_other/ActionLogList.tsx:75
+#~ msgid "Claim mission XP"
+#~ msgstr "Saņem uzdevuma pieredzes punktus"
 
 #: src/components/_other/tour/tuto.frontConfig.tsx:183
 msgid "Claim your rewards!"
@@ -1719,7 +1902,8 @@ msgstr "Komodors"
 
 #: src/components/_layout/LayoutMenu.tsx:182
 #: src/components/_user/user/MyAvatar.tsx:48
-#: src/components/_user/user/UserHeader.tsx:194 src/pages/companies.tsx:107
+#: src/components/_user/user/UserHeader.tsx:194
+#: src/pages/companies.tsx:107
 msgid "Companies"
 msgstr "Uzņēmumi"
 
@@ -1850,6 +2034,11 @@ msgstr "Kongresa vēlēšanas"
 msgid "Congress has a minimum of <0>{0} seats</0>."
 msgstr "Kongresā ir vismaz <0>{0} vietas</0>."
 
+
+#: src/components/_political/party/party.frontConfig.tsx:149
+#~ msgid "Congress has a minimum of <0>10 seats</0>."
+#~ msgstr "Kongresā ir vismaz <0>10 vietas</0>."
+
 #: src/pages/country/[countryId]/government.tsx:64
 msgid "Congress members"
 msgstr "Kongresa deputāti"
@@ -1908,6 +2097,10 @@ msgstr "Nokopēts starpliktuvē"
 #: src/pages/user/[userId]/referrals.tsx:112
 msgid "Copy"
 msgstr "Kopēt"
+
+#: src/components/_user/apiToken/ApiTokenList.tsx:124
+#~ msgid "Copy this token now. You won't be able to see it again!"
+#~ msgstr "Nokopē šo žetonu tagad. Tu viņu pēc tam vairs neredzēsi!"
 
 #: src/components/_user/apiToken/ApiTokenList.tsx:125
 msgid "Copy this token now. You won't be able to see it again! Use it in the <0>X-API-Key</0> header."
@@ -2020,6 +2213,18 @@ msgstr "Kritisks sitiens"
 msgid "Crossbow"
 msgstr "Arbalets"
 
+#: src/components/_other/shop/skin.frontConfig.tsx:8
+#~ msgid "Cupid Iron Arrow"
+#~ msgstr "Kupidona Dzelzs Bulta"
+
+#: src/components/_other/shop/skin.frontConfig.tsx:14
+#~ msgid "Cupid Steel Arrow"
+#~ msgstr "Kupidona Tērauda Bulta"
+
+#: src/components/_other/shop/skin.frontConfig.tsx:11
+#~ msgid "Cupid Stone Arrow"
+#~ msgstr "Kupidona Akmens Bulta"
+
 #: src/pages/user/[userId]/index.tsx:162
 msgid "Current Military Unit"
 msgstr "Pašreizējā Militārā Vienība"
@@ -2047,6 +2252,14 @@ msgstr "Ikdienas uzturēšana"
 #: src/components/_user/notification/notification.frontConfig.tsx:1633
 msgid "Daily Missions Reset"
 msgstr "Jauni Dienas Uzdevumi"
+
+#: src/components/_user/worker/WorkerItem.tsx:149
+#~ msgid "Daily production (last 14 days)"
+#~ msgstr "Ikdienas ražošana (pēdējās 14 dienas)"
+
+#: src/components/_user/worker/WorkerItem.tsx:197
+#~ msgid "Daily stats (last 14 days)"
+#~ msgstr "Ikdienas statistika (pēdējās 14 dienas)"
 
 #: src/components/_user/notification/notification.frontConfig.tsx:436
 msgid "Daily XP available!"
@@ -2256,6 +2469,10 @@ msgstr "Diplomātija"
 msgid "Diplomatic"
 msgstr "Diplomātiska"
 
+#: src/components/_political/partyMotion/PartyMotionFormModal.tsx:185
+#~ msgid "Direction"
+#~ msgstr "Virziens"
+
 #: src/components/_economy/company/CompanyDropdown.tsx:189
 msgid "Disable company"
 msgstr "Izslēgt uzņēmumu"
@@ -2298,6 +2515,10 @@ msgstr "Izvairīšanās"
 #: src/components/_user/mission/mission.frontConfig.tsx:274
 msgid "Dodge <0>{count}</0> attacks"
 msgstr "Izvairīties no <0>{count}</0> sitieniem"
+
+#: src/components/_political/party/party.frontConfig.tsx:58
+#~ msgid "Does not gain development from conquered regions."
+#~ msgstr "Neiegūst attīstības punktus no iekarotajiem reģioniem."
 
 #: src/components/_political/party/party.frontConfig.tsx:58
 msgid "Does not gain development from non-core regions."
@@ -2388,7 +2609,7 @@ msgstr "Labot aprakstu"
 msgid "Edit Description"
 msgstr "Labot Aprakstu"
 
-#: src/components/_user/worker/WorkerEditFormModal.tsx:142
+#: src/components/_user/worker/WorkerEditFormModal.tsx:143
 msgid "Edit worker"
 msgstr "Labot darbinieka līgumu"
 
@@ -2426,6 +2647,14 @@ msgstr "Violetās Bikses"
 #: src/pages/user/[userId]/bans.tsx:60
 msgid "Email"
 msgstr "E-pasts"
+
+#: src/components/_political/partyMotion/partyMotion.frontConfig.tsx:118
+#~ msgid "Embrace {0} on the {1} axis"
+#~ msgstr "Pieņemt {0} no {1} ass"
+
+#: src/components/_political/partyMotion/partyMotion.frontConfig.tsx:112
+#~ msgid "Embrace ethic"
+#~ msgstr "Pieņemt vērtību"
 
 #: src/components/_economy/work/WorkChart.tsx:213
 msgid "Employee Production"
@@ -2493,14 +2722,26 @@ msgstr "Uzņēmējdarbība"
 msgid "Equipment"
 msgstr "Ekipējums"
 
+#: src/components/_user/UserEquipments.tsx:100
+#~ msgid "Equipment sets"
+#~ msgstr "Ekipējuma komplekti"
+
 #: src/components/_economy/market/MarketHeader.tsx:26
 msgid "Equipments"
 msgstr "Ekipējumi"
+
+#: src/pages/user/[userId]/index.tsx:48
+#~ msgid "Equipped Skins"
+#~ msgstr "Izmantotie Veidoli"
 
 #: src/components/_political/law/LawStatus.tsx:47
 #: src/components/_political/partyMotion/PartyMotionStatus.tsx:56
 msgid "Error"
 msgstr "Kļūda"
+
+#: src/components/_economy/workOffer/EstimatedCompanyBenefit.tsx:101
+msgid "Estimated benefit per"
+msgstr "Aplēse par"
 
 #: src/pages/party/[partyId]/index.tsx:57
 msgid "Ethics"
@@ -2509,6 +2750,10 @@ msgstr "Ideoloģija"
 #: src/pages/party/[partyId]/index.tsx:51
 msgid "Ethics are bonuses from the party, applied when the president is a member of this party."
 msgstr "Ideoloģijas ir partijas bonusi, kas tiek piešķirti valstij, kad partijas biedrs ir valsts Prezidents."
+
+#: src/components/_political/partyMotion/PartyMotionFormModal.tsx:171
+#~ msgid "Ethics axis"
+#~ msgstr "Ideoloģijas ass"
 
 #: src/components/_political/partyMotion/PartyMotionTypeSelect.tsx:83
 msgid "Ethics motions"
@@ -2598,6 +2843,10 @@ msgstr "Pasaulē"
 msgid "Fidelity Bonus"
 msgstr "Uzticības Bonuss"
 
+#: src/components/_economy/workOffer/EstimatedCompanyBenefit.tsx:162
+msgid "Fidelity bonus:"
+msgstr "Uzticības bonuss:"
+
 #: src/components/_user/user/skills.frontConfig.tsx:190
 msgid "Fight skills"
 msgstr "Kaujas prasmes"
@@ -2609,6 +2858,14 @@ msgstr "Kaujā!"
 #: src/utils/translations.tsx:27
 msgid "Fighter Jet"
 msgstr "Iznīcinātājs"
+
+#: src/components/_other/ActionLogList.tsx:120
+#~ msgid "Filter by action type"
+#~ msgstr "Atlastīt pēc gadījuma tipa"
+
+#: src/components/_political/event/EventList.tsx:126
+#~ msgid "Filter by event type"
+#~ msgstr "Atlasīt pēc notikuma tipa"
 
 #: src/components/_economy/transaction/TransactionList.tsx:104
 msgid "Filter by transaction type"
@@ -2634,15 +2891,28 @@ msgstr "Finansēt sacelšanos, lai atbrīvotu okupētu reģionu"
 msgid "Finance a revolt to liberate <0/>"
 msgstr "Finansēt sacelšanos, lai atbrīvotu  <0/>"
 
+#: src/components/_political/law/law.frontConfig.tsx:430
+#~ msgid "Finance a revolt to liberate <0/> for <1>{cost}</1>"
+#~ msgstr "Finansēt sacelšanos, lai atbrīvotu <0/> par <1>{cost}</1>"
+
+#: src/components/_political/law/law.frontConfig.tsx:412
+#~ msgid "Finance a revolt to liberate an occupied region"
+#~ msgstr "Finansēt sacelšanos, lai atbrīvotu okupētu reģionu"
+
 #: src/components/_political/law/law.frontConfig.tsx:410
 msgid "Finance foreign resistance"
 msgstr "Finansēt ārvalsts sacelšanos"
+
+#: src/components/_political/law/law.frontConfig.tsx:411
+#~ msgid "Finance foreign revolt"
+#~ msgstr "Finansēt ārvalsts sacelšanos"
 
 #: src/components/_political/partyMotion/partyMotion.frontConfig.tsx:121
 msgid "Finance local resistance"
 msgstr "Finansēt lokālo sacelšanos"
 
-#: src/pages/companies.tsx:90 src/pages/user/[userId]/companies.tsx:73
+#: src/pages/companies.tsx:90
+#: src/pages/user/[userId]/companies.tsx:73
 msgid "Find a job"
 msgstr "Atrast darbu"
 
@@ -2666,7 +2936,7 @@ msgstr "Atrast citu darbu"
 msgid "Fine (remove money)"
 msgstr "Sodīt (atskaitīt naudu)"
 
-#: src/components/_user/worker/WorkerEditFormModal.tsx:196
+#: src/components/_user/worker/WorkerEditFormModal.tsx:202
 msgid "Fire"
 msgstr "Atlaist"
 
@@ -2674,7 +2944,7 @@ msgstr "Atlaist"
 msgid "Fire government member"
 msgstr "Atlaist valdības locekli"
 
-#: src/components/_user/worker/WorkerEditFormModal.tsx:100
+#: src/components/_user/worker/WorkerEditFormModal.tsx:101
 msgid "Fire worker?"
 msgstr "Atlaist darbinieku?"
 
@@ -2707,6 +2977,10 @@ msgstr "Teksta izmērs"
 msgid "Font style"
 msgstr "Fonta stils"
 
+#: src/pages/country/[countryId]/index.tsx:415
+#~ msgid "for companies producing {0} located in <0/>."
+#~ msgstr "par uzņēmumiem, kas ražo {0} un atrodas <0/>."
+
 #. placeholder {0}: ts[country.specializedItem]
 #: src/pages/country/[countryId]/index.tsx:416
 msgid "for companies producing <0>{0}</0> located in <1/>."
@@ -2731,6 +3005,10 @@ msgstr "no raunda kopvērtējuma"
 #: src/components/_economy/inventory/case/cases.frontConfig.tsx:27
 msgid "Fun fact: The house always wins"
 msgstr "Jautrais fakts: Feņka nekad nepaliek mīnusos"
+
+#: src/components/_user/user/Level.tsx:143
+#~ msgid "Gain <0>XP</0> by <1>Working</1> or <2>Fighting</2>."
+#~ msgstr "Iegūsti <0>Pieredzes punktus </0> <1>Strādājot</1> vai <2>Cīnoties</2>."
 
 #: src/components/_user/user/Level.tsx:88
 msgid "Gain <0>Xp</0> by finishing your missions!"
@@ -2816,7 +3094,8 @@ msgstr "Izloze Uzvarēta!"
 msgid "Globe (experimental)"
 msgstr "Planēta (eksperimentāls)"
 
-#: src/components/_user/UserEquipments.tsx:196 src/utils/translations.tsx:189
+#: src/components/_user/UserEquipments.tsx:196
+#: src/utils/translations.tsx:189
 msgid "Gloves"
 msgstr "Cimdi"
 
@@ -2877,7 +3156,8 @@ msgstr "Dzīvības"
 msgid "Heavy Ammo"
 msgstr "Smagā Munīcija"
 
-#: src/components/_user/UserEquipments.tsx:131 src/utils/translations.tsx:162
+#: src/components/_user/UserEquipments.tsx:131
+#: src/utils/translations.tsx:162
 msgid "Helmet"
 msgstr "Ķivere"
 
@@ -2965,6 +3245,10 @@ msgstr "Atlaist prezidentu"
 msgid "Impeach the current president"
 msgstr "Atlaist pašreizējo prezidentu"
 
+#: src/components/_political/partyMotion/partyMotion.frontConfig.tsx:19
+#~ msgid "Imperialism"
+#~ msgstr "Imperiālisms"
+
 #: src/components/_political/party/party.frontConfig.tsx:234
 msgid "Imperialism vs Republicanism"
 msgstr "Imperiālisms pret Republikānismu"
@@ -2997,6 +3281,14 @@ msgstr "ienākumi <1/> no <0>Attīstības</0>."
 msgid "Income from development increases by <0>{0}</0>."
 msgstr "Ienākumi no attīstības palielinas par <0>{0}</0>."
 
+#: src/components/_political/party/party.frontConfig.tsx:164
+#~ msgid "Income from development increases by <0>10%</0>."
+#~ msgstr "Ienākumi no attīstības palielinas par <0>10%</0>."
+
+#: src/components/_political/party/party.frontConfig.tsx:142
+#~ msgid "Income from development increases by <0>20%</0>."
+#~ msgstr "Ienākumi no attīstības palielinas par <0>20%</0>."
+
 #. placeholder {0}: formatPercent(ethicsBonuses.imperialism[1].taxIncomeBonus)
 #. placeholder {0}: formatPercent(ethicsBonuses.imperialism[2].taxIncomeBonus)
 #: src/components/_political/party/party.frontConfig.tsx:241
@@ -3008,6 +3300,10 @@ msgstr "Nodokļu ienākumi palielinas par <0>{0}</0>."
 #: src/components/_political/law/LawFormModal.tsx:207
 msgid "Income tax"
 msgstr "Ienākuma nodoklis"
+
+#: src/components/_political/partyMotion/partyMotion.frontConfig.tsx:20
+#~ msgid "Industrialism"
+#~ msgstr "Industriālisms"
 
 #: src/components/_economy/company/CompanyTags.tsx:49
 #: src/components/_economy/company/RecommendedCompanyRegions.tsx:167
@@ -3027,11 +3323,18 @@ msgstr "Industriālisti"
 msgid "Initiate"
 msgstr "Iesauktais"
 
+#: src/components/_layout/LayoutMapOptions.tsx:258
+#~ msgid "Inner countries (performance)"
+#~ msgstr "Iekšējās valstis (veiktspēja)"
+
 #: src/components/_layout/LayoutMenu.tsx:123
 #: src/components/_user/user/MyAvatar.tsx:35
-#: src/components/_user/user/UserHeader.tsx:154 src/pages/companies.tsx:50
-#: src/pages/country/[countryId]/account.tsx:24 src/pages/market/index.tsx:49
-#: src/pages/user/[userId]/account.tsx:19 src/pages/user/[userId]/bans.tsx:100
+#: src/components/_user/user/UserHeader.tsx:154
+#: src/pages/companies.tsx:50
+#: src/pages/country/[countryId]/account.tsx:24
+#: src/pages/market/index.tsx:49
+#: src/pages/user/[userId]/account.tsx:19
+#: src/pages/user/[userId]/bans.tsx:100
 #: src/pages/user/[userId]/companies.tsx:46
 #: src/pages/user/[userId]/index.tsx:192
 #: src/pages/user/[userId]/inventory.tsx:30
@@ -3041,6 +3344,10 @@ msgstr "Inventārs"
 #: src/utils/translations.tsx:49
 msgid "Iron"
 msgstr "Dzelzs"
+
+#: src/components/_political/partyMotion/partyMotion.frontConfig.tsx:18
+#~ msgid "Isolationism"
+#~ msgstr "Izolacionisms"
 
 #: src/components/_political/party/party.frontConfig.tsx:153
 msgid "Isolationism vs Diplomacy"
@@ -3067,7 +3374,8 @@ msgstr "Prece nopirkta"
 msgid "Item Market"
 msgstr "Ekipējuma Tirgus"
 
-#: src/pages/companies.tsx:62 src/pages/user/[userId]/companies.tsx:56
+#: src/pages/companies.tsx:62
+#: src/pages/user/[userId]/companies.tsx:56
 msgid "Job"
 msgstr "Darbs"
 
@@ -3128,7 +3436,7 @@ msgstr "Turpini tiekties pēc tā Mītiskā"
 msgid "Keep fighting!"
 msgstr "Turpini cīnīties!"
 
-#: src/components/_user/worker/WorkerEditFormModal.tsx:183
+#: src/components/_user/worker/WorkerEditFormModal.tsx:189
 msgid "Keep in current company"
 msgstr "Paturēt esošajā uzņēmumā"
 
@@ -3148,6 +3456,10 @@ msgstr "Veic <0>{count}</0> kritiskus sitienus"
 #: src/components/_user/auth/WelcomeModal.tsx:131
 msgid "Language"
 msgstr "Valoda"
+
+#: src/components/_social/ArticleList.tsx:127
+#~ msgid "Last"
+#~ msgstr "Pēdējie"
 
 #: src/pages/shop/index.tsx:89
 msgid "Last gifts"
@@ -3419,6 +3731,10 @@ msgstr "Tirgus nodoklis"
 msgid "Marshal"
 msgstr "Maršals"
 
+#: src/components/_economy/workOffer/WorkOfferFormModal.tsx:142
+#~ msgid "Max:"
+#~ msgstr "Max:"
+
 #: src/components/_economy/inventory/case/cases.frontConfig.tsx:32
 msgid "Maybe epic music would help?"
 msgstr "Varbūt episkā mūzika palīdzēs?"
@@ -3488,6 +3804,10 @@ msgstr "Biedri"
 msgid "Mentioned in message"
 msgstr "Tu esi pieminēts ziņā"
 
+#: src/components/_other/ActionLogList.tsx:60
+#~ msgid "Mercenary contracts"
+#~ msgstr "Algotņu kontrakti"
+
 #: src/components/_other/shop/SkinPackModal.tsx:252
 msgid "Message (Optional)"
 msgstr "Ziņa, ko nodot (neobligāti)"
@@ -3532,6 +3852,10 @@ msgstr "Militārā vienība izveidota"
 #: src/components/_military/damageRanking/DamageRankingSides.tsx:103
 msgid "Military units"
 msgstr "Militārās vienības"
+
+#: src/components/_economy/workOffer/WorkOfferFormModal.tsx:136
+#~ msgid "Min:"
+#~ msgstr "Min:"
 
 #: src/components/_political/law/Law.tsx:118
 msgid "Min. active citizens"
@@ -3691,6 +4015,10 @@ msgstr "Nosaukums"
 msgid "Need a job?"
 msgstr "Vajag darbu?"
 
+#: src/components/_economy/workOffer/EstimatedCompanyBenefit.tsx:169
+msgid "Net benefit:"
+msgstr "Netto labums:"
+
 #: src/components/_economy/inventory/case/cases.frontConfig.tsx:26
 msgid "Never give up!"
 msgstr "Nekad nepadodies!"
@@ -3821,6 +4149,10 @@ msgstr "Lieliski"
 msgid "Nice work!"
 msgstr "Malacis!"
 
+#: src/components/_other/ActionLogList.tsx:131
+#~ msgid "No action logs found"
+#~ msgstr "Nav darbību"
+
 #: src/components/_military/battle/ActiveBattlesList.tsx:193
 msgid "No active battles"
 msgstr "Nav aktīvu kauju"
@@ -3844,6 +4176,10 @@ msgstr "Nav sabiedroto"
 #: src/components/_user/apiToken/ApiTokenList.tsx:231
 msgid "No API tokens yet. Create one to get started."
 msgstr "Tev nav API žetonu. Izveido pirmo, lai sāktu."
+
+#: src/components/_user/user/BanList.tsx:52
+#~ msgid "No bans yet"
+#~ msgstr "Vēl nav banu"
 
 #: src/components/_military/battle/EndedBattlesList.tsx:115
 msgid "No battles yet"
@@ -4010,6 +4346,11 @@ msgstr "Ak Dievs, tik OP"
 msgid "One step away from legendary..."
 msgstr "Viena soļa attālumā līdz Dzeltenajam..."
 
+#: src/components/_political/party/party.frontConfig.tsx:286
+#: src/components/_political/party/party.frontConfig.tsx:305
+#~ msgid "Only buffs and food deposits spawn (coca, grain, livestock and fish)."
+#~ msgstr "Tikai effektu un ēdiena atradnes tiek atklātas (koka augs, labība, govis un zivis)."
+
 #: src/components/_political/party/party.frontConfig.tsx:287
 #: src/components/_political/party/party.frontConfig.tsx:308
 msgid "Only buffs and food deposits spawn in your borders (coca, grain, livestock and fish)."
@@ -4131,7 +4472,8 @@ msgstr "Pacifisti"
 msgid "Packs"
 msgstr "Pakas"
 
-#: src/components/_user/UserEquipments.tsx:163 src/utils/translations.tsx:198
+#: src/components/_user/UserEquipments.tsx:163
+#: src/utils/translations.tsx:198
 msgid "Pants"
 msgstr "Bikses"
 
@@ -4237,7 +4579,7 @@ msgstr "Maksājums ir izdevies! Paldies, ka atbalsti spēli <3"
 msgid "Peace made"
 msgstr "Pasludināts miers"
 
-#: src/components/_user/worker/WorkerEditFormModal.tsx:153
+#: src/components/_user/worker/WorkerEditFormModal.tsx:154
 msgid "Pending wage reduction"
 msgstr "Gaidāmā algas samazināšana"
 
@@ -4282,6 +4624,10 @@ msgstr "Politiskie likumi"
 #: src/components/_political/partyMotion/PartyMotionTypeSelect.tsx:66
 msgid "Political motions"
 msgstr "Politiskie priekšlikumi"
+
+#: src/components/_social/ArticleList.tsx:134
+#~ msgid "Popular"
+#~ msgstr "Populārie"
 
 #: src/components/_user/user/skills.frontConfig.tsx:128
 #: src/components/_user/user/skills.frontConfig.tsx:129
@@ -4365,6 +4711,10 @@ msgstr "Priekšvēlēšanas ir beigušās"
 msgid "Priority from declaring wars or winning battles is <0>{0} hours</0> instead of 24."
 msgstr "Prioritāte kara pasludināšanai vai kauju uzvarēšanai 24 stundu vietā ir <0>{0} stundas</0>."
 
+#: src/components/_political/party/party.frontConfig.tsx:76
+#~ msgid "Priority from declaring wars or winning battles is <0>12 hours</0> instead of 24."
+#~ msgstr "Prioritāte kara pasludināšanai vai kauju uzvarēšanai 24 stundu vietā ir <0>12 stundas</0>."
+
 #: src/pages/index.tsx:155
 msgid "Privacy"
 msgstr "Privātums"
@@ -4410,6 +4760,14 @@ msgstr "Ražošana"
 #: src/pages/region/[regionId]/index.tsx:69
 msgid "Production bonus"
 msgstr "Ražošanas bonuss"
+
+#: src/components/_economy/company/MoveCompanyForm.tsx:133
+#~ msgid "Production bonus from deposit resources in this region."
+#~ msgstr "Ražošanas bonuss no atradnēm šajā reģionā."
+
+#: src/components/_economy/workOffer/EstimatedCompanyBenefit.tsx:154
+msgid "Production bonus:"
+msgstr "Ražosānas bonuss:"
 
 #: src/components/_user/notification/notification.frontConfig.tsx:714
 msgid "Production in<0/> is full, you should start production!"
@@ -4478,7 +4836,7 @@ msgstr "Piedāvāt nopirkt reģionu"
 msgid "Propose to buy a region from another country"
 msgstr "Piedāvāt nopirkt citas valsts reģionu"
 
-#: src/components/_user/worker/WorkerEditFormModal.tsx:205
+#: src/components/_user/worker/WorkerEditFormModal.tsx:211
 msgid "Propose wage reduction"
 msgstr "Piedāvāt algas samazinājumu"
 
@@ -4499,6 +4857,14 @@ msgstr "Ātrā izjaukšana"
 msgid "Quickly dismantle items"
 msgstr "Ātri izjauc ekipējumus"
 
+#: src/components/_political/partyMotion/partyMotion.frontConfig.tsx:129
+#~ msgid "Radicalize ethic"
+#~ msgstr "Radikalizēt ideoloģiju"
+
+#: src/components/_political/partyMotion/partyMotion.frontConfig.tsx:135
+#~ msgid "Radicalize the party's position on the {0} axis"
+#~ msgstr "Radikalizēt partijas pozīciju {0} asī"
+
 #: src/components/_military/damageRanking/DamageRankingList.tsx:251
 msgid "Ranking loot chance"
 msgstr "Kopvērtējuma laupījuma iespēja"
@@ -4516,6 +4882,10 @@ msgstr "Kopvērtējums"
 #: src/components/_layout/LayoutRightIcons.tsx:313
 msgid "Ranks"
 msgstr "Kopvērt."
+
+#: src/components/_economy/workOffer/EstimatedCompanyBenefit.tsx:126
+msgid "Raw materials:"
+msgstr "Izejvielas:"
 
 #: src/components/_user/mission/mission.frontConfig.tsx:381
 msgid "Reach level 10"
@@ -4674,6 +5044,10 @@ msgstr "Reģioni"
 msgid "Register"
 msgstr "Reģistrēties"
 
+#: src/pages/tournament/[tournamentId]/index.tsx:36
+#~ msgid "Registration"
+#~ msgstr "Reģistrācija"
+
 #: src/utils/translations.tsx:182
 msgid "Reinforced Boots"
 msgstr "Zaļās Kurpes"
@@ -4724,7 +5098,8 @@ msgstr "Atlaist <0/> no partijas padomes"
 msgid "Remove a member from the party council"
 msgstr "Atlaist biedru no partijas padomes"
 
-#: src/pages/market/index.tsx:174 src/pages/market/index.tsx:234
+#: src/pages/market/index.tsx:174
+#: src/pages/market/index.tsx:234
 msgid "Remove all"
 msgstr "Noņemt visus"
 
@@ -4748,6 +5123,10 @@ msgstr "Noņemt padomes biedru"
 msgid "Remove Description"
 msgstr "Noņemt aprakstu"
 
+#: src/components/_other/ActionLogList.tsx:64
+#~ msgid "Remove mercenary"
+#~ msgstr "Noņemt algotni"
+
 #: src/components/_political/law/law.frontConfig.tsx:276
 msgid "Remove enemy"
 msgstr "Noņemt valsts ienaidnieku"
@@ -4769,6 +5148,14 @@ msgstr "Pārsaukt"
 #: src/components/_economy/company/CompanyRenameFormModal.tsx:82
 msgid "Rename company"
 msgstr "Pārsaukt uzņēmumu"
+
+#: src/components/_political/partyMotion/partyMotion.frontConfig.tsx:96
+#~ msgid "Repeal ethic"
+#~ msgstr "Atcelt ideoloģiju"
+
+#: src/components/_political/partyMotion/partyMotion.frontConfig.tsx:102
+#~ msgid "Repeal the party's position on the {0} axis"
+#~ msgstr "Atcelt partijas pozīciju {0}"
 
 #: src/components/_political/partyMotion/partyMotion.frontConfig.tsx:80
 msgid "Replace all party ethics with a new configuration"
@@ -4863,6 +5250,10 @@ msgstr "Atsaukt API žetonu?"
 #: src/components/_user/notification/notification.frontConfig.tsx:1057
 msgid "Revolt started!"
 msgstr "Dumpis ir sācies!"
+
+#: src/components/_military/battle/BattleSystem.tsx:254
+#~ msgid "Revolution"
+#~ msgstr "Revolūcija"
 
 #: src/components/_political/event/EventList.tsx:77
 msgid "Revolution ended"
@@ -4976,6 +5367,10 @@ msgstr "Vari aplūkot visus savu darbinieku un uzņēmumu statistiku"
 msgid "See your spending and income breakdown"
 msgstr "Vari aplūkot savu tēriņu un ienākumu sadalījumu"
 
+#: src/components/_political/partyMotion/PartyMotionFormModal.tsx:186
+#~ msgid "Select a direction"
+#~ msgstr "Izvēlies virzienu"
+
 #: src/components/_military/mu/MuFormModal.tsx:120
 msgid "Select a location"
 msgstr "Izvēlies vietu"
@@ -4987,6 +5382,10 @@ msgstr "Izvēlies reģionu"
 #: src/components/_economy/inventory/DismantleModal.tsx:246
 msgid "Select all"
 msgstr "Izvēlēties visu"
+
+#: src/components/_political/partyMotion/PartyMotionFormModal.tsx:172
+#~ msgid "Select an axis"
+#~ msgstr "Izvēlēties asi"
 
 #: src/components/_political/partyMotion/PartyMotionFormModal.tsx:119
 msgid "Select an occupied region"
@@ -5044,6 +5443,10 @@ msgstr "Pārdots!"
 #: src/pages/market/index.tsx:183
 msgid "Sell orders"
 msgstr "Pārdošanas rīkojumi"
+
+#: src/components/_economy/workOffer/EstimatedCompanyBenefit.tsx:109
+msgid "Sell price:"
+msgstr "Pārdošanas cena:"
 
 #: src/components/_economy/itemTrading/ItemTradingOrderItem.tsx:147
 msgid "sells"
@@ -5109,6 +5512,10 @@ msgstr "Nomainīt valsts krāsu"
 #: src/components/_political/partyMotion/partyMotion.frontConfig.tsx:88
 msgid "Set new party ethics configuration:"
 msgstr "Iestatīt jauno partijas ideoloģijas konfigurāciju:"
+
+#: src/components/_other/ActionLogList.tsx:55
+#~ msgid "Set order"
+#~ msgstr "Uzlikt rīkojumu"
 
 #: src/components/_political/partyMotion/partyMotion.frontConfig.tsx:79
 msgid "Set party ethics"
@@ -5613,6 +6020,10 @@ msgstr "Vislabākais piedāvājums:"
 msgid "Top gift givers of the month"
 msgstr "Mēneša lielākie dāvinātāji"
 
+#: src/components/_economy/workOffer/WorkOfferFormModal.tsx:149
+#~ msgid "Top offer:"
+#~ msgstr "Labākais piedāvājums:"
+
 #: src/components/_military/battle/BattleSystem.tsx:522
 msgid "total"
 msgstr "kopā"
@@ -5621,7 +6032,8 @@ msgstr "kopā"
 #: src/components/_economy/inventoryAccount/InventoryAccount.tsx:153
 #: src/components/_economy/inventoryAccount/InventoryAccount.tsx:180
 #: src/components/_economy/work/WorkChart.tsx:198
-#: src/pages/market/index.tsx:153 src/pages/market/index.tsx:202
+#: src/pages/market/index.tsx:153
+#: src/pages/market/index.tsx:202
 msgid "Total"
 msgstr "Kopā"
 
@@ -5685,7 +6097,8 @@ msgid "Transac."
 msgstr "Darījumi"
 
 #: src/components/_political/country/CountryHeader.tsx:76
-#: src/pages/market/index.tsx:83 src/pages/user/[userId]/index.tsx:221
+#: src/pages/market/index.tsx:83
+#: src/pages/user/[userId]/index.tsx:221
 msgid "Transactions"
 msgstr "Darījumi"
 
@@ -5693,7 +6106,7 @@ msgstr "Darījumi"
 msgid "Transfer money"
 msgstr "Pārskaitīt naudu"
 
-#: src/components/_user/worker/WorkerEditFormModal.tsx:181
+#: src/components/_user/worker/WorkerEditFormModal.tsx:187
 msgid "Transfer to company (optional)"
 msgstr "Pārvietot uz kompāniju (neobligāti)"
 
@@ -5783,6 +6196,10 @@ msgstr "Nemieru Dalībnieki"
 msgid "Unselect all"
 msgstr "Noņemt atzīmes"
 
+#: src/components/_other/ActionLogList.tsx:56
+#~ msgid "Unset order"
+#~ msgstr "Noņemt rīkojumu"
+
 #: src/components/_political/law/law.frontConfig.tsx:277
 #: src/components/_political/law/law.frontConfig.tsx:279
 msgid "Unset the sworn enemy country"
@@ -5805,7 +6222,11 @@ msgstr "Atjaunot"
 msgid "Update infos"
 msgstr "Atjaunot informāciju"
 
-#: src/components/_user/worker/WorkerEditFormModal.tsx:207
+#: src/components/_other/ActionLogList.tsx:57
+#~ msgid "Update order"
+#~ msgstr "Atjaunot rīkojumu"
+
+#: src/components/_user/worker/WorkerEditFormModal.tsx:213
 msgid "Update worker"
 msgstr "Apstiprināt darbinieka izmaiņas"
 
@@ -5816,6 +6237,10 @@ msgstr "Uzlabot uzņēmumu"
 #: src/components/_user/mission/mission.frontConfig.tsx:369
 msgid "Upgrade Company"
 msgstr "Uzlabot Uzņēmumu"
+
+#: src/components/_political/partyMotion/partyMotion.frontConfig.tsx:130
+#~ msgid "Upgrade a moderate ethic to its fanatic version"
+#~ msgstr "Uzlabot vidējo ideoloģiju uz tās fanātisko versiju"
 
 #: src/components/_user/mission/mission.frontConfig.tsx:438
 msgid "Upgrade Skills"
@@ -5850,7 +6275,8 @@ msgstr "Izmanto <0>Ēstgribu</0>, lai ēstu pārtiku un atjauno savas <1>Dzīvī
 msgid "Used"
 msgstr "Lietots"
 
-#: src/utils/translations.tsx:78 src/utils/translations.tsx:84
+#: src/utils/translations.tsx:78
+#: src/utils/translations.tsx:84
 #: src/utils/translations.tsx:89
 msgid "Used for shooting guns. Increases your <0>Attack</0>"
 msgstr "Ieroču šaušanai. Palielina tavu <0>Uzbrukumu</0>"
@@ -6068,7 +6494,15 @@ msgstr "Alga"
 msgid "Wage changed"
 msgstr "Alga mainīta"
 
-#: src/components/_user/worker/WorkerEditFormModal.tsx:174
+#: src/components/_economy/workOffer/EstimatedCompanyBenefit.tsx:117
+msgid "Wage cost ({productionPoints} pts):"
+msgstr "Algas maksa cost ({productionPoints} punkti):"
+
+#: src/components/_economy/workOffer/WorkOfferFormModal.tsx:133
+#~ msgid "Wage info"
+#~ msgstr "Algas informācija"
+
+#: src/components/_user/worker/WorkerEditFormModal.tsx:175
 msgid "Wage per production"
 msgstr "Alga par katru ražošanas punktu"
 
@@ -6081,7 +6515,7 @@ msgstr "Algas samazinājums pieņemts."
 msgid "Wage reduction proposed"
 msgstr "Algas samazināšana iesniegta"
 
-#: src/components/_user/worker/WorkerEditFormModal.tsx:74
+#: src/components/_user/worker/WorkerEditFormModal.tsx:75
 msgid "Wage reduction proposed! Waiting for worker to accept or reject."
 msgstr "Algas samazināšana iesniegta! Gaidu, kad darbinieks piekritīs vai noraīdīs to."
 
@@ -6090,7 +6524,7 @@ msgstr "Algas samazināšana iesniegta! Gaidu, kad darbinieks piekritīs vai nor
 msgid "Waiting for level {0}"
 msgstr "Gaidām {0}. līmeņa sasniegšanu"
 
-#: src/components/_user/worker/WorkerEditFormModal.tsx:156
+#: src/components/_user/worker/WorkerEditFormModal.tsx:157
 msgid "Waiting for the worker to accept or reject the wage reduction. You cannot change the wage until they respond."
 msgstr "Gaidu, kad darbinieks apstiprinās vai noraidīs algas samazināšanu. Tu nevari mainīt algu, kamēr viņi nav atbildējuši."
 
@@ -6171,6 +6605,14 @@ msgstr "Kopā saražots"
 msgid "Why do you want to propose this law?"
 msgstr "Kādēļ gribi ierosināt šo likumu?"
 
+#: src/components/_economy/workOffer/EstimatedCompanyBenefit.tsx:181
+msgid "with bonus"
+msgstr "ar bonusu"
+
+#: src/components/_economy/workOffer/EstimatedCompanyBenefit.tsx:191
+msgid "with bonus + fidelity"
+msgstr "ar bonusu + uzticību"
+
 #: src/components/_military/battle/ActiveBattlesList.tsx:111
 #: src/components/_military/battle/ActiveBattlesList.tsx:174
 msgid "With contracts"
@@ -6193,7 +6635,7 @@ msgstr "Pie viena darba devēja nostrādā <0>{count}</0> reizes"
 msgid "Work and earn!"
 msgstr "Strādā un nopelni!"
 
-#: src/components/_user/worker/WorkerEditFormModal.tsx:85
+#: src/components/_user/worker/WorkerEditFormModal.tsx:86
 msgid "Worker fired!"
 msgstr "Darbinieks atlaists!"
 
@@ -6201,7 +6643,7 @@ msgstr "Darbinieks atlaists!"
 msgid "Worker left"
 msgstr "Darbinieks aizgāja"
 
-#: src/components/_user/worker/WorkerEditFormModal.tsx:62
+#: src/components/_user/worker/WorkerEditFormModal.tsx:63
 msgid "Worker updated!"
 msgstr "Darbinieks atjaunots!"
 
@@ -6260,7 +6702,8 @@ msgstr "Tu jau esi Prezidents citai valstij. Atkāpies no tā amata vispirms."
 msgid "You are already vice president of another country. Resign first."
 msgstr "Tu jau esi Viceprezidents citai valstij. Atkāpies no tā amata vispirms."
 
-#: src/pages/companies.tsx:76 src/pages/user/[userId]/companies.tsx:64
+#: src/pages/companies.tsx:76
+#: src/pages/user/[userId]/companies.tsx:64
 msgid "You are jobless"
 msgstr "Tu esi bezdarbnieks"
 
@@ -6344,6 +6787,10 @@ msgstr "Tevi atalgoja <0>{0}</0> par dalību <1/> kaujā"
 #: src/components/_user/notification/notification.frontConfig.tsx:561
 msgid "You have been transferred from <0/> to <1/>"
 msgstr "Tevi pārmeta no <0/> uz <1/>"
+
+#: src/components/_user/notification/notification.frontConfig.tsx:337
+#~ msgid "You have been transferred from <0/> to <1/> for <2>{0}</2> wage"
+#~ msgstr "Tu tiki pārvietots no <0/> uz <1/> par <2>{0}</2> algu"
 
 #. placeholder {0}: 1
 #: src/components/_user/notification/notification.frontConfig.tsx:839
@@ -6435,6 +6882,10 @@ msgstr "<0/> saņēma tavu dāvināto \"{0}\"!"
 #: src/components/_user/notification/notification.frontConfig.tsx:1661
 msgid "You successfully gifted \"{skinTitle}\" to <0/>!"
 msgstr "Tu uzdāvināji <0/> \"{skinTitle}\" veidolu!"
+
+#: src/components/_user/notification/notification.frontConfig.tsx:1379
+#~ msgid "You successfully gifted a banner to <0/>!"
+#~ msgstr "Tu uzdāvināji baneri <0/>!"
 
 #: src/components/_user/notification/notification.frontConfig.tsx:1138
 msgid "You successfully gifted a premium subscription to <0/>!"
@@ -6662,306 +7113,3 @@ msgstr "tavs@e-pasts.lv"
 #: src/components/_social/ArticleList.tsx:167
 msgid "Yours"
 msgstr "Tavi"
-
-#~ msgid " Stats"
-#~ msgstr " Stats"
-
-#~ msgid "+{0}% from deposit"
-#~ msgstr "+{0}% from deposit"
-
-#~ msgid "+{0}% from pacifist ethics"
-#~ msgstr "+{0}% from pacifist ethics"
-
-#~ msgid "+{0}% from strategic resources"
-#~ msgstr "+{0}% from strategic resources"
-
-#~ msgid "<0/> at <1>{0}</1> wage."
-#~ msgstr "<0/> at <1>{0}</1> wage."
-
-#~ msgid "<0/> gifted you the skin \"{0}\"!"
-#~ msgstr "<0/> gifted you the skin \"{0}\"!"
-
-#~ msgid "<0/> has been created, you can now register!"
-#~ msgstr "<0/> has been created, you can now register!"
-
-#~ msgid "<0/> just started!"
-#~ msgstr "<0/> just started!"
-
-#~ msgid "<0>{0}</0> from defense of your country's core region"
-#~ msgstr "<0>{0}</0> from defense of your country's core region"
-
-#~ msgid "<0>{0}</0> from Militarist ethics"
-#~ msgstr "<0>{0}</0> from Militarist ethics"
-
-#~ msgid "<0>{citizenBonus}</0> from <1/> militarist ethics (citizen owner bonus)."
-#~ msgstr "<0>{citizenBonus}</0> from <1/> militarist ethics (citizen owner bonus)."
-
-#~ msgid "<0>{pacifistBonus}</0> from <1/> pacifist ethics."
-#~ msgstr "<0>{pacifistBonus}</0> from <1/> pacifist ethics."
-
-#~ msgid "<0>+{0}</0> bonus towards ammo or construction specialization good."
-#~ msgstr "<0>+{0}</0> bonus towards ammo or construction specialization good."
-
-#~ msgid "<0>+{0}</0> from deposits in your country."
-#~ msgstr "<0>+{0}</0> from deposits in your country."
-
-#~ msgid "<0>Unrest</0> represents internal tension in the country.<1/><2/>Citizens can contribute by spending <3>{0}</3> to add <4>{1}</4> to the bar. Unrest decays daily by <5>{2}-{3}%</5>.<6/><7/>When the bar is full, any party can vote via motion to start a <8>Civil war</8> (cost: <9>development × 10</9>, cooldown: {4}h). The battle takes place in the capital region, and <10>only citizens</10> can fight.<11/><12/>If revolutionaries win:<13/>- Government is impeached<14/>- Borders are opened for {5} days<15/>- Presidential elections begin"
-#~ msgstr "<0>Unrest</0> represents internal tension in the country.<1/><2/>Citizens can contribute by spending <3>{0}</3> to add <4>{1}</4> to the bar. Unrest decays daily by <5>{2}-{3}%</5>.<6/><7/>When the bar is full, any party can vote via motion to start a <8>Civil war</8> (cost: <9>development × 10</9>, cooldown: {4}h). The battle takes place in the capital region, and <10>only citizens</10> can fight.<11/><12/>If revolutionaries win:<13/>- Government is impeached<14/>- Borders are opened for {5} days<15/>- Presidential elections begin"
-
-#~ msgid "<0>Unrest</0> represents internal tension in the country.<1/><2/>Citizens can contribute by spending <3>{0}</3> to add <4>{1}</4> to the bar. Unrest decays daily by <5>{2}-{3}%</5>.<6/><7/>When the bar is full, any party can vote via motion to start a <8>Civil war</8> (cost: <9>development × 10</9>, cooldown: {4}h). The battle takes place in the capital region, and <10>only citizens</10> can fight.<11/><12/>If revolutionaries win:<13/>- Government is impeached<14/>- Borders are opened for {5} days<15/>- Presidential elections begin<16/><17/>After a revolution, contributions are disabled for {6}h."
-#~ msgstr "<0>Unrest</0> represents internal tension in the country.<1/><2/>Citizens can contribute by spending <3>{0}</3> to add <4>{1}</4> to the bar. Unrest decays daily by <5>{2}-{3}%</5>.<6/><7/>When the bar is full, any party can vote via motion to start a <8>Civil war</8> (cost: <9>development × 10</9>, cooldown: {4}h). The battle takes place in the capital region, and <10>only citizens</10> can fight.<11/><12/>If revolutionaries win:<13/>- Government is impeached<14/>- Borders are opened for {5} days<15/>- Presidential elections begin<16/><17/>After a revolution, contributions are disabled for {6}h."
-
-#~ msgid "<0>Unrest</0> represents internal tension in the country.<1/><2/>Citizens can contribute by spending <3>{0}</3> to add <4>{1}</4> to the bar. Unrest decays daily by <5>50-100%</5> of country initial development.<6/><7/>When the bar is full, any party can vote via motion to start a <8>Civil war</8> (cost: <9>development × 10</9>, cooldown: {2}h). The battle takes place in the capital region, and <10>only citizens</10> can fight.<11/><12/>If revolutionaries win:<13/>- Government is impeached<14/>- Borders are opened for {3} days<15/>- Presidential elections begin"
-#~ msgstr "<0>Unrest</0> represents internal tension in the country.<1/><2/>Citizens can contribute by spending <3>{0}</3> to add <4>{1}</4> to the bar. Unrest decays daily by <5>50-100%</5> of country initial development.<6/><7/>When the bar is full, any party can vote via motion to start a <8>Civil war</8> (cost: <9>development × 10</9>, cooldown: {2}h). The battle takes place in the capital region, and <10>only citizens</10> can fight.<11/><12/>If revolutionaries win:<13/>- Government is impeached<14/>- Borders are opened for {3} days<15/>- Presidential elections begin"
-
-#~ msgid "<0>Unrest</0> represents internal tension in the country.<1/><2/>Citizens can contribute by spending energy or health. Unrest decays daily by <3>{0}%</3> of max.<4/><5/>When the bar is full, any party leader can pay to start a <6>Civil war</6>. If revolutionaries win:<7/>- Government is impeached<8/>- Borders are opened for {1} days<9/>- Presidential elections begin"
-#~ msgstr "<0>Unrest</0> represents internal tension in the country.<1/><2/>Citizens can contribute by spending energy or health. Unrest decays daily by <3>{0}%</3> of max.<4/><5/>When the bar is full, any party leader can pay to start a <6>Civil war</6>. If revolutionaries win:<7/>- Government is impeached<8/>- Borders are opened for {1} days<9/>- Presidential elections begin"
-
-#~ msgid "<0>Unrest</0> represents internal tension in the country.<1/><2/>Citizens can contribute by spending energy or health. Unrest decays daily by <3>50-100%</3> of country development.<4/><5/>When the bar is full, any party leader can pay to start a <6>Civil war</6>. If revolutionaries win:<7/>- Government is impeached<8/>- Borders are opened for {0} days<9/>- Presidential elections begin"
-#~ msgstr "<0>Unrest</0> represents internal tension in the country.<1/><2/>Citizens can contribute by spending energy or health. Unrest decays daily by <3>50-100%</3> of country development.<4/><5/>When the bar is full, any party leader can pay to start a <6>Civil war</6>. If revolutionaries win:<7/>- Government is impeached<8/>- Borders are opened for {0} days<9/>- Presidential elections begin"
-
-#~ msgid "Adopt a new moderate ethic on an empty axis"
-#~ msgstr "Adopt a new moderate ethic on an empty axis"
-
-#~ msgid "All companies in your borders get <0>+{0}</0> from deposits."
-#~ msgstr "All companies in your borders get <0>+{0}</0> from deposits."
-
-#~ msgid "All law enactment costs are doubled."
-#~ msgstr "All law enactment costs are doubled."
-
-#~ msgid "Ammo and Construction goods companies get <0>-50%</0> production bonus."
-#~ msgstr "Ammo and Construction goods companies get <0>-50%</0> production bonus."
-
-#~ msgid "Ammo and Construction goods companies get <0>+10%</0> production bonus."
-#~ msgstr "Ammo and Construction goods companies get <0>+10%</0> production bonus."
-
-#~ msgid "Ammo and Construction goods companies get <0>+5%</0> production bonus."
-#~ msgstr "Ammo and Construction goods companies get <0>+5%</0> production bonus."
-
-#~ msgid "API tokens allow external applications to access the API on your behalf. Each token has a rate limit of 200 requests per minute."
-#~ msgstr "API tokens allow external applications to access the API on your behalf. Each token has a rate limit of 200 requests per minute."
-
-#~ msgid "Assets"
-#~ msgstr "Assets"
-
-#~ msgid "Buffs and Food goods companies get <0>-50%</0> production bonus."
-#~ msgstr "Buffs and Food goods companies get <0>-50%</0> production bonus."
-
-#~ msgid "Buffs and Food goods companies get <0>+10%</0> production bonus."
-#~ msgstr "Buffs and Food goods companies get <0>+10%</0> production bonus."
-
-#~ msgid "Buffs and Food goods companies get <0>+5%</0> production bonus."
-#~ msgstr "Buffs and Food goods companies get <0>+5%</0> production bonus."
-
-#~ msgid "Changed citizenship"
-#~ msgstr "Changed citizenship"
-
-#~ msgid "Changed description"
-#~ msgstr "Changed description"
-
-#~ msgid "Changed username"
-#~ msgstr "Changed username"
-
-#~ msgid "Citizens get an additional <0>{0}</0> battle bonus."
-#~ msgstr "Citizens get an additional <0>{0}</0> battle bonus."
-
-#~ msgid "Citizens get an additional <0>{0}</0> production bonus."
-#~ msgstr "Citizens get an additional <0>{0}</0> production bonus."
-
-#~ msgid "Citizens get an additional <0>10%</0> battle bonus against sworn enemies."
-#~ msgstr "Citizens get an additional <0>10%</0> battle bonus against sworn enemies."
-
-#~ msgid "Citizens get an additional <0>10%</0> battle bonus fighting for allies."
-#~ msgstr "Citizens get an additional <0>10%</0> battle bonus fighting for allies."
-
-#~ msgid "Citizens get an additional <0>10%</0> battle bonus."
-#~ msgstr "Citizens get an additional <0>10%</0> battle bonus."
-
-#~ msgid "Citizens get an additional <0>10%</0> production bonus."
-#~ msgstr "Citizens get an additional <0>10%</0> production bonus."
-
-#~ msgid "Citizens get an additional <0>5%</0> battle bonus against sworn enemies."
-#~ msgstr "Citizens get an additional <0>5%</0> battle bonus against sworn enemies."
-
-#~ msgid "Citizens get an additional <0>5%</0> battle bonus fighting for allies."
-#~ msgstr "Citizens get an additional <0>5%</0> battle bonus fighting for allies."
-
-#~ msgid "Citizens get an additional <0>5%</0> battle bonus."
-#~ msgstr "Citizens get an additional <0>5%</0> battle bonus."
-
-#~ msgid "Citizens get an additional <0>5%</0> production bonus."
-#~ msgstr "Citizens get an additional <0>5%</0> production bonus."
-
-#~ msgid "Claim finished mission"
-#~ msgstr "Claim finished mission"
-
-#~ msgid "Claim mission XP"
-#~ msgstr "Claim mission XP"
-
-#~ msgid "Congress has a minimum of <0>10 seats</0>."
-#~ msgstr "Congress has a minimum of <0>10 seats</0>."
-
-#~ msgid "Copy this token now. You won't be able to see it again!"
-#~ msgstr "Copy this token now. You won't be able to see it again!"
-
-#~ msgid "Cupid Iron Arrow"
-#~ msgstr "Cupid Iron Arrow"
-
-#~ msgid "Cupid Steel Arrow"
-#~ msgstr "Cupid Steel Arrow"
-
-#~ msgid "Cupid Stone Arrow"
-#~ msgstr "Cupid Stone Arrow"
-
-#~ msgid "Daily production (last 14 days)"
-#~ msgstr "Daily production (last 14 days)"
-
-#~ msgid "Daily stats (last 14 days)"
-#~ msgstr "Daily stats (last 14 days)"
-
-#~ msgid "Direction"
-#~ msgstr "Direction"
-
-#~ msgid "Does not gain development from conquered regions."
-#~ msgstr "Does not gain development from conquered regions."
-
-#~ msgid "Embrace {0} on the {1} axis"
-#~ msgstr "Embrace {0} on the {1} axis"
-
-#~ msgid "Embrace ethic"
-#~ msgstr "Embrace ethic"
-
-#~ msgid "Equipment sets"
-#~ msgstr "Equipment sets"
-
-#~ msgid "Equipped Skins"
-#~ msgstr "Equipped Skins"
-
-#~ msgid "Ethics axis"
-#~ msgstr "Ethics axis"
-
-#~ msgid "Filter by action type"
-#~ msgstr "Filter by action type"
-
-#~ msgid "Filter by event type"
-#~ msgstr "Filter by event type"
-
-#~ msgid "Finance a revolt to liberate <0/> for <1>{cost}</1>"
-#~ msgstr "Finance a revolt to liberate <0/> for <1>{cost}</1>"
-
-#~ msgid "Finance a revolt to liberate an occupied region"
-#~ msgstr "Finance a revolt to liberate an occupied region"
-
-#~ msgid "Finance foreign revolt"
-#~ msgstr "Finance foreign revolt"
-
-#~ msgid "for companies producing {0} located in <0/>."
-#~ msgstr "for companies producing {0} located in <0/>."
-
-#~ msgid "Gain <0>XP</0> by <1>Working</1> or <2>Fighting</2>."
-#~ msgstr "Gain <0>XP</0> by <1>Working</1> or <2>Fighting</2>."
-
-#~ msgid "Imperialism"
-#~ msgstr "Imperialism"
-
-#~ msgid "Income from development increases by <0>10%</0>."
-#~ msgstr "Income from development increases by <0>10%</0>."
-
-#~ msgid "Income from development increases by <0>20%</0>."
-#~ msgstr "Income from development increases by <0>20%</0>."
-
-#~ msgid "Income from taxes increases by <0>10%</0>."
-#~ msgstr "Income from taxes increases by <0>10%</0>."
-
-#~ msgid "Income from taxes increases by <0>20%</0>."
-#~ msgstr "Income from taxes increases by <0>20%</0>."
-
-#~ msgid "Industrialism"
-#~ msgstr "Industrialism"
-
-#~ msgid "Inner countries (performance)"
-#~ msgstr "Inner countries (performance)"
-
-#~ msgid "Isolationism"
-#~ msgstr "Isolationism"
-
-#~ msgid "Last"
-#~ msgstr "Last"
-
-#~ msgid "Max:"
-#~ msgstr "Max:"
-
-#~ msgid "Mercenary contracts"
-#~ msgstr "Mercenary contracts"
-
-#~ msgid "Min:"
-#~ msgstr "Min:"
-
-#~ msgid "No action logs found"
-#~ msgstr "No action logs found"
-
-#~ msgid "No bans yet"
-#~ msgstr "No bans yet"
-
-#~ msgid "Only buffs and food deposits spawn (coca, grain, livestock and fish)."
-#~ msgstr "Only buffs and food deposits spawn (coca, grain, livestock and fish)."
-
-#~ msgid "Popular"
-#~ msgstr "Popular"
-
-#~ msgid "Priority from declaring wars or winning battles is <0>12 hours</0> instead of 24."
-#~ msgstr "Priority from declaring wars or winning battles is <0>12 hours</0> instead of 24."
-
-#~ msgid "Production bonus from deposit resources in this region."
-#~ msgstr "Production bonus from deposit resources in this region."
-
-#~ msgid "Radicalize ethic"
-#~ msgstr "Radicalize ethic"
-
-#~ msgid "Radicalize the party's position on the {0} axis"
-#~ msgstr "Radicalize the party's position on the {0} axis"
-
-#~ msgid "Registration"
-#~ msgstr "Registration"
-
-#~ msgid "Remove mercenary"
-#~ msgstr "Remove mercenary"
-
-#~ msgid "Repeal ethic"
-#~ msgstr "Repeal ethic"
-
-#~ msgid "Repeal the party's position on the {0} axis"
-#~ msgstr "Repeal the party's position on the {0} axis"
-
-#~ msgid "Revolution"
-#~ msgstr "Revolution"
-
-#~ msgid "Select a direction"
-#~ msgstr "Select a direction"
-
-#~ msgid "Select an axis"
-#~ msgstr "Select an axis"
-
-#~ msgid "Set order"
-#~ msgstr "Set order"
-
-#~ msgid "Top offer:"
-#~ msgstr "Top offer:"
-
-#~ msgid "Unset order"
-#~ msgstr "Unset order"
-
-#~ msgid "Update order"
-#~ msgstr "Update order"
-
-#~ msgid "Upgrade a moderate ethic to its fanatic version"
-#~ msgstr "Upgrade a moderate ethic to its fanatic version"
-
-#~ msgid "Wage info"
-#~ msgstr "Wage info"
-
-#~ msgid "You have been transferred from <0/> to <1/> for <2>{0}</2> wage"
-#~ msgstr "You have been transferred from <0/> to <1/> for <2>{0}</2> wage"
-
-#~ msgid "You successfully gifted a banner to <0/>!"
-#~ msgstr "You successfully gifted a banner to <0/>!"
