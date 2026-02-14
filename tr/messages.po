@@ -1238,7 +1238,7 @@ msgstr "Başvuru ücreti"
 msgid "Apply"
 msgstr "Başvur"
 
-#: src/components/_user/worker/WorkerEditFormModal.tsx:101
+#: src/components/_user/worker/WorkerEditFormModal.tsx:102
 msgid "Are you sure you want to fire this worker?"
 msgstr "Bu işçiyi kovmak istediğinizden emin misiniz?"
 
@@ -2611,7 +2611,7 @@ msgstr "Açıklamayı düzenle"
 msgid "Edit Description"
 msgstr "Açıklamayı düzenle"
 
-#: src/components/_user/worker/WorkerEditFormModal.tsx:142
+#: src/components/_user/worker/WorkerEditFormModal.tsx:143
 msgid "Edit worker"
 msgstr "İşçiyi düzenle"
 
@@ -2741,6 +2741,10 @@ msgstr "Ekipmanlar"
 #: src/components/_political/partyMotion/PartyMotionStatus.tsx:56
 msgid "Error"
 msgstr "Hata"
+
+#: src/components/_economy/workOffer/EstimatedCompanyBenefit.tsx:91
+msgid "Estimated benefit per"
+msgstr ""
 
 #: src/pages/party/[partyId]/index.tsx:57
 msgid "Ethics"
@@ -2931,7 +2935,7 @@ msgstr "Başka iş bul"
 msgid "Fine (remove money)"
 msgstr "Para cezası ver"
 
-#: src/components/_user/worker/WorkerEditFormModal.tsx:196
+#: src/components/_user/worker/WorkerEditFormModal.tsx:201
 msgid "Fire"
 msgstr "Kov"
 
@@ -2939,7 +2943,7 @@ msgstr "Kov"
 msgid "Fire government member"
 msgstr "Hükümet üyesini kov"
 
-#: src/components/_user/worker/WorkerEditFormModal.tsx:100
+#: src/components/_user/worker/WorkerEditFormModal.tsx:101
 msgid "Fire worker?"
 msgstr "İşçiyi kov?"
 
@@ -3439,7 +3443,7 @@ msgstr "O Efsanevi'yi kovalamaya devam et"
 msgid "Keep fighting!"
 msgstr "Savaşmaya devam et!"
 
-#: src/components/_user/worker/WorkerEditFormModal.tsx:183
+#: src/components/_user/worker/WorkerEditFormModal.tsx:188
 msgid "Keep in current company"
 msgstr "Mevcut şirkette tut"
 
@@ -4018,6 +4022,10 @@ msgstr "İsim"
 msgid "Need a job?"
 msgstr "İş mi arıyorsun?"
 
+#: src/components/_economy/workOffer/EstimatedCompanyBenefit.tsx:151
+msgid "Net benefit:"
+msgstr ""
+
 #: src/components/_economy/inventory/case/cases.frontConfig.tsx:26
 msgid "Never give up!"
 msgstr "Asla pes etme!"
@@ -4578,7 +4586,7 @@ msgstr "Ödeme başarılı! Oyunu desteklediğin için teşekkürler <3"
 msgid "Peace made"
 msgstr "Barış yapıldı"
 
-#: src/components/_user/worker/WorkerEditFormModal.tsx:153
+#: src/components/_user/worker/WorkerEditFormModal.tsx:154
 msgid "Pending wage reduction"
 msgstr "Bekleyen maaş indirimi"
 
@@ -4764,6 +4772,10 @@ msgstr "Üretim bonusu"
 #~ msgid "Production bonus from deposit resources in this region."
 #~ msgstr "Bu bölgedeki maden kaynakları üretim bonusu."
 
+#: src/components/_economy/workOffer/EstimatedCompanyBenefit.tsx:144
+msgid "Production bonus:"
+msgstr ""
+
 #: src/components/_user/notification/notification.frontConfig.tsx:714
 msgid "Production in<0/> is full, you should start production!"
 msgstr "<0/>'daki üretim dolu, üretime başlamalısın!"
@@ -4831,7 +4843,7 @@ msgstr "Bölge satın almayı öner"
 msgid "Propose to buy a region from another country"
 msgstr "Başka bir ülkeden bölge satın almayı öner"
 
-#: src/components/_user/worker/WorkerEditFormModal.tsx:205
+#: src/components/_user/worker/WorkerEditFormModal.tsx:210
 msgid "Propose wage reduction"
 msgstr "Maaş indirimi öner"
 
@@ -4877,6 +4889,10 @@ msgstr "Sıralamalar"
 #: src/components/_layout/LayoutRightIcons.tsx:313
 msgid "Ranks"
 msgstr "Rütbeler"
+
+#: src/components/_economy/workOffer/EstimatedCompanyBenefit.tsx:116
+msgid "Raw materials:"
+msgstr ""
 
 #: src/components/_user/mission/mission.frontConfig.tsx:381
 msgid "Reach level 10"
@@ -5434,6 +5450,10 @@ msgstr "Satış emri eşleşti!"
 #: src/pages/market/index.tsx:183
 msgid "Sell orders"
 msgstr "Satış emirleri"
+
+#: src/components/_economy/workOffer/EstimatedCompanyBenefit.tsx:99
+msgid "Sell price:"
+msgstr ""
 
 #: src/components/_economy/itemTrading/ItemTradingOrderItem.tsx:147
 msgid "sells"
@@ -6093,7 +6113,7 @@ msgstr "İşlemler"
 msgid "Transfer money"
 msgstr "Para transfer et"
 
-#: src/components/_user/worker/WorkerEditFormModal.tsx:181
+#: src/components/_user/worker/WorkerEditFormModal.tsx:186
 msgid "Transfer to company (optional)"
 msgstr "Şirkete transfer et (isteğe bağlı)"
 
@@ -6213,7 +6233,7 @@ msgstr "Bilgileri güncelle"
 #~ msgid "Update order"
 #~ msgstr "Emri güncelle"
 
-#: src/components/_user/worker/WorkerEditFormModal.tsx:207
+#: src/components/_user/worker/WorkerEditFormModal.tsx:212
 msgid "Update worker"
 msgstr "İşçiyi güncelle"
 
@@ -6481,11 +6501,15 @@ msgstr "Maaş"
 msgid "Wage changed"
 msgstr "Maaş değişti"
 
+#: src/components/_economy/workOffer/EstimatedCompanyBenefit.tsx:107
+msgid "Wage cost ({productionPoints} pts):"
+msgstr ""
+
 #: src/components/_economy/workOffer/WorkOfferFormModal.tsx:133
 #~ msgid "Wage info"
 #~ msgstr "Maaş bilgisi"
 
-#: src/components/_user/worker/WorkerEditFormModal.tsx:174
+#: src/components/_user/worker/WorkerEditFormModal.tsx:175
 msgid "Wage per production"
 msgstr "Üretim başına maaş"
 
@@ -6498,7 +6522,7 @@ msgstr "Maaş indirimi kabul edildi."
 msgid "Wage reduction proposed"
 msgstr "Maaş indirimi önerildi"
 
-#: src/components/_user/worker/WorkerEditFormModal.tsx:74
+#: src/components/_user/worker/WorkerEditFormModal.tsx:75
 msgid "Wage reduction proposed! Waiting for worker to accept or reject."
 msgstr "Maaş indirimi önerildi! Çalışanın kabul veya reddetmesi bekleniyor."
 
@@ -6507,7 +6531,7 @@ msgstr "Maaş indirimi önerildi! Çalışanın kabul veya reddetmesi bekleniyor
 msgid "Waiting for level {0}"
 msgstr "{0}. seviye bekleniyor"
 
-#: src/components/_user/worker/WorkerEditFormModal.tsx:156
+#: src/components/_user/worker/WorkerEditFormModal.tsx:157
 msgid "Waiting for the worker to accept or reject the wage reduction. You cannot change the wage until they respond."
 msgstr "Çalışanın maaş indirimini kabul veya reddetmesi bekleniyor. Yanıt verene kadar maaşı değiştiremezsiniz."
 
@@ -6588,6 +6612,10 @@ msgstr "Tüm üretim"
 msgid "Why do you want to propose this law?"
 msgstr "Bu yasayı neden önermek istiyorsunuz?"
 
+#: src/components/_economy/workOffer/EstimatedCompanyBenefit.tsx:163
+msgid "with bonus"
+msgstr ""
+
 #: src/components/_military/battle/ActiveBattlesList.tsx:111
 #: src/components/_military/battle/ActiveBattlesList.tsx:174
 msgid "With contracts"
@@ -6610,7 +6638,7 @@ msgstr "Bir işveren için <0>{count}</0> kez çalış"
 msgid "Work and earn!"
 msgstr "Çalış ve kazan!"
 
-#: src/components/_user/worker/WorkerEditFormModal.tsx:85
+#: src/components/_user/worker/WorkerEditFormModal.tsx:86
 msgid "Worker fired!"
 msgstr "İşçi kovuldu!"
 
@@ -6618,7 +6646,7 @@ msgstr "İşçi kovuldu!"
 msgid "Worker left"
 msgstr "İşçi ayrıldı"
 
-#: src/components/_user/worker/WorkerEditFormModal.tsx:62
+#: src/components/_user/worker/WorkerEditFormModal.tsx:63
 msgid "Worker updated!"
 msgstr "İşçi güncellendi!"
 

@@ -1147,7 +1147,7 @@ msgstr "Членский взнос"
 msgid "Apply"
 msgstr "Принять"
 
-#: src/components/_user/worker/WorkerEditFormModal.tsx:101
+#: src/components/_user/worker/WorkerEditFormModal.tsx:102
 msgid "Are you sure you want to fire this worker?"
 msgstr "Вы действительно хотите уволить этого рабочего?"
 
@@ -2430,7 +2430,7 @@ msgstr "Изменить описание"
 msgid "Edit Description"
 msgstr "Изменить Описание"
 
-#: src/components/_user/worker/WorkerEditFormModal.tsx:142
+#: src/components/_user/worker/WorkerEditFormModal.tsx:143
 msgid "Edit worker"
 msgstr "Управлять рабочим"
 
@@ -2548,6 +2548,10 @@ msgstr "Экипировка"
 #: src/components/_political/partyMotion/PartyMotionStatus.tsx:56
 msgid "Error"
 msgstr "Ошибка"
+
+#: src/components/_economy/workOffer/EstimatedCompanyBenefit.tsx:91
+msgid "Estimated benefit per"
+msgstr ""
 
 #: src/pages/party/[partyId]/index.tsx:57
 msgid "Ethics"
@@ -2718,7 +2722,7 @@ msgstr "Найти другую работу"
 msgid "Fine (remove money)"
 msgstr "Штраф (удалить деньги)"
 
-#: src/components/_user/worker/WorkerEditFormModal.tsx:196
+#: src/components/_user/worker/WorkerEditFormModal.tsx:201
 msgid "Fire"
 msgstr "Уволить"
 
@@ -2726,7 +2730,7 @@ msgstr "Уволить"
 msgid "Fire government member"
 msgstr "Уволить члена правительства"
 
-#: src/components/_user/worker/WorkerEditFormModal.tsx:100
+#: src/components/_user/worker/WorkerEditFormModal.tsx:101
 msgid "Fire worker?"
 msgstr "Уволить работника?"
 
@@ -3190,7 +3194,7 @@ msgstr "Продолжай гнаться за мификом"
 msgid "Keep fighting!"
 msgstr "Продолжай сражаться!"
 
-#: src/components/_user/worker/WorkerEditFormModal.tsx:183
+#: src/components/_user/worker/WorkerEditFormModal.tsx:188
 msgid "Keep in current company"
 msgstr "Оставить в текущей компании"
 
@@ -3761,6 +3765,10 @@ msgstr "Название"
 msgid "Need a job?"
 msgstr "Нужна работа?"
 
+#: src/components/_economy/workOffer/EstimatedCompanyBenefit.tsx:151
+msgid "Net benefit:"
+msgstr ""
+
 #: src/components/_economy/inventory/case/cases.frontConfig.tsx:26
 msgid "Never give up!"
 msgstr "Никогда не сдавайтся!"
@@ -4316,7 +4324,7 @@ msgstr "Платёж выполнен! Спасибо за поддержку и
 msgid "Peace made"
 msgstr "Заключён мир"
 
-#: src/components/_user/worker/WorkerEditFormModal.tsx:153
+#: src/components/_user/worker/WorkerEditFormModal.tsx:154
 msgid "Pending wage reduction"
 msgstr "Ожидание снижения зарплаты"
 
@@ -4494,6 +4502,10 @@ msgstr "Производство"
 msgid "Production bonus"
 msgstr "Бонус к производству"
 
+#: src/components/_economy/workOffer/EstimatedCompanyBenefit.tsx:144
+msgid "Production bonus:"
+msgstr ""
+
 #: src/components/_user/notification/notification.frontConfig.tsx:714
 msgid "Production in<0/> is full, you should start production!"
 msgstr "Производство в <0/> заполнено, начните производство!"
@@ -4561,7 +4573,7 @@ msgstr "Предложить покупку региона"
 msgid "Propose to buy a region from another country"
 msgstr "Предложить покупку региона у другой страны"
 
-#: src/components/_user/worker/WorkerEditFormModal.tsx:205
+#: src/components/_user/worker/WorkerEditFormModal.tsx:210
 msgid "Propose wage reduction"
 msgstr "Предложить снижение зарплаты"
 
@@ -4599,6 +4611,10 @@ msgstr "Рейтинги"
 #: src/components/_layout/LayoutRightIcons.tsx:313
 msgid "Ranks"
 msgstr "Звания"
+
+#: src/components/_economy/workOffer/EstimatedCompanyBenefit.tsx:116
+msgid "Raw materials:"
+msgstr ""
 
 #: src/components/_user/mission/mission.frontConfig.tsx:381
 msgid "Reach level 10"
@@ -5132,6 +5148,10 @@ msgstr "Совпадение заявки на продажу!"
 #: src/pages/market/index.tsx:183
 msgid "Sell orders"
 msgstr "Заявки на продажу"
+
+#: src/components/_economy/workOffer/EstimatedCompanyBenefit.tsx:99
+msgid "Sell price:"
+msgstr ""
 
 #: src/components/_economy/itemTrading/ItemTradingOrderItem.tsx:147
 msgid "sells"
@@ -5787,7 +5807,7 @@ msgstr "Транзакции"
 msgid "Transfer money"
 msgstr "Передать деньги"
 
-#: src/components/_user/worker/WorkerEditFormModal.tsx:181
+#: src/components/_user/worker/WorkerEditFormModal.tsx:186
 msgid "Transfer to company (optional)"
 msgstr "Перевести в компанию (опц.)"
 
@@ -5907,7 +5927,7 @@ msgstr "Обновить инфу"
 #~ msgid "Update order"
 #~ msgstr "Обновить приказ"
 
-#: src/components/_user/worker/WorkerEditFormModal.tsx:207
+#: src/components/_user/worker/WorkerEditFormModal.tsx:212
 msgid "Update worker"
 msgstr "Обновить рабочего"
 
@@ -6171,7 +6191,11 @@ msgstr "Зарплата"
 msgid "Wage changed"
 msgstr "Зарплата изменена"
 
-#: src/components/_user/worker/WorkerEditFormModal.tsx:174
+#: src/components/_economy/workOffer/EstimatedCompanyBenefit.tsx:107
+msgid "Wage cost ({productionPoints} pts):"
+msgstr ""
+
+#: src/components/_user/worker/WorkerEditFormModal.tsx:175
 msgid "Wage per production"
 msgstr "Зарплата за производство"
 
@@ -6184,7 +6208,7 @@ msgstr "Снижение зарплаты принято."
 msgid "Wage reduction proposed"
 msgstr "Предложено снижение зарплаты"
 
-#: src/components/_user/worker/WorkerEditFormModal.tsx:74
+#: src/components/_user/worker/WorkerEditFormModal.tsx:75
 msgid "Wage reduction proposed! Waiting for worker to accept or reject."
 msgstr "Предложено снижение зарплаты! Ожидайте решения работника."
 
@@ -6193,7 +6217,7 @@ msgstr "Предложено снижение зарплаты! Ожидайте
 msgid "Waiting for level {0}"
 msgstr "Ожидание уровня {0}"
 
-#: src/components/_user/worker/WorkerEditFormModal.tsx:156
+#: src/components/_user/worker/WorkerEditFormModal.tsx:157
 msgid "Waiting for the worker to accept or reject the wage reduction. You cannot change the wage until they respond."
 msgstr "Ожидайте, пока работник примет или отклонит снижение зарплаты. Вы не можете изменить зарплату, пока он не ответит."
 
@@ -6274,6 +6298,10 @@ msgstr "Всё производство"
 msgid "Why do you want to propose this law?"
 msgstr "Почему Вы хотите предложить этот законопроект?"
 
+#: src/components/_economy/workOffer/EstimatedCompanyBenefit.tsx:163
+msgid "with bonus"
+msgstr ""
+
 #: src/components/_military/battle/ActiveBattlesList.tsx:111
 #: src/components/_military/battle/ActiveBattlesList.tsx:174
 msgid "With contracts"
@@ -6296,7 +6324,7 @@ msgstr "Поработайте <0>{count}</0> раз(а) на работодат
 msgid "Work and earn!"
 msgstr "Работайте и зарабатывайте!"
 
-#: src/components/_user/worker/WorkerEditFormModal.tsx:85
+#: src/components/_user/worker/WorkerEditFormModal.tsx:86
 msgid "Worker fired!"
 msgstr "Работник уволен!"
 
@@ -6304,7 +6332,7 @@ msgstr "Работник уволен!"
 msgid "Worker left"
 msgstr "Работник уволился"
 
-#: src/components/_user/worker/WorkerEditFormModal.tsx:62
+#: src/components/_user/worker/WorkerEditFormModal.tsx:63
 msgid "Worker updated!"
 msgstr "Данные работника обновлены!"
 

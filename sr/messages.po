@@ -1144,7 +1144,7 @@ msgstr "Такса за пријаву"
 msgid "Apply"
 msgstr "Пријави се"
 
-#: src/components/_user/worker/WorkerEditFormModal.tsx:101
+#: src/components/_user/worker/WorkerEditFormModal.tsx:102
 msgid "Are you sure you want to fire this worker?"
 msgstr "Да ли сте сигурни да желите да отпустите овог радника?"
 
@@ -2427,7 +2427,7 @@ msgstr "Измени опис"
 msgid "Edit Description"
 msgstr "Измени опис"
 
-#: src/components/_user/worker/WorkerEditFormModal.tsx:142
+#: src/components/_user/worker/WorkerEditFormModal.tsx:143
 msgid "Edit worker"
 msgstr "Измени радника"
 
@@ -2544,6 +2544,10 @@ msgstr "Опрема"
 #: src/components/_political/partyMotion/PartyMotionStatus.tsx:56
 msgid "Error"
 msgstr "Грешка"
+
+#: src/components/_economy/workOffer/EstimatedCompanyBenefit.tsx:91
+msgid "Estimated benefit per"
+msgstr ""
 
 #: src/pages/party/[partyId]/index.tsx:57
 msgid "Ethics"
@@ -2713,7 +2717,7 @@ msgstr "Пронађи други посао"
 msgid "Fine (remove money)"
 msgstr "Казна (уклони новац)"
 
-#: src/components/_user/worker/WorkerEditFormModal.tsx:196
+#: src/components/_user/worker/WorkerEditFormModal.tsx:201
 msgid "Fire"
 msgstr "Отпусти"
 
@@ -2721,7 +2725,7 @@ msgstr "Отпусти"
 msgid "Fire government member"
 msgstr "Отпусти члана владе"
 
-#: src/components/_user/worker/WorkerEditFormModal.tsx:100
+#: src/components/_user/worker/WorkerEditFormModal.tsx:101
 msgid "Fire worker?"
 msgstr "Отпусти радника?"
 
@@ -3184,7 +3188,7 @@ msgstr "Настави да јуриш епску опрему"
 msgid "Keep fighting!"
 msgstr "Настави да се бориш!"
 
-#: src/components/_user/worker/WorkerEditFormModal.tsx:183
+#: src/components/_user/worker/WorkerEditFormModal.tsx:188
 msgid "Keep in current company"
 msgstr "Задржи у тренутној компанији"
 
@@ -3753,6 +3757,10 @@ msgstr "Име"
 msgid "Need a job?"
 msgstr "Треба ти посао?"
 
+#: src/components/_economy/workOffer/EstimatedCompanyBenefit.tsx:151
+msgid "Net benefit:"
+msgstr ""
+
 #: src/components/_economy/inventory/case/cases.frontConfig.tsx:26
 msgid "Never give up!"
 msgstr "Никад не одустај!"
@@ -4306,7 +4314,7 @@ msgstr "Плаћање успешно! Хвала на подршци игре <
 msgid "Peace made"
 msgstr "Мир склопљен"
 
-#: src/components/_user/worker/WorkerEditFormModal.tsx:153
+#: src/components/_user/worker/WorkerEditFormModal.tsx:154
 msgid "Pending wage reduction"
 msgstr "Смањење плате на чекању"
 
@@ -4483,6 +4491,10 @@ msgstr "Производња"
 msgid "Production bonus"
 msgstr "Бонус производње"
 
+#: src/components/_economy/workOffer/EstimatedCompanyBenefit.tsx:144
+msgid "Production bonus:"
+msgstr ""
+
 #: src/components/_user/notification/notification.frontConfig.tsx:714
 msgid "Production in<0/> is full, you should start production!"
 msgstr "Производња у <0/> је пуна, требаш започети производњу!"
@@ -4550,7 +4562,7 @@ msgstr "Предложи куповину региона"
 msgid "Propose to buy a region from another country"
 msgstr "Предложи куповина региона од друге земље"
 
-#: src/components/_user/worker/WorkerEditFormModal.tsx:205
+#: src/components/_user/worker/WorkerEditFormModal.tsx:210
 msgid "Propose wage reduction"
 msgstr "Предложи смањење плате"
 
@@ -4588,6 +4600,10 @@ msgstr "Рангирања"
 #: src/components/_layout/LayoutRightIcons.tsx:313
 msgid "Ranks"
 msgstr "Рангирања"
+
+#: src/components/_economy/workOffer/EstimatedCompanyBenefit.tsx:116
+msgid "Raw materials:"
+msgstr ""
 
 #: src/components/_user/mission/mission.frontConfig.tsx:381
 msgid "Reach level 10"
@@ -5120,6 +5136,10 @@ msgstr "Налог за продају поклопљен!"
 #: src/pages/market/index.tsx:183
 msgid "Sell orders"
 msgstr "Налози за продају"
+
+#: src/components/_economy/workOffer/EstimatedCompanyBenefit.tsx:99
+msgid "Sell price:"
+msgstr ""
 
 #: src/components/_economy/itemTrading/ItemTradingOrderItem.tsx:147
 msgid "sells"
@@ -5774,7 +5794,7 @@ msgstr "Трансакције"
 msgid "Transfer money"
 msgstr "Пренос новца"
 
-#: src/components/_user/worker/WorkerEditFormModal.tsx:181
+#: src/components/_user/worker/WorkerEditFormModal.tsx:186
 msgid "Transfer to company (optional)"
 msgstr "Пренос у компанију (опционо)"
 
@@ -5892,7 +5912,7 @@ msgstr "Ажурирај информације"
 #~ msgid "Update order"
 #~ msgstr "Ажурирај наређење"
 
-#: src/components/_user/worker/WorkerEditFormModal.tsx:207
+#: src/components/_user/worker/WorkerEditFormModal.tsx:212
 msgid "Update worker"
 msgstr "Ажурирај радника"
 
@@ -6156,7 +6176,11 @@ msgstr "Плата"
 msgid "Wage changed"
 msgstr "Плата промењена"
 
-#: src/components/_user/worker/WorkerEditFormModal.tsx:174
+#: src/components/_economy/workOffer/EstimatedCompanyBenefit.tsx:107
+msgid "Wage cost ({productionPoints} pts):"
+msgstr ""
+
+#: src/components/_user/worker/WorkerEditFormModal.tsx:175
 msgid "Wage per production"
 msgstr "Плата по производњи"
 
@@ -6169,7 +6193,7 @@ msgstr "Смањење плате прихваћено."
 msgid "Wage reduction proposed"
 msgstr "Смањење плате предложено"
 
-#: src/components/_user/worker/WorkerEditFormModal.tsx:74
+#: src/components/_user/worker/WorkerEditFormModal.tsx:75
 msgid "Wage reduction proposed! Waiting for worker to accept or reject."
 msgstr "Смањење плате предложено! Чека се да радник прихвати или одбије."
 
@@ -6178,7 +6202,7 @@ msgstr "Смањење плате предложено! Чека се да ра�
 msgid "Waiting for level {0}"
 msgstr "Чека се ниво {0}"
 
-#: src/components/_user/worker/WorkerEditFormModal.tsx:156
+#: src/components/_user/worker/WorkerEditFormModal.tsx:157
 msgid "Waiting for the worker to accept or reject the wage reduction. You cannot change the wage until they respond."
 msgstr "Чека се да радник прихвати или одбије смањење плате. Не можеш променити плату док не одговори."
 
@@ -6259,6 +6283,10 @@ msgstr "Цела производња"
 msgid "Why do you want to propose this law?"
 msgstr "Зашто желите да предложите овај закон?"
 
+#: src/components/_economy/workOffer/EstimatedCompanyBenefit.tsx:163
+msgid "with bonus"
+msgstr ""
+
 #: src/components/_military/battle/ActiveBattlesList.tsx:111
 #: src/components/_military/battle/ActiveBattlesList.tsx:174
 msgid "With contracts"
@@ -6281,7 +6309,7 @@ msgstr "Ради <0>{count}</0> пута за послодавца"
 msgid "Work and earn!"
 msgstr "Ради и заради!"
 
-#: src/components/_user/worker/WorkerEditFormModal.tsx:85
+#: src/components/_user/worker/WorkerEditFormModal.tsx:86
 msgid "Worker fired!"
 msgstr "Радник отпуштен!"
 
@@ -6289,7 +6317,7 @@ msgstr "Радник отпуштен!"
 msgid "Worker left"
 msgstr "Радник је напустио посао"
 
-#: src/components/_user/worker/WorkerEditFormModal.tsx:62
+#: src/components/_user/worker/WorkerEditFormModal.tsx:63
 msgid "Worker updated!"
 msgstr "Радник ажуриран!"
 
