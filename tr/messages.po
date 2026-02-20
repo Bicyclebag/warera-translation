@@ -2,23 +2,16 @@
 msgid ""
 msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
-"POT-Creation-Date: 2025-12-28 18:01-0300
-MIME-Version: 1.0
-Content-Type: text/plain; charset=utf-8
-Content-Transfer-Encoding: 8bit
-X-Generator: @lingui/cli
-Language: tr
-Project-Id-Version: 
-Report-Msgid-Bugs-To: 
-PO-Revision-Date: 
-Last-Translator: 
-Language-Team: 
-Plural-Forms:\n"
+"POT-Creation-Date: 2025-12-28 18:01-0300\n"
 "PO-Revision-Date: 2026-02-20 17:42:18+0000\n"
 "MIME-Version: 1.0\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
-
+"Project-Id-Version: \n"
+"Report-Msgid-Bugs-To: \n"
+"Last-Translator: \n"
+"Language: \n"
+"Language-Team: \n"
 
 #. placeholder {0}: user.data.mute.reason
 #: src/components/_user/user/UserHeader.tsx:409
@@ -160,7 +153,7 @@ msgid "<0/> at <1>{0}</1> wage.{1}"
 msgstr "<0/>, <1>{0}</1> maaşla.{1}"
 
 #. placeholder {0}: law.data.amount ?? 0
-#: src/components/_political/law/law.frontConfig.tsx:292
+#: src/components/_political/law/law.frontConfig.tsx:294
 msgid "<0/> buys your region <1/> for <2>{0}</2>"
 msgstr "<0/>, <2>{0}</2> karşılığında <1/> bölgeni satın alıyor"
 
@@ -308,7 +301,7 @@ msgstr "<0/> <1/> makalene bahşiş verdi"
 msgid "<0/> vs <1/> war"
 msgstr "<0/> - <1/> cephesi"
 
-#: src/components/_political/law/law.frontConfig.tsx:81
+#: src/components/_political/law/law.frontConfig.tsx:83
 msgid "<0/> wants to make peace with your country"
 msgstr "<0/> ülkenle barış yapmak istiyor"
 
@@ -316,17 +309,6 @@ msgstr "<0/> ülkenle barış yapmak istiyor"
 #: src/components/_user/notification/notification.frontConfig.tsx:663
 msgid "<0/> was nominated as <1>{0}</1>"
 msgstr "<0/> <1>{0}</1> olarak atandı"
-
-#. placeholder {0}: data.roundNumber
-#: src/components/_political/message/systemMessage.frontConfig.tsx:55
-msgid "<0/> won round {0}"
-msgstr "<0/> turu kazandı {0}"
-
-#. placeholder {0}: data.attackerWonRoundsCount
-#. placeholder {1}: data.defenderWonRoundsCount
-#: src/components/_political/message/systemMessage.frontConfig.tsx:64
-msgid "<0/> won the battle ({0}-{1})"
-msgstr "<0/> cepheden galip geldi ({0}-{1})"
 
 #. placeholder {0}: data.roundNumber
 #: src/components/_political/message/systemMessage.frontConfig.tsx:55
@@ -937,24 +919,24 @@ msgstr "Bu yetkinin başka bir ülkeye çıkar sağlamak amacıyla kullanılmas�
 msgid "Accept"
 msgstr "Kabul Et"
 
-#: src/components/_political/law/law.frontConfig.tsx:222
+#: src/components/_political/law/law.frontConfig.tsx:224
 msgid "Accept alliance"
 msgstr "İttifakı kabul et"
 
 #. placeholder {0}: gameConfig?.battle.allianceDamagesBonusPercent
-#: src/components/_political/law/law.frontConfig.tsx:229
+#: src/components/_political/law/law.frontConfig.tsx:231
 msgid "Accept an alliance with <0/> increasing your citizens damages by <1>{0}</1> when fighting for them by and reciprocally"
 msgstr "<0/> ile ittifakı kabul et, onlar için veya onlar senin için savaşırken karşılıklı olarak vatandaşlarının hasarını <1>{0}</1> artırır."
 
-#: src/components/_political/law/law.frontConfig.tsx:287
+#: src/components/_political/law/law.frontConfig.tsx:289
 msgid "Accept or reject a region buy offer"
 msgstr "Bölge satın alma teklifini kabul et veya reddet"
 
-#: src/components/_political/law/law.frontConfig.tsx:74
+#: src/components/_political/law/law.frontConfig.tsx:76
 msgid "Accept peace"
 msgstr "Barış yapmayı kabul et"
 
-#: src/components/_political/law/law.frontConfig.tsx:75
+#: src/components/_political/law/law.frontConfig.tsx:77
 msgid "Accept to make peace with the other country"
 msgstr "Başka bir ülkeyle barış yapmayı kabul et"
 
@@ -1450,7 +1432,7 @@ msgid "Block (hide content)"
 msgstr "Engelle (yazdığı herşeyi gizle)"
 
 #: src/components/_military/battle/BattleDamageBonuses.tsx:54
-#: src/components/_political/law/law.frontConfig.tsx:187
+#: src/components/_political/law/law.frontConfig.tsx:189
 msgid "Bonus damages"
 msgstr "Bonus hasar"
 
@@ -1467,15 +1449,15 @@ msgstr "Botlar"
 msgid "Bread"
 msgstr "Ekmek"
 
-#: src/components/_political/law/law.frontConfig.tsx:244
+#: src/components/_political/law/law.frontConfig.tsx:246
 msgid "Break alliance"
 msgstr "İttifakı boz"
 
-#: src/components/_political/law/law.frontConfig.tsx:245
+#: src/components/_political/law/law.frontConfig.tsx:247
 msgid "Break an alliance with another country"
 msgstr "Başka bir ülkeyle ittifakı boz"
 
-#: src/components/_political/law/law.frontConfig.tsx:250
+#: src/components/_political/law/law.frontConfig.tsx:252
 msgid "Break the alliance with <0/>"
 msgstr "<0/> ile ittifakı boz"
 
@@ -1608,7 +1590,7 @@ msgstr "Savaşlarda tüm gelen hasarı savuşturma şansı.<0/>Savuşturma ayrı
 msgid "Chance to hit the target.<0/>Misses cannot crit, and deal half damage."
 msgstr "Hedefe vurma şansı.<0/>Kaçırılan vuruşlar kritik yapamaz ve yarı hasar verir."
 
-#: src/components/_political/law/law.frontConfig.tsx:55
+#: src/components/_political/law/law.frontConfig.tsx:57
 msgid "Change a country tax"
 msgstr "Ülke vergisini değiştir"
 
@@ -1621,22 +1603,22 @@ msgstr "Üretilen eşyayı değiştir"
 msgid "Change production"
 msgstr "Üretimi değiştir"
 
-#: src/components/_political/law/law.frontConfig.tsx:54
+#: src/components/_political/law/law.frontConfig.tsx:56
 msgid "Change tax"
 msgstr "Vergiyi değiştir"
 
-#: src/components/_political/law/law.frontConfig.tsx:354
+#: src/components/_political/law/law.frontConfig.tsx:356
 msgid "Change the country color scheme"
 msgstr "Ülke renk şemasını değiştir"
 
 #. placeholder {0}: law.data.scheme
 #. placeholder {1}: law.data.mapAccent
-#: src/components/_political/law/law.frontConfig.tsx:359
+#: src/components/_political/law/law.frontConfig.tsx:362
 msgid "Change the country color scheme to <0>{0}</0> with a <1>{1}</1> map accent"
 msgstr "Ülke renk şemasını <1>{1}</1> harita aksanıyla <0>{0}</0> olarak değiştir"
 
 #. placeholder {0}: law.data.taxType
-#: src/components/_political/law/law.frontConfig.tsx:61
+#: src/components/_political/law/law.frontConfig.tsx:63
 msgid "Change the tax of {0} to"
 msgstr "{0} vergisini şu şekilde değiştir"
 
@@ -1996,7 +1978,7 @@ msgstr "Çekirdek bölgeler"
 msgid "Corporal"
 msgstr "Onbaşı"
 
-#: src/components/_political/law/law.frontConfig.tsx:178
+#: src/components/_political/law/law.frontConfig.tsx:180
 msgid "Cost"
 msgstr "Maliyet"
 
@@ -2211,15 +2193,15 @@ msgstr "Birazcık hasar verir"
 msgid "Debuff ended"
 msgstr "Debuff sona erdi"
 
-#: src/components/_political/law/law.frontConfig.tsx:91
+#: src/components/_political/law/law.frontConfig.tsx:93
 msgid "Declare war"
 msgstr "Savaş ilan et"
 
-#: src/components/_political/law/law.frontConfig.tsx:97
+#: src/components/_political/law/law.frontConfig.tsx:99
 msgid "Declare war to <0/>"
 msgstr "<0/>'a savaş ilan et"
 
-#: src/components/_political/law/law.frontConfig.tsx:92
+#: src/components/_political/law/law.frontConfig.tsx:94
 msgid "Declare war to another country"
 msgstr "Başka bir ülkeye savaş ilan et"
 
@@ -2239,15 +2221,15 @@ msgstr "Savunan"
 msgid "Defenders"
 msgstr "Savunanlar"
 
-#: src/components/_political/law/law.frontConfig.tsx:171
+#: src/components/_political/law/law.frontConfig.tsx:173
 msgid "Define <0/> as an enemy, increasing damages when fighting against them"
 msgstr "<0/>'ı düşman olarak tanımla, onlara karşı savaşırken hasarı artır"
 
-#: src/components/_political/law/law.frontConfig.tsx:165
+#: src/components/_political/law/law.frontConfig.tsx:167
 msgid "Define a country as an enemy to get bonus against"
 msgstr "Karşısında ek bonus almak için bir ülkeyi baş düşman olarak belirle"
 
-#: src/components/_political/law/law.frontConfig.tsx:164
+#: src/components/_political/law/law.frontConfig.tsx:166
 msgid "Define a sworn enemy"
 msgstr "Baş düşmanı belirle"
 
@@ -2706,15 +2688,15 @@ msgstr "<0/>'da bir direniş mücadelesi finanse edin"
 msgid "Finance a resistance battle in an occupied region of your country"
 msgstr "Ülkenizin işgal altındaki bir bölgesinde direniş mücadelesini finanse edin."
 
-#: src/components/_political/law/law.frontConfig.tsx:411
+#: src/components/_political/law/law.frontConfig.tsx:425
 msgid "Finance a resistance to liberate an occupied region"
 msgstr "İşgal altındaki bir bölgeyi özgürleştirmek için bir direniş finanse edin."
 
-#: src/components/_political/law/law.frontConfig.tsx:416
+#: src/components/_political/law/law.frontConfig.tsx:430
 msgid "Finance a revolt to liberate <0/>"
 msgstr "Bir isyanı finanse ederek özgürleştirin <0/>"
 
-#: src/components/_political/law/law.frontConfig.tsx:410
+#: src/components/_political/law/law.frontConfig.tsx:424
 msgid "Finance foreign resistance"
 msgstr "Başka bir ülkede direniş mücadelesi finanse edin"
 
@@ -3031,7 +3013,7 @@ msgstr "Mitik'ten hemen önce durursan düşün"
 msgid "Imagine wasting your click on this"
 msgstr "Tıklamanı buna harcadığını düşün"
 
-#: src/components/_political/law/law.frontConfig.tsx:145
+#: src/components/_political/law/law.frontConfig.tsx:147
 msgid "Impeach congress member"
 msgstr "Meclis üyesini görevden al"
 
@@ -3039,12 +3021,12 @@ msgstr "Meclis üyesini görevden al"
 msgid "Impeach party leader"
 msgstr "Parti liderini devir"
 
-#: src/components/_political/law/law.frontConfig.tsx:137
+#: src/components/_political/law/law.frontConfig.tsx:139
 msgid "Impeach president"
 msgstr "Başkanı görevden al"
 
-#: src/components/_political/law/law.frontConfig.tsx:138
 #: src/components/_political/law/law.frontConfig.tsx:140
+#: src/components/_political/law/law.frontConfig.tsx:142
 msgid "Impeach the current president"
 msgstr "Mevcut başkanı görevden al"
 
@@ -3333,11 +3315,11 @@ msgstr "Becerilerini geliştir!"
 msgid "Level up!"
 msgstr "Seviye Atladın!"
 
-#: src/components/_political/law/law.frontConfig.tsx:327
+#: src/components/_political/law/law.frontConfig.tsx:329
 msgid "Liberate <0/> and return it to its original country"
 msgstr "<0/>'ı kurtar ve orijinal ülkesine geri ver"
 
-#: src/components/_political/law/law.frontConfig.tsx:321
+#: src/components/_political/law/law.frontConfig.tsx:323
 msgid "Liberate a region"
 msgstr "Bölgeyi kurtar"
 
@@ -3816,7 +3798,7 @@ msgstr "Yeni ekipman"
 msgid "New ethics configuration"
 msgstr "Yeni ilke yapılandırması"
 
-#: src/components/_economy/itemOffer/ItemOfferList.tsx:90
+#: src/components/_economy/itemOffer/ItemOfferList.tsx:80
 msgid "New item offer"
 msgstr "Yeni eşya teklifi"
 
@@ -3992,7 +3974,7 @@ msgstr "Henüz para sıralaması yok."
 msgid "No motions yet"
 msgstr "Henüz önerge yok"
 
-#: src/components/_economy/itemOffer/ItemOfferList.tsx:97
+#: src/components/_economy/itemOffer/ItemOfferList.tsx:87
 msgid "No offers found"
 msgstr "Teklif bulunamadı"
 
@@ -4528,16 +4510,16 @@ msgstr "Komutanlığa Terfi Etti"
 msgid "Propose a motion"
 msgstr "Bir hareket öner"
 
-#: src/components/_political/law/law.frontConfig.tsx:201
+#: src/components/_political/law/law.frontConfig.tsx:203
 msgid "Propose alliance"
 msgstr "İttifak öner"
 
 #. placeholder {0}: gameConfig?.battle.allianceDamagesBonusPercent
-#: src/components/_political/law/law.frontConfig.tsx:207
+#: src/components/_political/law/law.frontConfig.tsx:209
 msgid "Propose an alliance to <0/>, increasing your citizens damages when fighting for them by <1>{0}</1> and reciprocally"
 msgstr "<0/>'a ittifak öner, onlar için savaşırken vatandaşlarının hasarını <1>{0}</1> artır ve karşılıklı olarak"
 
-#: src/components/_political/law/law.frontConfig.tsx:202
+#: src/components/_political/law/law.frontConfig.tsx:204
 msgid "Propose an alliance to another country"
 msgstr "Başka bir ülkeye ittifak öner"
 
@@ -4549,28 +4531,28 @@ msgstr "Yasa öner"
 msgid "Propose motion"
 msgstr "Hareket öner"
 
-#: src/components/_political/law/law.frontConfig.tsx:106
+#: src/components/_political/law/law.frontConfig.tsx:108
 msgid "Propose peace"
 msgstr "Barış öner"
 
-#: src/components/_political/law/law.frontConfig.tsx:112
+#: src/components/_political/law/law.frontConfig.tsx:114
 msgid "Propose peace to <0/>"
 msgstr "<0/>'a barış öner"
 
-#: src/components/_political/law/law.frontConfig.tsx:107
+#: src/components/_political/law/law.frontConfig.tsx:109
 msgid "Propose peace to another country"
 msgstr "Başka bir ülkeye barış öner"
 
 #. placeholder {0}: law.data.amount ?? 0
-#: src/components/_political/law/law.frontConfig.tsx:310
+#: src/components/_political/law/law.frontConfig.tsx:312
 msgid "Propose to buy <0/> from <1/> for <2>{0}</2>"
 msgstr "<1/>'dan <2>{0}</2>'a <0/>'ı satın almayı öner"
 
-#: src/components/_political/law/law.frontConfig.tsx:304
+#: src/components/_political/law/law.frontConfig.tsx:306
 msgid "Propose to buy a region"
 msgstr "Bölge satın almayı öner"
 
-#: src/components/_political/law/law.frontConfig.tsx:305
+#: src/components/_political/law/law.frontConfig.tsx:307
 msgid "Propose to buy a region from another country"
 msgstr "Başka bir ülkeden bölge satın almayı öner"
 
@@ -4746,7 +4728,7 @@ msgstr "Tüketildiğinde <0>30</0> yeniler"
 msgid "Region"
 msgstr "Bölge"
 
-#: src/components/_political/law/law.frontConfig.tsx:286
+#: src/components/_political/law/law.frontConfig.tsx:288
 msgid "Region buy offer"
 msgstr "Bölge satın alma teklifi"
 
@@ -4812,7 +4794,7 @@ msgstr "Kalan buff süresi"
 msgid "Remaining debuff duration"
 msgstr "Kalan debuff süresi"
 
-#: src/components/_political/law/law.frontConfig.tsx:152
+#: src/components/_political/law/law.frontConfig.tsx:154
 msgid "Remove <0/> from congress due to inactivity"
 msgstr "Hareketsizlik nedeniyle <0/>'ı meclisten çıkar"
 
@@ -4833,7 +4815,7 @@ msgstr "Hepsini kaldır"
 msgid "Remove all offers"
 msgstr "Tüm teklifleri kaldır"
 
-#: src/components/_political/law/law.frontConfig.tsx:146
+#: src/components/_political/law/law.frontConfig.tsx:148
 msgid "Remove an inactive congress member from its position"
 msgstr "Hareketsiz bir meclis üyesini görevinden al"
 
@@ -4849,7 +4831,7 @@ msgstr "Konsey üyesini kaldır"
 msgid "Remove Description"
 msgstr "Açıklamayı Kaldır"
 
-#: src/components/_political/law/law.frontConfig.tsx:276
+#: src/components/_political/law/law.frontConfig.tsx:278
 msgid "Remove enemy"
 msgstr "Düşmanı kaldır"
 
@@ -4953,7 +4935,7 @@ msgstr "Mesaja yanıt"
 msgid "Restore your health!"
 msgstr "Sağlığını yenile!"
 
-#: src/components/_political/law/law.frontConfig.tsx:322
+#: src/components/_political/law/law.frontConfig.tsx:324
 msgid "Return a region to its original country"
 msgstr "Bölgeyi orijinal ülkesine geri ver"
 
@@ -5163,7 +5145,7 @@ msgid "sells"
 msgstr "satıyor"
 
 #. placeholder {0}: law.data.amount
-#: src/components/_political/law/law.frontConfig.tsx:266
+#: src/components/_political/law/law.frontConfig.tsx:268
 msgid "Send <0>{0}</0> to <1/>"
 msgstr "<1/>'a <0>{0}</0> gönder"
 
@@ -5187,7 +5169,7 @@ msgstr "Hediye Gönder"
 msgid "Send Message"
 msgstr "Mesaj Gönder"
 
-#: src/components/_political/law/law.frontConfig.tsx:261
+#: src/components/_political/law/law.frontConfig.tsx:263
 msgid "Send money to another country"
 msgstr "Başka bir ülkeye para gönder"
 
@@ -5207,15 +5189,15 @@ msgstr "Bir <0>açıklama</0> ayarla"
 msgid "Set a referrer"
 msgstr "Referans veren ayarla"
 
-#: src/components/_political/law/law.frontConfig.tsx:338
+#: src/components/_political/law/law.frontConfig.tsx:340
 msgid "Set a welcome article for your country"
 msgstr "Ülken için bir karşılama makalesi ayarla"
 
-#: src/components/_political/law/law.frontConfig.tsx:343
+#: src/components/_political/law/law.frontConfig.tsx:345
 msgid "Set a welcome article for your country<0/>"
 msgstr "Ülken için bir karşılama makalesi ayarla<0/>"
 
-#: src/components/_political/law/law.frontConfig.tsx:353
+#: src/components/_political/law/law.frontConfig.tsx:355
 msgid "Set country color"
 msgstr "Ülke rengini ayarla"
 
@@ -5231,16 +5213,16 @@ msgstr "Parti ilkelerini belirle"
 msgid "Set Profile Picture"
 msgstr "Profil Fotoğrafı Ayarla"
 
-#: src/components/_political/law/law.frontConfig.tsx:387
+#: src/components/_political/law/law.frontConfig.tsx:401
 msgid "Set specialization item"
 msgstr "Uzmanlık eşyasını ayarla"
 
 #. placeholder {0}: ts[law.data.itemCode]
-#: src/components/_political/law/law.frontConfig.tsx:393
+#: src/components/_political/law/law.frontConfig.tsx:407
 msgid "Set the country's specialized item to <0>{0}</0>.<1/>The country strategic resources <2>Production Bonus</2> will be available for local companies producing this item."
 msgstr "Ülkenin özel eşyasını <0>{0}</0> olarak ayarla.<1/>Ülke stratejik kaynakları <2>Üretim Bonusu</2> bu eşyayı üreten yerel şirketler için mevcut olacak."
 
-#: src/components/_political/law/law.frontConfig.tsx:388
+#: src/components/_political/law/law.frontConfig.tsx:402
 msgid "Set the country's specialized production item"
 msgstr "Ülkenin özel üretim eşyasını ayarla"
 
@@ -5248,7 +5230,7 @@ msgstr "Ülkenin özel üretim eşyasını ayarla"
 msgid "Set Username"
 msgstr "Kullanıcı Adı Ayarla"
 
-#: src/components/_political/law/law.frontConfig.tsx:337
+#: src/components/_political/law/law.frontConfig.tsx:339
 msgid "Set welcome article"
 msgstr "Karşılama makalesi ayarla"
 
@@ -5368,8 +5350,8 @@ msgstr "<0>Enerjini</0> burada çalışarak harca ve <1>Para</1> kazan. Daha faz
 msgid "Spendings"
 msgstr "Harcamalar"
 
-#: src/components/_political/law/law.frontConfig.tsx:130
 #: src/components/_political/law/law.frontConfig.tsx:132
+#: src/components/_political/law/law.frontConfig.tsx:134
 msgid "Start a congress election, now"
 msgstr "Şimdi meclis seçimi başlat"
 
@@ -5388,8 +5370,8 @@ msgstr "Derhal bir parti lideri seçimi başlatın"
 msgid "Start a party primary election immediately"
 msgstr "Derhal bir aday seçimi başlatın"
 
-#: src/components/_political/law/law.frontConfig.tsx:122
 #: src/components/_political/law/law.frontConfig.tsx:124
+#: src/components/_political/law/law.frontConfig.tsx:126
 msgid "Start a presidential election, now"
 msgstr "Şimdi başkanlık seçimi başlat"
 
@@ -5398,11 +5380,11 @@ msgstr "Şimdi başkanlık seçimi başlat"
 msgid "Start a revolution to overthrow the government"
 msgstr "Hükümeti devirmek için bir devrim başlatın"
 
-#: src/components/_political/law/law.frontConfig.tsx:129
+#: src/components/_political/law/law.frontConfig.tsx:131
 msgid "Start congress election"
 msgstr "Meclis seçimi başlat"
 
-#: src/components/_political/law/law.frontConfig.tsx:121
+#: src/components/_political/law/law.frontConfig.tsx:123
 msgid "Start presidential election"
 msgstr "Başkanlık seçimi başlat"
 
@@ -5806,7 +5788,7 @@ msgstr "İşlem."
 msgid "Transactions"
 msgstr "İşlemler"
 
-#: src/components/_political/law/law.frontConfig.tsx:260
+#: src/components/_political/law/law.frontConfig.tsx:262
 msgid "Transfer money"
 msgstr "Para transfer et"
 
@@ -5900,8 +5882,8 @@ msgstr "Huzursuzluğa Katkıda Bulunanlar"
 msgid "Unselect all"
 msgstr "Seçimi kaldır"
 
-#: src/components/_political/law/law.frontConfig.tsx:277
 #: src/components/_political/law/law.frontConfig.tsx:279
+#: src/components/_political/law/law.frontConfig.tsx:281
 msgid "Unset the sworn enemy country"
 msgstr "Yeminli düşman ülkeyi kaldır"
 
@@ -6149,7 +6131,7 @@ msgstr "Doğrula"
 msgid "Verify your email to create job offers. Check your email or logout/login again"
 msgstr "İş teklifleri oluşturmak için e-postanı doğrula. E-postanı kontrol et veya çıkış yap/tekrar giriş yap"
 
-#: src/components/_economy/itemOffer/ItemOfferList.tsx:85
+#: src/components/_economy/itemOffer/ItemOfferList.tsx:75
 msgid "Verify your email to trade items. Check your email or logout/login again"
 msgstr "Eşya ticareti yapmak için e-postanı doğrula. E-postanı kontrol et veya çıkış yap/tekrar giriş yap"
 
@@ -6209,10 +6191,8 @@ msgid "Waiting for level {0}"
 msgstr "{0}. seviye bekleniyor"
 
 #: src/components/_user/worker/WorkerEditFormModal.tsx:157
-msgid ""
-"Waiting for the worker to accept or reject the wage reduction. You cannot change the wage until they respond."
-msgstr ""
-"Çalışanın maaş indirimini kabul veya reddetmesi bekleniyor. Yanıt verene kadar maaşı değiştiremezsiniz."
+msgid "Waiting for the worker to accept or reject the wage reduction. You cannot change the wage until they respond."
+msgstr "Çalışanın maaş indirimini kabul veya reddetmesi bekleniyor. Yanıt verene kadar maaşı değiştiremezsiniz."
 
 #: src/components/_economy/itemTrading/ItemTradingOrderItem.tsx:147
 msgid "wants"

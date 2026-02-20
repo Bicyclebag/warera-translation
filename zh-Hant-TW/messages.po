@@ -153,7 +153,7 @@ msgid "<0/> at <1>{0}</1> wage.{1}"
 msgstr "<0/>，薪資為 <1>{0}</1>。{1}"
 
 #. placeholder {0}: law.data.amount ?? 0
-#: src/components/_political/law/law.frontConfig.tsx:292
+#: src/components/_political/law/law.frontConfig.tsx:294
 msgid "<0/> buys your region <1/> for <2>{0}</2>"
 msgstr "<0/> 用 <2>{0}</2> 購買你的地區 <1/>"
 
@@ -301,7 +301,7 @@ msgstr "<0/> 透過了你的文章 <1/> 給你小費"
 msgid "<0/> vs <1/> war"
 msgstr "<0/> vs <1/> 戰爭"
 
-#: src/components/_political/law/law.frontConfig.tsx:81
+#: src/components/_political/law/law.frontConfig.tsx:83
 msgid "<0/> wants to make peace with your country"
 msgstr "<0/> 想要與你的國家達成和平"
 
@@ -919,24 +919,24 @@ msgstr "濫用此權力向其他國家提供優勢將會導致停權"
 msgid "Accept"
 msgstr "同意"
 
-#: src/components/_political/law/law.frontConfig.tsx:222
+#: src/components/_political/law/law.frontConfig.tsx:224
 msgid "Accept alliance"
 msgstr "接受結盟"
 
 #. placeholder {0}: gameConfig?.battle.allianceDamagesBonusPercent
-#: src/components/_political/law/law.frontConfig.tsx:229
+#: src/components/_political/law/law.frontConfig.tsx:231
 msgid "Accept an alliance with <0/> increasing your citizens damages by <1>{0}</1> when fighting for them by and reciprocally"
 msgstr "接受與 <0/> 結盟會使你的公民傷害輸出增加 <1>{0}</1> ，並且對方也會獲得相對應的加成。"
 
-#: src/components/_political/law/law.frontConfig.tsx:287
+#: src/components/_political/law/law.frontConfig.tsx:289
 msgid "Accept or reject a region buy offer"
 msgstr "同意或拒絕一個地區購買提議"
 
-#: src/components/_political/law/law.frontConfig.tsx:74
+#: src/components/_political/law/law.frontConfig.tsx:76
 msgid "Accept peace"
 msgstr "接受和平"
 
-#: src/components/_political/law/law.frontConfig.tsx:75
+#: src/components/_political/law/law.frontConfig.tsx:77
 msgid "Accept to make peace with the other country"
 msgstr "接受以與其他國家達成和平"
 
@@ -1432,7 +1432,7 @@ msgid "Block (hide content)"
 msgstr "黑名單 (隱藏內容)"
 
 #: src/components/_military/battle/BattleDamageBonuses.tsx:54
-#: src/components/_political/law/law.frontConfig.tsx:187
+#: src/components/_political/law/law.frontConfig.tsx:189
 msgid "Bonus damages"
 msgstr "傷害加成"
 
@@ -1449,15 +1449,15 @@ msgstr "靴子"
 msgid "Bread"
 msgstr "麵包"
 
-#: src/components/_political/law/law.frontConfig.tsx:244
+#: src/components/_political/law/law.frontConfig.tsx:246
 msgid "Break alliance"
 msgstr "中斷聯盟"
 
-#: src/components/_political/law/law.frontConfig.tsx:245
+#: src/components/_political/law/law.frontConfig.tsx:247
 msgid "Break an alliance with another country"
 msgstr "與其他國家中斷聯盟"
 
-#: src/components/_political/law/law.frontConfig.tsx:250
+#: src/components/_political/law/law.frontConfig.tsx:252
 msgid "Break the alliance with <0/>"
 msgstr "與 <0/> 中斷聯盟"
 
@@ -1590,7 +1590,7 @@ msgstr "在戰鬥中閃避所有傷害的機率。<0/>閃避也可以防止裝�
 msgid "Chance to hit the target.<0/>Misses cannot crit, and deal half damage."
 msgstr "命中目標的機率。<0/>未命中就無法爆擊，且造成一半傷害。"
 
-#: src/components/_political/law/law.frontConfig.tsx:55
+#: src/components/_political/law/law.frontConfig.tsx:57
 msgid "Change a country tax"
 msgstr "更改國家稅率"
 
@@ -1603,22 +1603,22 @@ msgstr "更改製造物品"
 msgid "Change production"
 msgstr "更改製造物品"
 
-#: src/components/_political/law/law.frontConfig.tsx:54
+#: src/components/_political/law/law.frontConfig.tsx:56
 msgid "Change tax"
 msgstr "更改稅率"
 
-#: src/components/_political/law/law.frontConfig.tsx:354
+#: src/components/_political/law/law.frontConfig.tsx:356
 msgid "Change the country color scheme"
 msgstr "更改國家顏色"
 
 #. placeholder {0}: law.data.scheme
 #. placeholder {1}: law.data.mapAccent
-#: src/components/_political/law/law.frontConfig.tsx:359
+#: src/components/_political/law/law.frontConfig.tsx:362
 msgid "Change the country color scheme to <0>{0}</0> with a <1>{1}</1> map accent"
 msgstr "更改國家顏色至 <0>{0}</0> ，並設定深淺為 <1>{1}</1>"
 
 #. placeholder {0}: law.data.taxType
-#: src/components/_political/law/law.frontConfig.tsx:61
+#: src/components/_political/law/law.frontConfig.tsx:63
 msgid "Change the tax of {0} to"
 msgstr "將 {0} 的稅率更改為"
 
@@ -1978,7 +1978,7 @@ msgstr "核心地區"
 msgid "Corporal"
 msgstr "下士"
 
-#: src/components/_political/law/law.frontConfig.tsx:178
+#: src/components/_political/law/law.frontConfig.tsx:180
 msgid "Cost"
 msgstr "費用"
 
@@ -2193,15 +2193,15 @@ msgstr "造成一些傷害"
 msgid "Debuff ended"
 msgstr "減益已結束"
 
-#: src/components/_political/law/law.frontConfig.tsx:91
+#: src/components/_political/law/law.frontConfig.tsx:93
 msgid "Declare war"
 msgstr "宣戰"
 
-#: src/components/_political/law/law.frontConfig.tsx:97
+#: src/components/_political/law/law.frontConfig.tsx:99
 msgid "Declare war to <0/>"
 msgstr "向 <0/> 宣戰"
 
-#: src/components/_political/law/law.frontConfig.tsx:92
+#: src/components/_political/law/law.frontConfig.tsx:94
 msgid "Declare war to another country"
 msgstr "向其他國家宣戰"
 
@@ -2221,15 +2221,15 @@ msgstr "防守方"
 msgid "Defenders"
 msgstr "防守方"
 
-#: src/components/_political/law/law.frontConfig.tsx:171
+#: src/components/_political/law/law.frontConfig.tsx:173
 msgid "Define <0/> as an enemy, increasing damages when fighting against them"
 msgstr "將 <0/> 設定為宿敵，對其作戰時造成的傷害將增加"
 
-#: src/components/_political/law/law.frontConfig.tsx:165
+#: src/components/_political/law/law.frontConfig.tsx:167
 msgid "Define a country as an enemy to get bonus against"
 msgstr "將某國設定為宿敵，以獲得對其作戰時的傷害加成"
 
-#: src/components/_political/law/law.frontConfig.tsx:164
+#: src/components/_political/law/law.frontConfig.tsx:166
 msgid "Define a sworn enemy"
 msgstr "設定為宿敵"
 
@@ -2688,15 +2688,15 @@ msgstr ""
 msgid "Finance a resistance battle in an occupied region of your country"
 msgstr ""
 
-#: src/components/_political/law/law.frontConfig.tsx:411
+#: src/components/_political/law/law.frontConfig.tsx:425
 msgid "Finance a resistance to liberate an occupied region"
 msgstr ""
 
-#: src/components/_political/law/law.frontConfig.tsx:416
+#: src/components/_political/law/law.frontConfig.tsx:430
 msgid "Finance a revolt to liberate <0/>"
 msgstr ""
 
-#: src/components/_political/law/law.frontConfig.tsx:410
+#: src/components/_political/law/law.frontConfig.tsx:424
 msgid "Finance foreign resistance"
 msgstr ""
 
@@ -3013,7 +3013,7 @@ msgstr "想像一下假如你剛好在抽到神話裝備之前停下"
 msgid "Imagine wasting your click on this"
 msgstr "想像一下浪費時間在點這東西上"
 
-#: src/components/_political/law/law.frontConfig.tsx:145
+#: src/components/_political/law/law.frontConfig.tsx:147
 msgid "Impeach congress member"
 msgstr "彈劾國會議員"
 
@@ -3021,12 +3021,12 @@ msgstr "彈劾國會議員"
 msgid "Impeach party leader"
 msgstr ""
 
-#: src/components/_political/law/law.frontConfig.tsx:137
+#: src/components/_political/law/law.frontConfig.tsx:139
 msgid "Impeach president"
 msgstr "彈劾總統"
 
-#: src/components/_political/law/law.frontConfig.tsx:138
 #: src/components/_political/law/law.frontConfig.tsx:140
+#: src/components/_political/law/law.frontConfig.tsx:142
 msgid "Impeach the current president"
 msgstr "彈劾現任總統"
 
@@ -3315,11 +3315,11 @@ msgstr "提升你的技能！"
 msgid "Level up!"
 msgstr "升級！"
 
-#: src/components/_political/law/law.frontConfig.tsx:327
+#: src/components/_political/law/law.frontConfig.tsx:329
 msgid "Liberate <0/> and return it to its original country"
 msgstr "解放 <0/> 並將其歸還至原屬國"
 
-#: src/components/_political/law/law.frontConfig.tsx:321
+#: src/components/_political/law/law.frontConfig.tsx:323
 msgid "Liberate a region"
 msgstr "解放一個地區"
 
@@ -3798,7 +3798,7 @@ msgstr "新裝備"
 msgid "New ethics configuration"
 msgstr ""
 
-#: src/components/_economy/itemOffer/ItemOfferList.tsx:90
+#: src/components/_economy/itemOffer/ItemOfferList.tsx:80
 msgid "New item offer"
 msgstr "新物品賣單"
 
@@ -3974,7 +3974,7 @@ msgstr "還沒有金錢排名。"
 msgid "No motions yet"
 msgstr ""
 
-#: src/components/_economy/itemOffer/ItemOfferList.tsx:97
+#: src/components/_economy/itemOffer/ItemOfferList.tsx:87
 msgid "No offers found"
 msgstr "沒有找到賣單"
 
@@ -4510,16 +4510,16 @@ msgstr "晉升為指揮官"
 msgid "Propose a motion"
 msgstr ""
 
-#: src/components/_political/law/law.frontConfig.tsx:201
+#: src/components/_political/law/law.frontConfig.tsx:203
 msgid "Propose alliance"
 msgstr "提議結盟"
 
 #. placeholder {0}: gameConfig?.battle.allianceDamagesBonusPercent
-#: src/components/_political/law/law.frontConfig.tsx:207
+#: src/components/_political/law/law.frontConfig.tsx:209
 msgid "Propose an alliance to <0/>, increasing your citizens damages when fighting for them by <1>{0}</1> and reciprocally"
 msgstr "向 <0/> 提議結盟，你的公民為他們作戰時會增加 <1>{0}</1> 傷害，並且對方也會獲得相對應的加成"
 
-#: src/components/_political/law/law.frontConfig.tsx:202
+#: src/components/_political/law/law.frontConfig.tsx:204
 msgid "Propose an alliance to another country"
 msgstr "向其他國家提議結盟"
 
@@ -4531,28 +4531,28 @@ msgstr "出台法案"
 msgid "Propose motion"
 msgstr ""
 
-#: src/components/_political/law/law.frontConfig.tsx:106
+#: src/components/_political/law/law.frontConfig.tsx:108
 msgid "Propose peace"
 msgstr "提議和平"
 
-#: src/components/_political/law/law.frontConfig.tsx:112
+#: src/components/_political/law/law.frontConfig.tsx:114
 msgid "Propose peace to <0/>"
 msgstr "向 <0/> 提議和平"
 
-#: src/components/_political/law/law.frontConfig.tsx:107
+#: src/components/_political/law/law.frontConfig.tsx:109
 msgid "Propose peace to another country"
 msgstr "向其他國家提議和平"
 
 #. placeholder {0}: law.data.amount ?? 0
-#: src/components/_political/law/law.frontConfig.tsx:310
+#: src/components/_political/law/law.frontConfig.tsx:312
 msgid "Propose to buy <0/> from <1/> for <2>{0}</2>"
 msgstr "提議用 <2>{0}</2> 購買 <1/> 的 <0/>"
 
-#: src/components/_political/law/law.frontConfig.tsx:304
+#: src/components/_political/law/law.frontConfig.tsx:306
 msgid "Propose to buy a region"
 msgstr "提議購買一個地區"
 
-#: src/components/_political/law/law.frontConfig.tsx:305
+#: src/components/_political/law/law.frontConfig.tsx:307
 msgid "Propose to buy a region from another country"
 msgstr "提議向其他國家購買一個地區"
 
@@ -4728,7 +4728,7 @@ msgstr "使用以恢復 <0>30</0>"
 msgid "Region"
 msgstr ""
 
-#: src/components/_political/law/law.frontConfig.tsx:286
+#: src/components/_political/law/law.frontConfig.tsx:288
 msgid "Region buy offer"
 msgstr "地區購買提案"
 
@@ -4794,7 +4794,7 @@ msgstr "剩餘加成時長"
 msgid "Remaining debuff duration"
 msgstr "剩餘減益時長"
 
-#: src/components/_political/law/law.frontConfig.tsx:152
+#: src/components/_political/law/law.frontConfig.tsx:154
 msgid "Remove <0/> from congress due to inactivity"
 msgstr "由於 <0/> 不活躍，將其從國會中移除"
 
@@ -4815,7 +4815,7 @@ msgstr "移除所有"
 msgid "Remove all offers"
 msgstr "移除所有訂單"
 
-#: src/components/_political/law/law.frontConfig.tsx:146
+#: src/components/_political/law/law.frontConfig.tsx:148
 msgid "Remove an inactive congress member from its position"
 msgstr "移除一位不活躍的國會議員"
 
@@ -4831,7 +4831,7 @@ msgstr ""
 msgid "Remove Description"
 msgstr "移除描述"
 
-#: src/components/_political/law/law.frontConfig.tsx:276
+#: src/components/_political/law/law.frontConfig.tsx:278
 msgid "Remove enemy"
 msgstr "移除宿敵"
 
@@ -4935,7 +4935,7 @@ msgstr "回應訊息"
 msgid "Restore your health!"
 msgstr "回復你的生命值"
 
-#: src/components/_political/law/law.frontConfig.tsx:322
+#: src/components/_political/law/law.frontConfig.tsx:324
 msgid "Return a region to its original country"
 msgstr "將地區歸還給原屬國"
 
@@ -5145,7 +5145,7 @@ msgid "sells"
 msgstr "賣出"
 
 #. placeholder {0}: law.data.amount
-#: src/components/_political/law/law.frontConfig.tsx:266
+#: src/components/_political/law/law.frontConfig.tsx:268
 msgid "Send <0>{0}</0> to <1/>"
 msgstr "匯款 <0>{0}</0> 給 <1/>"
 
@@ -5169,7 +5169,7 @@ msgstr ""
 msgid "Send Message"
 msgstr "傳送訊息"
 
-#: src/components/_political/law/law.frontConfig.tsx:261
+#: src/components/_political/law/law.frontConfig.tsx:263
 msgid "Send money to another country"
 msgstr "匯錢給其他國家"
 
@@ -5189,15 +5189,15 @@ msgstr "設置 <0>描述</0>"
 msgid "Set a referrer"
 msgstr "設置一個推薦人"
 
-#: src/components/_political/law/law.frontConfig.tsx:338
+#: src/components/_political/law/law.frontConfig.tsx:340
 msgid "Set a welcome article for your country"
 msgstr "為你的國家設置一個歡迎文章"
 
-#: src/components/_political/law/law.frontConfig.tsx:343
+#: src/components/_political/law/law.frontConfig.tsx:345
 msgid "Set a welcome article for your country<0/>"
 msgstr "為你的國家設置一個歡迎文章 <0/>"
 
-#: src/components/_political/law/law.frontConfig.tsx:353
+#: src/components/_political/law/law.frontConfig.tsx:355
 msgid "Set country color"
 msgstr "設定國家顏色"
 
@@ -5213,16 +5213,16 @@ msgstr ""
 msgid "Set Profile Picture"
 msgstr "設置頭像"
 
-#: src/components/_political/law/law.frontConfig.tsx:387
+#: src/components/_political/law/law.frontConfig.tsx:401
 msgid "Set specialization item"
 msgstr "設置特產"
 
 #. placeholder {0}: ts[law.data.itemCode]
-#: src/components/_political/law/law.frontConfig.tsx:393
+#: src/components/_political/law/law.frontConfig.tsx:407
 msgid "Set the country's specialized item to <0>{0}</0>.<1/>The country strategic resources <2>Production Bonus</2> will be available for local companies producing this item."
 msgstr "設置國家特產為 <0>{0}</0>。<1/>國家戰略資源<2>生產加成</2>將適用於本地生產此物品的公司。"
 
-#: src/components/_political/law/law.frontConfig.tsx:388
+#: src/components/_political/law/law.frontConfig.tsx:402
 msgid "Set the country's specialized production item"
 msgstr "設置國家的特產物品"
 
@@ -5230,7 +5230,7 @@ msgstr "設置國家的特產物品"
 msgid "Set Username"
 msgstr "設置用戶名稱"
 
-#: src/components/_political/law/law.frontConfig.tsx:337
+#: src/components/_political/law/law.frontConfig.tsx:339
 msgid "Set welcome article"
 msgstr "設置歡迎文章"
 
@@ -5350,8 +5350,8 @@ msgstr "在此花費你的<0>能量</0>工作以賺取<1>金錢</1>。持續點�
 msgid "Spendings"
 msgstr "支出"
 
-#: src/components/_political/law/law.frontConfig.tsx:130
 #: src/components/_political/law/law.frontConfig.tsx:132
+#: src/components/_political/law/law.frontConfig.tsx:134
 msgid "Start a congress election, now"
 msgstr "現在就開始國會選舉。"
 
@@ -5370,8 +5370,8 @@ msgstr ""
 msgid "Start a party primary election immediately"
 msgstr ""
 
-#: src/components/_political/law/law.frontConfig.tsx:122
 #: src/components/_political/law/law.frontConfig.tsx:124
+#: src/components/_political/law/law.frontConfig.tsx:126
 msgid "Start a presidential election, now"
 msgstr "現在就開始總統選舉"
 
@@ -5380,11 +5380,11 @@ msgstr "現在就開始總統選舉"
 msgid "Start a revolution to overthrow the government"
 msgstr ""
 
-#: src/components/_political/law/law.frontConfig.tsx:129
+#: src/components/_political/law/law.frontConfig.tsx:131
 msgid "Start congress election"
 msgstr "開始國會選舉"
 
-#: src/components/_political/law/law.frontConfig.tsx:121
+#: src/components/_political/law/law.frontConfig.tsx:123
 msgid "Start presidential election"
 msgstr "開始總統選舉"
 
@@ -5788,7 +5788,7 @@ msgstr "交易紀錄"
 msgid "Transactions"
 msgstr "交易紀錄"
 
-#: src/components/_political/law/law.frontConfig.tsx:260
+#: src/components/_political/law/law.frontConfig.tsx:262
 msgid "Transfer money"
 msgstr "轉帳"
 
@@ -5882,8 +5882,8 @@ msgstr ""
 msgid "Unselect all"
 msgstr "取消全選"
 
-#: src/components/_political/law/law.frontConfig.tsx:277
 #: src/components/_political/law/law.frontConfig.tsx:279
+#: src/components/_political/law/law.frontConfig.tsx:281
 msgid "Unset the sworn enemy country"
 msgstr "清除宿敵國家"
 
@@ -6131,7 +6131,7 @@ msgstr "驗證"
 msgid "Verify your email to create job offers. Check your email or logout/login again"
 msgstr "驗證你的電子信箱以創建職缺。查看你的電子信箱或是重新登入"
 
-#: src/components/_economy/itemOffer/ItemOfferList.tsx:85
+#: src/components/_economy/itemOffer/ItemOfferList.tsx:75
 msgid "Verify your email to trade items. Check your email or logout/login again"
 msgstr "驗證你的電子信箱以交易物品。查看你的電子信箱或是重新登入"
 
