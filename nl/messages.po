@@ -409,7 +409,7 @@ msgstr "<0>{0}</0> van <1>Verzet</1>"
 #. placeholder {0}: region.ethicDepositBonus
 #: src/components/_economy/company/RecommendedCompanyRegions.tsx:151
 msgid "<0>{0}</0> from agrarian ethics deposit bonus."
-msgstr "<0>{0}</0> van de Agrarische Ethiek voorraad bonus."
+msgstr "<0>{0}</0> van de agrarische ethiek grondstoffenbonus."
 
 #. placeholder {0}: sideBonus.countryAlliesBonusPercent
 #: src/components/_military/battle/BattleDamageBonuses.tsx:75
@@ -419,7 +419,7 @@ msgstr "<0>{0}</0> uit een alliantie met <1/>"
 #. placeholder {0}: region.depositBonus
 #: src/components/_economy/company/RecommendedCompanyRegions.tsx:141
 msgid "<0>{0}</0> from deposit resources."
-msgstr "<0>{0}</0> uit de bronnen van de aanleg."
+msgstr "<0>{0}</0> van grondstofbronnen."
 
 #. placeholder {0}: sideBonus.allyEthicsBonusPercent
 #: src/components/_military/battle/BattleDamageBonuses.tsx:242
@@ -473,7 +473,7 @@ msgstr "<0>{0}</0>/dag"
 
 #: src/components/_economy/company/CompanyProductionBonusTag.tsx:75
 msgid "<0>{depositBonus}</0> from deposit resources in <1/>."
-msgstr "<0>{depositBonus}</0> van grondstofvoorraden in <1/>."
+msgstr "<0>{depositBonus}</0> van grondstofbronnen in <1/>."
 
 #: src/components/_economy/company/CompanyProductionBonusTag.tsx:86
 msgid "<0>{ethicDepositBonus}</0> from <1/> agrarian ethics deposit bonus."
@@ -898,7 +898,7 @@ msgstr "Er is een grondstofbron gevonden in deze regio, die door bedrijven kan w
 #. placeholder {0}: data.prize
 #: src/components/_user/notification/notification.frontConfig.tsx:1543
 msgid "A new giveaway for {0} cases has started! Join now!"
-msgstr "Er is een nieuwe weggeefactie voor {0} cases gestart! Doe nu mee!"
+msgstr "Er is een nieuwe weggeefactie voor {0} kisten gestart! Doe nu mee!"
 
 #: src/pages/region/[regionId]/index.tsx:94
 msgid "A strategic resource has been found in this region, it gives its owner a production and development bonus."
@@ -1060,14 +1060,14 @@ msgstr "Alle burgerschapsverzoeken worden automatisch geaccepteerd."
 #: src/components/_political/party/party.frontConfig.tsx:280
 #: src/components/_political/party/party.frontConfig.tsx:301
 msgid "All coca, grain, livestock and fish deposits in your borders give <0>+{0}</0> more production bonus."
-msgstr "Alle coca-, graan-, vee- en visafzettingen binnen jouw grenzen geven <0>+{0}</0> meer productiebonus."
+msgstr "Alle coca-, graan-, vee- en vis grondstofbronnen binnen jouw grenzen geven <0>+{0}</0> meer productiebonus."
 
 #. placeholder {0}: formatPercent(ethicsBonuses.industrialism[1].specializationBonus)
 #. placeholder {0}: formatPercent(ethicsBonuses.industrialism[2].specializationBonus)
 #: src/components/_political/party/party.frontConfig.tsx:323
 #: src/components/_political/party/party.frontConfig.tsx:337
 msgid "All companies in your borders get <0>+{0}</0> bonus towards ammo or construction specialization good."
-msgstr "Alle bedrijven binnen jouw grenzen krijgen <0>+{0}</0> bonus op munitie of bouwspecialisatie."
+msgstr "Alle bedrijven binnen jouw grenzen krijgen <0>+{0}</0> bonus op munitie- of bouwspecialisatie."
 
 #: src/components/_political/event/EventList.tsx:134
 msgid "All event types"
@@ -2248,15 +2248,15 @@ msgstr "Gedegradeerd van commandant"
 
 #: src/pages/region/[regionId]/index.tsx:60
 msgid "Deposit"
-msgstr "Grondstof bron"
+msgstr "Grondstofbron"
 
 #: src/components/_political/event/EventList.tsx:71
 msgid "Deposit depleted"
-msgstr "Grondstof bron uitgeput"
+msgstr "Grondstofbron uitgeput"
 
 #: src/components/_political/event/EventList.tsx:70
 msgid "Deposit discovered"
-msgstr "Grondstof bron gevonden"
+msgstr "Grondstofbron gevonden"
 
 #: src/pages/region/[regionId]/index.tsx:56
 msgid "Deposit resource"
@@ -5533,7 +5533,7 @@ msgstr "Neem de controle"
 
 #: src/components/_economy/company/RecommendedCompanyRegions.tsx:79
 msgid "Take deposits into account"
-msgstr "Houd rekening met de grondstof bronnen"
+msgstr "Houd rekening met de grondstofbronnen"
 
 #: src/utils/translations.tsx:26
 msgid "Tank"
