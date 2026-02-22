@@ -2949,7 +2949,7 @@ msgstr "Helm"
 
 #: src/components/_user/mission/mission.frontConfig.tsx:250
 msgid "Help <0>{count}</0> MU members"
-msgstr "Help <0>{count}</0> MU-leden"
+msgstr "Help <0>{count}</0> ME-leden"
 
 #: src/components/_user/mission/mission.frontConfig.tsx:248
 msgid "Help MU Members"
