@@ -266,11 +266,11 @@ msgstr "<0/> hat deinen Artikel <1/> geliked"
 
 #: src/components/_user/notification/notification.frontConfig.tsx:964
 msgid "<0/> liked your message <1/>"
-msgstr "<0/> hat deine Nachricht <1/> geliked"
+msgstr "<0/> liked deine Nachricht <1/>"
 
 #: src/components/_user/notification/notification.frontConfig.tsx:1306
 msgid "<0/> mentioned you in a message <1/>"
-msgstr "<0/> hat dich in einer Nachricht <1/> erwähnt"
+msgstr "<0/> erwähnt dich in einer Nachricht <1/>"
 
 #: src/components/_military/war/WarItem.tsx:115
 msgid "<0/> Priority ends in <1/>"
@@ -287,15 +287,15 @@ msgstr "<0/> hat dich für das Spiel geworben."
 #. placeholder {0}: data.messageId && <MessageItemById messageId={data.messageId} />
 #: src/components/_user/notification/notification.frontConfig.tsx:991
 msgid "<0/> responded to your message {0}"
-msgstr "<0/> hat auf deine Nachricht {0} geantwortet"
+msgstr "<0/> antwortete auf deine Nachricht {0}"
 
 #: src/components/_user/notification/notification.frontConfig.tsx:950
 msgid "<0/> subscribed to you on your article <1/>"
-msgstr "<0/> hat dich bei deinem Artikel <1/> abonniert"
+msgstr "<0/> abonnierte dich bei deinem Artikel <1/> "
 
 #: src/components/_user/notification/notification.frontConfig.tsx:931
 msgid "<0/> tipped your article <1/>"
-msgstr "<0/> hat dir für deinen Artikel <1/> Trinkgeld gegeben"
+msgstr "<0/> gab dir Trinkgeld für deinen Artikel <1/> "
 
 #: src/components/_military/war/WarHeader.tsx:28
 msgid "<0/> vs <1/> war"
