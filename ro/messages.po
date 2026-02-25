@@ -12,7 +12,7 @@ msgstr ""
 "Plural-Forms: \n"
 
 #. placeholder {0}: user.data.mute.reason
-#: src/components/_user/user/UserHeader.tsx:409
+#: src/components/_user/user/UserHeader.tsx:411
 msgid " - Reason: {0}"
 msgstr " - Motiv: {0}"
 
@@ -333,15 +333,15 @@ msgstr "<0/> a câștigat runda <1>#{0}</1> în <2/>"
 msgid "<0/> won the round <1>#{0}</1> in <2/>!"
 msgstr "<0/> a câștigat runda <1>#{0}</1> în <2/>!"
 
-#: src/components/_user/user/UserHeader.tsx:276
+#: src/components/_user/user/UserHeader.tsx:278
 msgid "<0/><1>Buff</1> ends <2/>"
 msgstr "<0/><1>Bufful</1> se termină <2/>"
 
-#: src/components/_user/user/UserHeader.tsx:285
+#: src/components/_user/user/UserHeader.tsx:287
 msgid "<0/><1>Debuff</1> ends <2/>"
 msgstr "<0/><1>Debufful</1> se termină <2/>"
 
-#: src/components/_user/user/UserHeader.tsx:348
+#: src/components/_user/user/UserHeader.tsx:350
 msgid "<0/>Last connection was <1><2/></1>"
 msgstr "<0/>Ultima conexiune <1><2/></1>"
 
@@ -948,7 +948,7 @@ msgid "Access war"
 msgstr ""
 
 #: src/components/_political/country/CountryHeader.tsx:70
-#: src/components/_user/user/UserHeader.tsx:162
+#: src/components/_user/user/UserHeader.tsx:164
 #: src/pages/country/[countryId]/account.tsx:36
 #: src/pages/country/[countryId]/index.tsx:328
 #: src/pages/user/[userId]/account.tsx:25
@@ -1190,10 +1190,6 @@ msgstr "Aplică"
 msgid "Are you sure you want to fire this worker?"
 msgstr "Ești sigur că vrei să concediezi acest muncitor?"
 
-#: src/components/_user/user/UserDropdown.tsx:350
-msgid "Are you sure you want to give the \"Bug finder\" badge to {username}?"
-msgstr "Sigur vrei să-i oferi insigna \"Bug finder\" lui {username}?"
-
 #: src/pages/country/[countryId]/government.tsx:93
 msgid "Are you sure you want to leave the congress?"
 msgstr "Ești sigur că vrei să demisionezi din parlament?"
@@ -1244,7 +1240,7 @@ msgstr "Sponsorizări articol"
 msgid "Article tipped"
 msgstr "Articol sponsorizat"
 
-#: src/components/_user/user/UserHeader.tsx:202
+#: src/components/_user/user/UserHeader.tsx:204
 #: src/pages/user/[userId]/index.tsx:199
 msgid "Articles"
 msgstr "Articole"
@@ -1299,7 +1295,7 @@ msgstr "Motor automat"
 msgid "Automated Engine"
 msgstr "Motor Automat"
 
-#: src/components/_user/user/UserDropdown.tsx:153
+#: src/components/_user/user/UserDropdown.tsx:142
 msgid "Avatar removed"
 msgstr "Avatar șters"
 
@@ -1323,7 +1319,7 @@ msgstr "Echilibrat"
 msgid "Balanced - No modifiers"
 msgstr "Echilibrat - Fără modificatori"
 
-#: src/components/_user/user/UserDropdown.tsx:275
+#: src/components/_user/user/UserDropdown.tsx:264
 msgid "Ban user"
 msgstr "Banează utilizator"
 
@@ -1331,7 +1327,7 @@ msgstr "Banează utilizator"
 msgid "Bankruptcy"
 msgstr "Faliment"
 
-#: src/components/_user/user/UserHeader.tsx:397
+#: src/components/_user/user/UserHeader.tsx:399
 msgid "Banned"
 msgstr "Banat"
 
@@ -1351,8 +1347,8 @@ msgstr "Copertă dăruită"
 msgid "Banners"
 msgstr ""
 
-#: src/components/_user/user/UserHeader.tsx:180
-#: src/components/_user/user/UserHeader.tsx:221
+#: src/components/_user/user/UserHeader.tsx:182
+#: src/components/_user/user/UserHeader.tsx:223
 msgid "Bans"
 msgstr "Ban-uri"
 
@@ -1427,7 +1423,7 @@ msgstr "Deveniți candidat"
 msgid "Better than nothing, right?"
 msgstr "Mai bine decât nimic, nu?"
 
-#: src/components/_user/user/UserDropdown.tsx:258
+#: src/components/_user/user/UserDropdown.tsx:247
 msgid "Block (hide content)"
 msgstr "Blochează (ascunde conținut)"
 
@@ -1476,10 +1472,6 @@ msgstr "Buff încheiat"
 #: src/components/_user/notification/notification.frontConfig.tsx:837
 msgid "Buff started"
 msgstr "Buff început"
-
-#: src/components/_user/user/UserDropdown.tsx:138
-msgid "Bug Finder badge given"
-msgstr "Insigna Bug Finder oferită"
 
 #: src/components/_economy/company/CompanyList.tsx:156
 msgid "Build a company"
@@ -1651,7 +1643,7 @@ msgstr "Alege-ți țara"
 msgid "Choose your side and click to deal <0>Damages</0>! Keep hitting to help your team win."
 msgstr "Alege o parte și apasă pentru a produce <0>Daune</0>! Continua să lupți pentru a ajuta echipa ta să câștige."
 
-#: src/components/_user/user/UserHeader.tsx:269
+#: src/components/_user/user/UserHeader.tsx:271
 msgid "Citizen since <0><1/></0>"
 msgstr "Cetățean de <0><1/></0>"
 
@@ -1765,7 +1757,7 @@ msgstr "Închide"
 msgid "Colonel"
 msgstr "Colonel"
 
-#: src/components/_user/user/UserDropdown.tsx:198
+#: src/components/_user/user/UserDropdown.tsx:187
 msgid "Color scheme"
 msgstr "Culoare"
 
@@ -1779,7 +1771,7 @@ msgstr "Comodor"
 
 #: src/components/_layout/LayoutMenu.tsx:182
 #: src/components/_user/user/MyAvatar.tsx:48
-#: src/components/_user/user/UserHeader.tsx:194
+#: src/components/_user/user/UserHeader.tsx:196
 #: src/pages/companies.tsx:96
 msgid "Companies"
 msgstr "Companii"
@@ -2289,7 +2281,7 @@ msgstr "Descrieți obiectivele și valorile partidului dumneavoastră"
 msgid "Description"
 msgstr "Descriere"
 
-#: src/components/_user/user/UserDropdown.tsx:167
+#: src/components/_user/user/UserDropdown.tsx:156
 msgid "Description removed"
 msgstr "Descriere ștersă"
 
@@ -2297,7 +2289,7 @@ msgstr "Descriere ștersă"
 msgid "Description updated!"
 msgstr "Descriere actualizată!"
 
-#: src/components/_user/user/UserDropdown.tsx:330
+#: src/components/_user/user/UserDropdown.tsx:319
 msgid "Destroy item from inventory"
 msgstr "Distruge obiect din inventar"
 
@@ -2442,7 +2434,7 @@ msgstr "Legi economice"
 msgid "Economic skills"
 msgstr "Competențe economice"
 
-#: src/components/_user/user/UserDropdown.tsx:189
+#: src/components/_user/user/UserDropdown.tsx:178
 msgid "Edit description"
 msgstr "Editează descriere"
 
@@ -2730,7 +2722,7 @@ msgstr "Găsește o unitate militară"
 msgid "Find another job"
 msgstr "Găsește alt loc de muncă"
 
-#: src/components/_user/user/UserDropdown.tsx:316
+#: src/components/_user/user/UserDropdown.tsx:305
 msgid "Fine (remove money)"
 msgstr "Amendează (scade bani)"
 
@@ -2771,7 +2763,7 @@ msgstr "Font"
 msgid "Font size"
 msgstr "Mărimea fontului"
 
-#: src/components/_user/user/UserDropdown.tsx:207
+#: src/components/_user/user/UserDropdown.tsx:196
 msgid "Font style"
 msgstr "Stil text (font)"
 
@@ -2840,7 +2832,7 @@ msgstr ""
 msgid "Gift sent! Thanks for supporting the game <3"
 msgstr "Cadou trimis! Mulțumim că susții jocul <3"
 
-#: src/components/_user/user/UserDropdown.tsx:241
+#: src/components/_user/user/UserDropdown.tsx:230
 msgid "Gift Supporter Plan"
 msgstr "Oferă Plan Susținător"
 
@@ -2852,15 +2844,11 @@ msgstr ""
 msgid "gifted"
 msgstr "a oferit"
 
-#: src/components/_user/user/UserDropdown.tsx:344
-msgid "Give \"Bug finder\" badge"
-msgstr "Oferă insigna \"Bug finder\""
+#: src/components/_user/user/UserDropdown.tsx:333
+msgid "Give badge"
+msgstr ""
 
-#: src/components/_user/user/UserDropdown.tsx:349
-msgid "Give Bug Finder Badge"
-msgstr "Oferă insigna Bug Finder"
-
-#: src/components/_user/user/UserDropdown.tsx:323
+#: src/components/_user/user/UserDropdown.tsx:312
 msgid "Give money"
 msgstr "Adaugă bani"
 
@@ -2981,7 +2969,7 @@ msgstr "Lovește de <0>{count}</0> ori în lupte"
 
 #: src/components/_other/shop/ShopHeader.tsx:16
 #: src/components/_political/country/CountryHeader.tsx:57
-#: src/components/_user/user/UserHeader.tsx:148
+#: src/components/_user/user/UserHeader.tsx:150
 msgid "Home"
 msgstr "Acasă"
 
@@ -3099,7 +3087,7 @@ msgstr "Inițiat"
 
 #: src/components/_layout/LayoutMenu.tsx:123
 #: src/components/_user/user/MyAvatar.tsx:35
-#: src/components/_user/user/UserHeader.tsx:154
+#: src/components/_user/user/UserHeader.tsx:156
 #: src/pages/companies.tsx:83
 #: src/pages/country/[countryId]/account.tsx:24
 #: src/pages/market/index.tsx:49
@@ -3715,7 +3703,7 @@ msgstr "Donație UM primită"
 msgid "MU Ownership Transferred"
 msgstr "Proprietatea UM transferată"
 
-#: src/components/_user/user/UserDropdown.tsx:289
+#: src/components/_user/user/UserDropdown.tsx:278
 msgid "Mute user"
 msgstr "Amuțește"
 
@@ -4690,7 +4678,7 @@ msgstr "Reduce câtă viață pierzi în luptă"
 msgid "Referral link copied to clipboard"
 msgstr "Link recomandare copiat"
 
-#: src/components/_user/user/UserHeader.tsx:208
+#: src/components/_user/user/UserHeader.tsx:210
 #: src/components/_user/user/UserRankingsPanel.tsx:50
 #: src/pages/user/[userId]/index.tsx:210
 #: src/pages/user/[userId]/referrals.tsx:67
@@ -4816,7 +4804,7 @@ msgstr ""
 msgid "Remove all"
 msgstr "Elimină tot"
 
-#: src/components/_user/user/UserDropdown.tsx:337
+#: src/components/_user/user/UserDropdown.tsx:326
 msgid "Remove all offers"
 msgstr "Șterge oferte"
 
@@ -4824,7 +4812,7 @@ msgstr "Șterge oferte"
 msgid "Remove an inactive congress member from its position"
 msgstr "Demite un membru inactiv din parlament"
 
-#: src/components/_user/user/UserDropdown.tsx:367
+#: src/components/_user/user/UserDropdown.tsx:351
 msgid "Remove Avatar"
 msgstr "Șterge Avatar"
 
@@ -4832,7 +4820,7 @@ msgstr "Șterge Avatar"
 msgid "Remove council member"
 msgstr ""
 
-#: src/components/_user/user/UserDropdown.tsx:389
+#: src/components/_user/user/UserDropdown.tsx:373
 msgid "Remove Description"
 msgstr "Șterge Descriere"
 
@@ -4862,7 +4850,7 @@ msgstr "Redenumește companie"
 msgid "Replace all party ethics with a new configuration"
 msgstr ""
 
-#: src/components/_user/user/UserDropdown.tsx:248
+#: src/components/_user/user/UserDropdown.tsx:237
 msgid "Report user"
 msgstr "Raportează"
 
@@ -4883,7 +4871,7 @@ msgstr "Schimbă misiunea"
 msgid "Reset"
 msgstr "Reset"
 
-#: src/components/_user/user/UserDropdown.tsx:362
+#: src/components/_user/user/UserDropdown.tsx:346
 msgid "Reset avatar"
 msgstr "Resetează avatar"
 
@@ -4891,7 +4879,7 @@ msgstr "Resetează avatar"
 msgid "Reset CAPTCHA"
 msgstr "Resetează testul CAPTCHA"
 
-#: src/components/_user/user/UserDropdown.tsx:384
+#: src/components/_user/user/UserDropdown.tsx:368
 msgid "Reset description"
 msgstr "Resetează descriere"
 
@@ -4899,11 +4887,11 @@ msgstr "Resetează descriere"
 msgid "Reset tutorials"
 msgstr "Resetează tutorialele"
 
-#: src/components/_user/user/UserDropdown.tsx:373
+#: src/components/_user/user/UserDropdown.tsx:357
 msgid "Reset username"
 msgstr "Resetează nume"
 
-#: src/components/_user/user/UserDropdown.tsx:378
+#: src/components/_user/user/UserDropdown.tsx:362
 msgid "Reset Username"
 msgstr "Resetează Nume"
 
@@ -5088,7 +5076,7 @@ msgstr "Selectează tot"
 msgid "Select an occupied region"
 msgstr ""
 
-#: src/components/_user/user/UserDropdown.tsx:221
+#: src/components/_user/user/UserDropdown.tsx:210
 msgid "Select banner"
 msgstr "Selectează copertă"
 
@@ -5104,7 +5092,7 @@ msgstr "Selectează tentă"
 msgid "Select motion type"
 msgstr ""
 
-#: src/components/_user/user/UserDropdown.tsx:228
+#: src/components/_user/user/UserDropdown.tsx:217
 msgid "Select skin"
 msgstr ""
 
@@ -5162,7 +5150,7 @@ msgstr "Trimite <0>{0}</0> spre <1/>"
 msgid "Send <0>{count}</0> messages"
 msgstr "Trimite <0>{count}</0> mesaje"
 
-#: src/components/_user/user/UserDropdown.tsx:397
+#: src/components/_user/user/UserDropdown.tsx:381
 msgid "Send a message"
 msgstr "Trimite un mesaj"
 
@@ -5182,7 +5170,7 @@ msgstr "Trimite mesaje"
 msgid "Send money to another country"
 msgstr "Trimite bani către o țară"
 
-#: src/components/_user/user/UserDropdown.tsx:303
+#: src/components/_user/user/UserDropdown.tsx:292
 msgid "Send warning"
 msgstr "Atenționează"
 
@@ -5252,7 +5240,7 @@ msgid "Set your username"
 msgstr "Setează-ți numele de utilizator"
 
 #: src/components/_user/user/MyAvatar.tsx:54
-#: src/components/_user/user/UserHeader.tsx:214
+#: src/components/_user/user/UserHeader.tsx:216
 msgid "Settings"
 msgstr "Setări"
 
@@ -5281,7 +5269,7 @@ msgid "Skill issue?"
 msgstr "Se mai uită și la față"
 
 #: src/components/_user/user/MyAvatar.tsx:41
-#: src/components/_user/user/UserHeader.tsx:169
+#: src/components/_user/user/UserHeader.tsx:171
 #: src/pages/user/[userId]/index.tsx:156
 msgid "Skills"
 msgstr "Competențe"
@@ -5498,9 +5486,9 @@ msgid "Supporter"
 msgstr "Susținător"
 
 #: src/components/_economy/inventoryAccount/InventoryAccount.tsx:51
-#: src/components/_user/user/UserDropdown.tsx:192
-#: src/components/_user/user/UserDropdown.tsx:201
-#: src/components/_user/user/UserDropdown.tsx:210
+#: src/components/_user/user/UserDropdown.tsx:181
+#: src/components/_user/user/UserDropdown.tsx:190
+#: src/components/_user/user/UserDropdown.tsx:199
 msgid "Supporter feature"
 msgstr "Funcție Susținător"
 
@@ -5792,7 +5780,7 @@ msgstr "Tranzacționare"
 msgid "Trainee"
 msgstr "Stagiar"
 
-#: src/components/_user/user/UserHeader.tsx:188
+#: src/components/_user/user/UserHeader.tsx:190
 msgid "Transac."
 msgstr "Transac."
 
@@ -5826,11 +5814,11 @@ msgstr "Tutoriale"
 msgid "Tutorials reseted"
 msgstr "Tutoriale resetate"
 
-#: src/components/_user/user/UserDropdown.tsx:282
+#: src/components/_user/user/UserDropdown.tsx:271
 msgid "Unban user"
 msgstr "Debanează"
 
-#: src/components/_user/user/UserDropdown.tsx:257
+#: src/components/_user/user/UserDropdown.tsx:246
 msgid "Unblock (show content)"
 msgstr "Deblochează (arată conținut)"
 
@@ -5868,11 +5856,11 @@ msgstr "Deblochează butonul Produce tot"
 msgid "Unlocked pack"
 msgstr ""
 
-#: src/components/_user/user/UserDropdown.tsx:296
+#: src/components/_user/user/UserDropdown.tsx:285
 msgid "Unmute user"
 msgstr "Dezamuțeste"
 
-#: src/components/_user/user/UserHeader.tsx:405
+#: src/components/_user/user/UserHeader.tsx:407
 msgid "Unmuted <0/>"
 msgstr "Dezamuțit <0/>"
 
@@ -6029,7 +6017,7 @@ msgstr "Acțiuni Utilizator"
 msgid "User already owns all skins"
 msgstr ""
 
-#: src/components/_user/user/UserDropdown.tsx:124
+#: src/components/_user/user/UserDropdown.tsx:123
 msgid "User blocked"
 msgstr "Utilizator blocat"
 
@@ -6041,7 +6029,7 @@ msgstr "Participarea la punctele Teren"
 msgid "User removed from family group"
 msgstr "Utilizator scos din grupul de familie"
 
-#: src/components/_user/user/UserDropdown.tsx:128
+#: src/components/_user/user/UserDropdown.tsx:127
 msgid "User unblocked"
 msgstr "Utilizator deblocat"
 
@@ -6053,7 +6041,7 @@ msgstr "Utilizator deblocat"
 msgid "Username"
 msgstr "Nume de utilizator"
 
-#: src/components/_user/user/UserDropdown.tsx:160
+#: src/components/_user/user/UserDropdown.tsx:149
 msgid "Username removed"
 msgstr "Nume șters"
 

@@ -14,7 +14,7 @@ msgstr ""
 "X-Generator: Poedit 3.8\n"
 
 #. placeholder {0}: user.data.mute.reason
-#: src/components/_user/user/UserHeader.tsx:409
+#: src/components/_user/user/UserHeader.tsx:411
 msgid " - Reason: {0}"
 msgstr " - Разлог: {0}"
 
@@ -335,15 +335,15 @@ msgstr "<0/> је однела победу у рунди <1>#{0}</1> у <2/>"
 msgid "<0/> won the round <1>#{0}</1> in <2/>!"
 msgstr "<0/> је остварила победу у рунди <1>#{0}</1> у <2/>!"
 
-#: src/components/_user/user/UserHeader.tsx:276
+#: src/components/_user/user/UserHeader.tsx:278
 msgid "<0/><1>Buff</1> ends <2/>"
 msgstr "<0/><1>Buff</1> истиче <2/>"
 
-#: src/components/_user/user/UserHeader.tsx:285
+#: src/components/_user/user/UserHeader.tsx:287
 msgid "<0/><1>Debuff</1> ends <2/>"
 msgstr "<0/><1>Debuff</1> истиче <2/>"
 
-#: src/components/_user/user/UserHeader.tsx:348
+#: src/components/_user/user/UserHeader.tsx:350
 msgid "<0/>Last connection was <1><2/></1>"
 msgstr "<0/> Последњи пут је био повезан <1><2/></1>"
 
@@ -950,7 +950,7 @@ msgid "Access war"
 msgstr ""
 
 #: src/components/_political/country/CountryHeader.tsx:70
-#: src/components/_user/user/UserHeader.tsx:162
+#: src/components/_user/user/UserHeader.tsx:164
 #: src/pages/country/[countryId]/account.tsx:36
 #: src/pages/country/[countryId]/index.tsx:328
 #: src/pages/user/[userId]/account.tsx:25
@@ -1192,10 +1192,6 @@ msgstr "Пријави се"
 msgid "Are you sure you want to fire this worker?"
 msgstr "Да ли сте сигурни да желите да отпустите овог радника?"
 
-#: src/components/_user/user/UserDropdown.tsx:350
-msgid "Are you sure you want to give the \"Bug finder\" badge to {username}?"
-msgstr "Да ли сигурно желите да дате \"Bug finder\" значку кориснику {username}?"
-
 #: src/pages/country/[countryId]/government.tsx:93
 msgid "Are you sure you want to leave the congress?"
 msgstr "Да ли сигурно желите да напустите конгрес?"
@@ -1246,7 +1242,7 @@ msgstr "Напојница за чланак"
 msgid "Article tipped"
 msgstr "Напојница дата"
 
-#: src/components/_user/user/UserHeader.tsx:202
+#: src/components/_user/user/UserHeader.tsx:204
 #: src/pages/user/[userId]/index.tsx:199
 msgid "Articles"
 msgstr "Чланци"
@@ -1301,7 +1297,7 @@ msgstr "Аутоматизовани механизам"
 msgid "Automated Engine"
 msgstr "Аутоматизовани механизам"
 
-#: src/components/_user/user/UserDropdown.tsx:153
+#: src/components/_user/user/UserDropdown.tsx:142
 msgid "Avatar removed"
 msgstr "Аватар уклоњен"
 
@@ -1325,7 +1321,7 @@ msgstr "Балансирано"
 msgid "Balanced - No modifiers"
 msgstr "Балансирано - без модификација"
 
-#: src/components/_user/user/UserDropdown.tsx:275
+#: src/components/_user/user/UserDropdown.tsx:264
 msgid "Ban user"
 msgstr "Бануј корисника"
 
@@ -1333,7 +1329,7 @@ msgstr "Бануј корисника"
 msgid "Bankruptcy"
 msgstr "Банкрот"
 
-#: src/components/_user/user/UserHeader.tsx:397
+#: src/components/_user/user/UserHeader.tsx:399
 msgid "Banned"
 msgstr "Банован"
 
@@ -1353,8 +1349,8 @@ msgstr "Поклон банер послат"
 msgid "Banners"
 msgstr "Банери"
 
-#: src/components/_user/user/UserHeader.tsx:180
-#: src/components/_user/user/UserHeader.tsx:221
+#: src/components/_user/user/UserHeader.tsx:182
+#: src/components/_user/user/UserHeader.tsx:223
 msgid "Bans"
 msgstr "Банови"
 
@@ -1429,7 +1425,7 @@ msgstr "Постани кандидат"
 msgid "Better than nothing, right?"
 msgstr "Боље ишта, него ништа јел?"
 
-#: src/components/_user/user/UserDropdown.tsx:258
+#: src/components/_user/user/UserDropdown.tsx:247
 msgid "Block (hide content)"
 msgstr "Блокирај (сакриј садржај)"
 
@@ -1478,10 +1474,6 @@ msgstr "Buff завршен"
 #: src/components/_user/notification/notification.frontConfig.tsx:837
 msgid "Buff started"
 msgstr "Buff започео"
-
-#: src/components/_user/user/UserDropdown.tsx:138
-msgid "Bug Finder badge given"
-msgstr "Bug Finder значка дата"
 
 #: src/components/_economy/company/CompanyList.tsx:156
 msgid "Build a company"
@@ -1653,7 +1645,7 @@ msgstr "Изабери своју земљу"
 msgid "Choose your side and click to deal <0>Damages</0>! Keep hitting to help your team win."
 msgstr "Изабери страну и кликни да нанесеш <0>штету</0>! Настави да удираш даИзабери страну и кликни да нанесеш <0>штету</0>! Настави да удираш да помогнеш свом тиму да победи."
 
-#: src/components/_user/user/UserHeader.tsx:269
+#: src/components/_user/user/UserHeader.tsx:271
 msgid "Citizen since <0><1/></0>"
 msgstr "Грађанин од <0><1/></0>"
 
@@ -1767,7 +1759,7 @@ msgstr "Затвори"
 msgid "Colonel"
 msgstr "Пуковник"
 
-#: src/components/_user/user/UserDropdown.tsx:198
+#: src/components/_user/user/UserDropdown.tsx:187
 msgid "Color scheme"
 msgstr "Шема боја"
 
@@ -1781,7 +1773,7 @@ msgstr "Комодор"
 
 #: src/components/_layout/LayoutMenu.tsx:182
 #: src/components/_user/user/MyAvatar.tsx:48
-#: src/components/_user/user/UserHeader.tsx:194
+#: src/components/_user/user/UserHeader.tsx:196
 #: src/pages/companies.tsx:96
 msgid "Companies"
 msgstr "Компаније"
@@ -2291,7 +2283,7 @@ msgstr "Опиши циљеве и вредности твоје партије"
 msgid "Description"
 msgstr "Опис"
 
-#: src/components/_user/user/UserDropdown.tsx:167
+#: src/components/_user/user/UserDropdown.tsx:156
 msgid "Description removed"
 msgstr "Опис уклоњен"
 
@@ -2299,7 +2291,7 @@ msgstr "Опис уклоњен"
 msgid "Description updated!"
 msgstr "Опис ажуриран!"
 
-#: src/components/_user/user/UserDropdown.tsx:330
+#: src/components/_user/user/UserDropdown.tsx:319
 msgid "Destroy item from inventory"
 msgstr "Уништи предмет из инвентара"
 
@@ -2444,7 +2436,7 @@ msgstr "Економски закони"
 msgid "Economic skills"
 msgstr "Економске вештине"
 
-#: src/components/_user/user/UserDropdown.tsx:189
+#: src/components/_user/user/UserDropdown.tsx:178
 msgid "Edit description"
 msgstr "Измени опис"
 
@@ -2732,7 +2724,7 @@ msgstr "Пронађи војну јединицу"
 msgid "Find another job"
 msgstr "Пронађи други посао"
 
-#: src/components/_user/user/UserDropdown.tsx:316
+#: src/components/_user/user/UserDropdown.tsx:305
 msgid "Fine (remove money)"
 msgstr "Казна (уклони новац)"
 
@@ -2773,7 +2765,7 @@ msgstr "Фонт"
 msgid "Font size"
 msgstr "Величина фонта"
 
-#: src/components/_user/user/UserDropdown.tsx:207
+#: src/components/_user/user/UserDropdown.tsx:196
 msgid "Font style"
 msgstr "Стил фонта"
 
@@ -2842,7 +2834,7 @@ msgstr "Поклон послат! Скин пакет је откључан з�
 msgid "Gift sent! Thanks for supporting the game <3"
 msgstr "Поклон послат! Хвала на подршци игре <3"
 
-#: src/components/_user/user/UserDropdown.tsx:241
+#: src/components/_user/user/UserDropdown.tsx:230
 msgid "Gift Supporter Plan"
 msgstr "Поклони план подршке"
 
@@ -2854,15 +2846,11 @@ msgstr "Поклоните овај пакет некоме"
 msgid "gifted"
 msgstr "поклоњено"
 
-#: src/components/_user/user/UserDropdown.tsx:344
-msgid "Give \"Bug finder\" badge"
-msgstr "Дај \"Bug finder\" значку"
+#: src/components/_user/user/UserDropdown.tsx:333
+msgid "Give badge"
+msgstr ""
 
-#: src/components/_user/user/UserDropdown.tsx:349
-msgid "Give Bug Finder Badge"
-msgstr "Дај Bug Finder значку"
-
-#: src/components/_user/user/UserDropdown.tsx:323
+#: src/components/_user/user/UserDropdown.tsx:312
 msgid "Give money"
 msgstr "Дај новац"
 
@@ -2983,7 +2971,7 @@ msgstr "Удари <0>{count}</0> пута у биткама"
 
 #: src/components/_other/shop/ShopHeader.tsx:16
 #: src/components/_political/country/CountryHeader.tsx:57
-#: src/components/_user/user/UserHeader.tsx:148
+#: src/components/_user/user/UserHeader.tsx:150
 msgid "Home"
 msgstr "Почетна"
 
@@ -3101,7 +3089,7 @@ msgstr "Новајлија"
 
 #: src/components/_layout/LayoutMenu.tsx:123
 #: src/components/_user/user/MyAvatar.tsx:35
-#: src/components/_user/user/UserHeader.tsx:154
+#: src/components/_user/user/UserHeader.tsx:156
 #: src/pages/companies.tsx:83
 #: src/pages/country/[countryId]/account.tsx:24
 #: src/pages/market/index.tsx:49
@@ -3717,7 +3705,7 @@ msgstr "Донација за ВЈ примљена"
 msgid "MU Ownership Transferred"
 msgstr "Власништво над ВЈ пренето"
 
-#: src/components/_user/user/UserDropdown.tsx:289
+#: src/components/_user/user/UserDropdown.tsx:278
 msgid "Mute user"
 msgstr "Мутуј корисника"
 
@@ -4692,7 +4680,7 @@ msgstr "Смањује губитак здравља при учествовањ
 msgid "Referral link copied to clipboard"
 msgstr "Реферал линк копиран у привремену меморију"
 
-#: src/components/_user/user/UserHeader.tsx:208
+#: src/components/_user/user/UserHeader.tsx:210
 #: src/components/_user/user/UserRankingsPanel.tsx:50
 #: src/pages/user/[userId]/index.tsx:210
 #: src/pages/user/[userId]/referrals.tsx:67
@@ -4818,7 +4806,7 @@ msgstr "Уклони члана савета из странке"
 msgid "Remove all"
 msgstr "Уклони све"
 
-#: src/components/_user/user/UserDropdown.tsx:337
+#: src/components/_user/user/UserDropdown.tsx:326
 msgid "Remove all offers"
 msgstr "Уклони све понуде"
 
@@ -4826,7 +4814,7 @@ msgstr "Уклони све понуде"
 msgid "Remove an inactive congress member from its position"
 msgstr "Уклони неактивног члана владе са позиције"
 
-#: src/components/_user/user/UserDropdown.tsx:367
+#: src/components/_user/user/UserDropdown.tsx:351
 msgid "Remove Avatar"
 msgstr "Уклони аватар"
 
@@ -4834,7 +4822,7 @@ msgstr "Уклони аватар"
 msgid "Remove council member"
 msgstr "Уклони члана савета"
 
-#: src/components/_user/user/UserDropdown.tsx:389
+#: src/components/_user/user/UserDropdown.tsx:373
 msgid "Remove Description"
 msgstr "Уклони упис"
 
@@ -4864,7 +4852,7 @@ msgstr "Преименуј компанију"
 msgid "Replace all party ethics with a new configuration"
 msgstr "Замени сву страначку етику новом конфигурацијом"
 
-#: src/components/_user/user/UserDropdown.tsx:248
+#: src/components/_user/user/UserDropdown.tsx:237
 msgid "Report user"
 msgstr "Пријави корисника"
 
@@ -4885,7 +4873,7 @@ msgstr "Замени Мисију"
 msgid "Reset"
 msgstr "Ресетуј"
 
-#: src/components/_user/user/UserDropdown.tsx:362
+#: src/components/_user/user/UserDropdown.tsx:346
 msgid "Reset avatar"
 msgstr "Ресетуј аватар"
 
@@ -4893,7 +4881,7 @@ msgstr "Ресетуј аватар"
 msgid "Reset CAPTCHA"
 msgstr "Ресетуј CAPTCHA"
 
-#: src/components/_user/user/UserDropdown.tsx:384
+#: src/components/_user/user/UserDropdown.tsx:368
 msgid "Reset description"
 msgstr "Ресетуј опис"
 
@@ -4901,11 +4889,11 @@ msgstr "Ресетуј опис"
 msgid "Reset tutorials"
 msgstr "Ресетуј туториал"
 
-#: src/components/_user/user/UserDropdown.tsx:373
+#: src/components/_user/user/UserDropdown.tsx:357
 msgid "Reset username"
 msgstr "Ресетуј корисничко име"
 
-#: src/components/_user/user/UserDropdown.tsx:378
+#: src/components/_user/user/UserDropdown.tsx:362
 msgid "Reset Username"
 msgstr "Ресетуј корисничко име"
 
@@ -5090,7 +5078,7 @@ msgstr "Изабери све"
 msgid "Select an occupied region"
 msgstr "Изабери окупиран регион"
 
-#: src/components/_user/user/UserDropdown.tsx:221
+#: src/components/_user/user/UserDropdown.tsx:210
 msgid "Select banner"
 msgstr "Изабери банер"
 
@@ -5106,7 +5094,7 @@ msgstr "Изабери акцент мапе"
 msgid "Select motion type"
 msgstr "Изабери тип предлога"
 
-#: src/components/_user/user/UserDropdown.tsx:228
+#: src/components/_user/user/UserDropdown.tsx:217
 msgid "Select skin"
 msgstr "Изабери скин"
 
@@ -5164,7 +5152,7 @@ msgstr "Пошаљи <0>{0}</0> ка <1/>"
 msgid "Send <0>{count}</0> messages"
 msgstr "Пошаљи <0>{count}</0> порука"
 
-#: src/components/_user/user/UserDropdown.tsx:397
+#: src/components/_user/user/UserDropdown.tsx:381
 msgid "Send a message"
 msgstr "Пошаљи поруку"
 
@@ -5184,7 +5172,7 @@ msgstr "Пошаљи поруку"
 msgid "Send money to another country"
 msgstr "Пошаљи новац другој земљи"
 
-#: src/components/_user/user/UserDropdown.tsx:303
+#: src/components/_user/user/UserDropdown.tsx:292
 msgid "Send warning"
 msgstr "Пошаљи упозорење"
 
@@ -5254,7 +5242,7 @@ msgid "Set your username"
 msgstr "Постави своје корисничко име"
 
 #: src/components/_user/user/MyAvatar.tsx:54
-#: src/components/_user/user/UserHeader.tsx:214
+#: src/components/_user/user/UserHeader.tsx:216
 msgid "Settings"
 msgstr "Подешавања"
 
@@ -5283,7 +5271,7 @@ msgid "Skill issue?"
 msgstr "Мањак скилa?"
 
 #: src/components/_user/user/MyAvatar.tsx:41
-#: src/components/_user/user/UserHeader.tsx:169
+#: src/components/_user/user/UserHeader.tsx:171
 #: src/pages/user/[userId]/index.tsx:156
 msgid "Skills"
 msgstr "Вештине"
@@ -5500,9 +5488,9 @@ msgid "Supporter"
 msgstr "Подржавалац"
 
 #: src/components/_economy/inventoryAccount/InventoryAccount.tsx:51
-#: src/components/_user/user/UserDropdown.tsx:192
-#: src/components/_user/user/UserDropdown.tsx:201
-#: src/components/_user/user/UserDropdown.tsx:210
+#: src/components/_user/user/UserDropdown.tsx:181
+#: src/components/_user/user/UserDropdown.tsx:190
+#: src/components/_user/user/UserDropdown.tsx:199
 msgid "Supporter feature"
 msgstr "Функција подржаваоца"
 
@@ -5794,7 +5782,7 @@ msgstr "Обученик"
 msgid "Trainee"
 msgstr "Приправник"
 
-#: src/components/_user/user/UserHeader.tsx:188
+#: src/components/_user/user/UserHeader.tsx:190
 msgid "Transac."
 msgstr "Трансак."
 
@@ -5828,11 +5816,11 @@ msgstr "Водичи"
 msgid "Tutorials reseted"
 msgstr "Водичи су ресетовани"
 
-#: src/components/_user/user/UserDropdown.tsx:282
+#: src/components/_user/user/UserDropdown.tsx:271
 msgid "Unban user"
 msgstr "Укини забрану кориснику"
 
-#: src/components/_user/user/UserDropdown.tsx:257
+#: src/components/_user/user/UserDropdown.tsx:246
 msgid "Unblock (show content)"
 msgstr "Деблокирај (прикажи садржај)"
 
@@ -5870,11 +5858,11 @@ msgstr "Откључај дугме „Произведи све“"
 msgid "Unlocked pack"
 msgstr "Откључан пек"
 
-#: src/components/_user/user/UserDropdown.tsx:296
+#: src/components/_user/user/UserDropdown.tsx:285
 msgid "Unmute user"
 msgstr "Укини утишавање корисника"
 
-#: src/components/_user/user/UserHeader.tsx:405
+#: src/components/_user/user/UserHeader.tsx:407
 msgid "Unmuted <0/>"
 msgstr "Утишавање укинуто <0/>"
 
@@ -6031,7 +6019,7 @@ msgstr "Акције корисника"
 msgid "User already owns all skins"
 msgstr "Корисник поседује све скинове"
 
-#: src/components/_user/user/UserDropdown.tsx:124
+#: src/components/_user/user/UserDropdown.tsx:123
 msgid "User blocked"
 msgstr "Корисник блокиран"
 
@@ -6043,7 +6031,7 @@ msgstr "Учешће корисника у поенима терена."
 msgid "User removed from family group"
 msgstr "Корисник уклоњен из породичне групе"
 
-#: src/components/_user/user/UserDropdown.tsx:128
+#: src/components/_user/user/UserDropdown.tsx:127
 msgid "User unblocked"
 msgstr "Корисник деблокиран"
 
@@ -6055,7 +6043,7 @@ msgstr "Корисник деблокиран"
 msgid "Username"
 msgstr "Корисничко име"
 
-#: src/components/_user/user/UserDropdown.tsx:160
+#: src/components/_user/user/UserDropdown.tsx:149
 msgid "Username removed"
 msgstr "Корисничко име уклоњено"
 
