@@ -1007,7 +1007,7 @@ msgstr "Дополнительные расходы"
 msgid "Admin"
 msgstr "Админ"
 
-#: src/pages/user/[userId]/bans.tsx:261
+#: src/pages/user/[userId]/bans.tsx:262
 msgid "Admin Actions"
 msgstr "Админдействия"
 
@@ -1321,6 +1321,10 @@ msgstr "Баланс"
 msgid "Balanced - No modifiers"
 msgstr "Баланс - нет модификаторов"
 
+#: src/pages/user/[userId]/bans.tsx:288
+msgid "Ban History"
+msgstr ""
+
 #: src/components/_user/user/UserDropdown.tsx:264
 msgid "Ban user"
 msgstr "Забанить игрока"
@@ -1487,7 +1491,7 @@ msgstr "Создать военный отряд"
 msgid "Build the military unit"
 msgstr "Создать военный отряд"
 
-#: src/pages/user/[userId]/bans.tsx:180
+#: src/pages/user/[userId]/bans.tsx:181
 msgid "Buy"
 msgstr ""
 
@@ -1917,7 +1921,7 @@ msgstr "Авторизация через Discord"
 msgid "Connect with email"
 msgstr "Авторизация через email"
 
-#: src/pages/user/[userId]/bans.tsx:253
+#: src/pages/user/[userId]/bans.tsx:254
 msgid "Connection"
 msgstr "Соединение"
 
@@ -2479,7 +2483,7 @@ msgstr "Элитный Шлем"
 msgid "Elite Pants"
 msgstr "Элитные Штаны"
 
-#: src/pages/user/[userId]/bans.tsx:73
+#: src/pages/user/[userId]/bans.tsx:74
 msgid "Email"
 msgstr "Email"
 
@@ -2753,7 +2757,7 @@ msgid "Fish"
 msgstr "Рыба"
 
 #: src/components/_layout/LayoutMapOptions.tsx:276
-#: src/pages/user/[userId]/bans.tsx:103
+#: src/pages/user/[userId]/bans.tsx:104
 msgid "Flags"
 msgstr "Флаги"
 
@@ -3936,7 +3940,7 @@ msgstr "Нет рейтинга урона."
 msgid "No donations yet"
 msgstr "Нет пожертвований"
 
-#: src/pages/user/[userId]/bans.tsx:81
+#: src/pages/user/[userId]/bans.tsx:82
 msgid "No email found"
 msgstr "Email не найден"
 
@@ -5008,7 +5012,7 @@ msgstr "Правящая Партия"
 msgid "Running low on health?"
 msgstr "Мало здоровья?"
 
-#: src/pages/user/[userId]/bans.tsx:279
+#: src/pages/user/[userId]/bans.tsx:280
 msgid "Sanction History"
 msgstr "История санкций"
 
@@ -5107,7 +5111,7 @@ msgstr "Работа на себя"
 msgid "Self work <0>{count}</0> times in your companies"
 msgstr "Работайте <0>{count}</0> раз в Ваших компаниях"
 
-#: src/pages/user/[userId]/bans.tsx:205
+#: src/pages/user/[userId]/bans.tsx:206
 msgid "Sell"
 msgstr ""
 
@@ -5252,7 +5256,7 @@ msgstr "Настройки"
 msgid "Shop"
 msgstr "Магазин"
 
-#: src/pages/user/[userId]/bans.tsx:245
+#: src/pages/user/[userId]/bans.tsx:246
 msgid "Show Inventory"
 msgstr "Показать инвентарь"
 
@@ -5262,7 +5266,7 @@ msgstr "Показать инвентарь"
 msgid "Show more"
 msgstr "Показать больше"
 
-#: src/components/_social/ArticleList.tsx:141
+#: src/components/_social/ArticleList.tsx:140
 msgid "Show only articles with positive score (score >= -5)"
 msgstr ""
 
@@ -6011,7 +6015,7 @@ msgstr "Используется для улучшения компаний, в�
 msgid "user"
 msgstr "игрока"
 
-#: src/pages/user/[userId]/bans.tsx:270
+#: src/pages/user/[userId]/bans.tsx:271
 msgid "User Actions"
 msgstr "Действия игрока"
 

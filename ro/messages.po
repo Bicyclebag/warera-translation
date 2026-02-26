@@ -1005,7 +1005,7 @@ msgstr ""
 msgid "Admin"
 msgstr "Admin"
 
-#: src/pages/user/[userId]/bans.tsx:261
+#: src/pages/user/[userId]/bans.tsx:262
 msgid "Admin Actions"
 msgstr "Acțiuni Admin"
 
@@ -1319,6 +1319,10 @@ msgstr "Echilibrat"
 msgid "Balanced - No modifiers"
 msgstr "Echilibrat - Fără modificatori"
 
+#: src/pages/user/[userId]/bans.tsx:288
+msgid "Ban History"
+msgstr ""
+
 #: src/components/_user/user/UserDropdown.tsx:264
 msgid "Ban user"
 msgstr "Banează utilizator"
@@ -1485,7 +1489,7 @@ msgstr "Construiește unitate militară"
 msgid "Build the military unit"
 msgstr "Construiește unitatea militară"
 
-#: src/pages/user/[userId]/bans.tsx:180
+#: src/pages/user/[userId]/bans.tsx:181
 msgid "Buy"
 msgstr ""
 
@@ -1915,7 +1919,7 @@ msgstr "Conectează-te cu Discord"
 msgid "Connect with email"
 msgstr "Conectează-te cu email"
 
-#: src/pages/user/[userId]/bans.tsx:253
+#: src/pages/user/[userId]/bans.tsx:254
 msgid "Connection"
 msgstr "Connexiuni"
 
@@ -2477,7 +2481,7 @@ msgstr "Cască de elită"
 msgid "Elite Pants"
 msgstr "Pantaloni de elită"
 
-#: src/pages/user/[userId]/bans.tsx:73
+#: src/pages/user/[userId]/bans.tsx:74
 msgid "Email"
 msgstr "Email"
 
@@ -2751,7 +2755,7 @@ msgid "Fish"
 msgstr "Pește"
 
 #: src/components/_layout/LayoutMapOptions.tsx:276
-#: src/pages/user/[userId]/bans.tsx:103
+#: src/pages/user/[userId]/bans.tsx:104
 msgid "Flags"
 msgstr "Steaguri"
 
@@ -3934,7 +3938,7 @@ msgstr "Fără clasament daune."
 msgid "No donations yet"
 msgstr "Nicio donație încă"
 
-#: src/pages/user/[userId]/bans.tsx:81
+#: src/pages/user/[userId]/bans.tsx:82
 msgid "No email found"
 msgstr "Niciun email găsit"
 
@@ -5006,7 +5010,7 @@ msgstr ""
 msgid "Running low on health?"
 msgstr "Nu mai ai viață?"
 
-#: src/pages/user/[userId]/bans.tsx:279
+#: src/pages/user/[userId]/bans.tsx:280
 msgid "Sanction History"
 msgstr "Istoric Sancțiuni"
 
@@ -5105,7 +5109,7 @@ msgstr "Antreprenoriat"
 msgid "Self work <0>{count}</0> times in your companies"
 msgstr "Muncește de <0>{count}</0> ori în propriile companii"
 
-#: src/pages/user/[userId]/bans.tsx:205
+#: src/pages/user/[userId]/bans.tsx:206
 msgid "Sell"
 msgstr ""
 
@@ -5250,7 +5254,7 @@ msgstr "Setări"
 msgid "Shop"
 msgstr "Magazin"
 
-#: src/pages/user/[userId]/bans.tsx:245
+#: src/pages/user/[userId]/bans.tsx:246
 msgid "Show Inventory"
 msgstr ""
 
@@ -5260,7 +5264,7 @@ msgstr ""
 msgid "Show more"
 msgstr "Mai multe"
 
-#: src/components/_social/ArticleList.tsx:141
+#: src/components/_social/ArticleList.tsx:140
 msgid "Show only articles with positive score (score >= -5)"
 msgstr ""
 
@@ -6009,7 +6013,7 @@ msgstr "Folosit la îmbunătățirea companiilor, UM, și a fortificărilor"
 msgid "user"
 msgstr "contul"
 
-#: src/pages/user/[userId]/bans.tsx:270
+#: src/pages/user/[userId]/bans.tsx:271
 msgid "User Actions"
 msgstr "Acțiuni Utilizator"
 

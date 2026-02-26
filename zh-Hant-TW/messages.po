@@ -1007,7 +1007,7 @@ msgstr "額外花費"
 msgid "Admin"
 msgstr "管理員"
 
-#: src/pages/user/[userId]/bans.tsx:261
+#: src/pages/user/[userId]/bans.tsx:262
 msgid "Admin Actions"
 msgstr "管理員行為"
 
@@ -1321,6 +1321,10 @@ msgstr "平衡"
 msgid "Balanced - No modifiers"
 msgstr "平衡 - 無調整"
 
+#: src/pages/user/[userId]/bans.tsx:288
+msgid "Ban History"
+msgstr ""
+
 #: src/components/_user/user/UserDropdown.tsx:264
 msgid "Ban user"
 msgstr "停權用戶"
@@ -1487,7 +1491,7 @@ msgstr "建造一個軍團"
 msgid "Build the military unit"
 msgstr "建造一個軍團"
 
-#: src/pages/user/[userId]/bans.tsx:180
+#: src/pages/user/[userId]/bans.tsx:181
 msgid "Buy"
 msgstr ""
 
@@ -1917,7 +1921,7 @@ msgstr "與 Discord 連結"
 msgid "Connect with email"
 msgstr "與電子郵件連結"
 
-#: src/pages/user/[userId]/bans.tsx:253
+#: src/pages/user/[userId]/bans.tsx:254
 msgid "Connection"
 msgstr "連線"
 
@@ -2479,7 +2483,7 @@ msgstr "精英頭盔"
 msgid "Elite Pants"
 msgstr "精英褲子"
 
-#: src/pages/user/[userId]/bans.tsx:73
+#: src/pages/user/[userId]/bans.tsx:74
 msgid "Email"
 msgstr "電子郵件"
 
@@ -2753,7 +2757,7 @@ msgid "Fish"
 msgstr "魚"
 
 #: src/components/_layout/LayoutMapOptions.tsx:276
-#: src/pages/user/[userId]/bans.tsx:103
+#: src/pages/user/[userId]/bans.tsx:104
 msgid "Flags"
 msgstr "旗幟"
 
@@ -3936,7 +3940,7 @@ msgstr "還沒有傷害排名"
 msgid "No donations yet"
 msgstr "尚無捐款"
 
-#: src/pages/user/[userId]/bans.tsx:81
+#: src/pages/user/[userId]/bans.tsx:82
 msgid "No email found"
 msgstr "找不到電子郵件"
 
@@ -5008,7 +5012,7 @@ msgstr "執政黨"
 msgid "Running low on health?"
 msgstr "生命值要用完了嗎？"
 
-#: src/pages/user/[userId]/bans.tsx:279
+#: src/pages/user/[userId]/bans.tsx:280
 msgid "Sanction History"
 msgstr "懲罰歷史"
 
@@ -5107,7 +5111,7 @@ msgstr "在自己公司工作"
 msgid "Self work <0>{count}</0> times in your companies"
 msgstr "在自己公司工作 <0>{count}</0> 次"
 
-#: src/pages/user/[userId]/bans.tsx:205
+#: src/pages/user/[userId]/bans.tsx:206
 msgid "Sell"
 msgstr ""
 
@@ -5252,7 +5256,7 @@ msgstr "設定"
 msgid "Shop"
 msgstr "商店"
 
-#: src/pages/user/[userId]/bans.tsx:245
+#: src/pages/user/[userId]/bans.tsx:246
 msgid "Show Inventory"
 msgstr "顯示倉庫"
 
@@ -5262,7 +5266,7 @@ msgstr "顯示倉庫"
 msgid "Show more"
 msgstr "顯示更多"
 
-#: src/components/_social/ArticleList.tsx:141
+#: src/components/_social/ArticleList.tsx:140
 msgid "Show only articles with positive score (score >= -5)"
 msgstr ""
 
@@ -6011,7 +6015,7 @@ msgstr "用於升級公司、軍團和防禦工事"
 msgid "user"
 msgstr "用戶"
 
-#: src/pages/user/[userId]/bans.tsx:270
+#: src/pages/user/[userId]/bans.tsx:271
 msgid "User Actions"
 msgstr "用戶行為"
 

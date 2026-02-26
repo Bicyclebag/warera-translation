@@ -1007,7 +1007,7 @@ msgstr ""
 msgid "Admin"
 msgstr "Admin"
 
-#: src/pages/user/[userId]/bans.tsx:261
+#: src/pages/user/[userId]/bans.tsx:262
 msgid "Admin Actions"
 msgstr "Działania administratora"
 
@@ -1321,6 +1321,10 @@ msgstr "Zrównoważony"
 msgid "Balanced - No modifiers"
 msgstr "Zrównoważony - Bez modyfikatorów"
 
+#: src/pages/user/[userId]/bans.tsx:288
+msgid "Ban History"
+msgstr ""
+
 #: src/components/_user/user/UserDropdown.tsx:264
 msgid "Ban user"
 msgstr "Zbanuj użytkownika"
@@ -1487,7 +1491,7 @@ msgstr "Utwórz jednostkę wojskową"
 msgid "Build the military unit"
 msgstr "Utwórz jednostkę wojskową"
 
-#: src/pages/user/[userId]/bans.tsx:180
+#: src/pages/user/[userId]/bans.tsx:181
 msgid "Buy"
 msgstr ""
 
@@ -1917,7 +1921,7 @@ msgstr "Połącz z Discord"
 msgid "Connect with email"
 msgstr "Połącz z emailem"
 
-#: src/pages/user/[userId]/bans.tsx:253
+#: src/pages/user/[userId]/bans.tsx:254
 msgid "Connection"
 msgstr "Połączenie"
 
@@ -2479,7 +2483,7 @@ msgstr "Elitarny Hełm"
 msgid "Elite Pants"
 msgstr "Elitarne Spodnie"
 
-#: src/pages/user/[userId]/bans.tsx:73
+#: src/pages/user/[userId]/bans.tsx:74
 msgid "Email"
 msgstr "Email"
 
@@ -2753,7 +2757,7 @@ msgid "Fish"
 msgstr "Ryba"
 
 #: src/components/_layout/LayoutMapOptions.tsx:276
-#: src/pages/user/[userId]/bans.tsx:103
+#: src/pages/user/[userId]/bans.tsx:104
 msgid "Flags"
 msgstr "Flagi"
 
@@ -3936,7 +3940,7 @@ msgstr "Brak rankingu obrażeń."
 msgid "No donations yet"
 msgstr "Brak darowizn"
 
-#: src/pages/user/[userId]/bans.tsx:81
+#: src/pages/user/[userId]/bans.tsx:82
 msgid "No email found"
 msgstr "Nie znaleziono emaila"
 
@@ -5008,7 +5012,7 @@ msgstr ""
 msgid "Running low on health?"
 msgstr "Mało zdrowia?"
 
-#: src/pages/user/[userId]/bans.tsx:279
+#: src/pages/user/[userId]/bans.tsx:280
 msgid "Sanction History"
 msgstr "Historia sankcji"
 
@@ -5107,7 +5111,7 @@ msgstr "Praca własna"
 msgid "Self work <0>{count}</0> times in your companies"
 msgstr "Pracuj dla siebie <0>{count}</0> razy w swoich firmach"
 
-#: src/pages/user/[userId]/bans.tsx:205
+#: src/pages/user/[userId]/bans.tsx:206
 msgid "Sell"
 msgstr ""
 
@@ -5252,7 +5256,7 @@ msgstr "Ustawienia"
 msgid "Shop"
 msgstr "Sklep"
 
-#: src/pages/user/[userId]/bans.tsx:245
+#: src/pages/user/[userId]/bans.tsx:246
 msgid "Show Inventory"
 msgstr ""
 
@@ -5262,7 +5266,7 @@ msgstr ""
 msgid "Show more"
 msgstr "Pokaż więcej"
 
-#: src/components/_social/ArticleList.tsx:141
+#: src/components/_social/ArticleList.tsx:140
 msgid "Show only articles with positive score (score >= -5)"
 msgstr ""
 
@@ -6011,7 +6015,7 @@ msgstr "Używany do ulepszania firm, JW i fortyfikacji"
 msgid "user"
 msgstr "użytkownik"
 
-#: src/pages/user/[userId]/bans.tsx:270
+#: src/pages/user/[userId]/bans.tsx:271
 msgid "User Actions"
 msgstr "Działania użytkownika"
 

@@ -14,7 +14,7 @@ msgstr ""
 "Plural-Forms: \n"
 
 #. placeholder {0}: user.data.mute.reason
-#: src/components/_user/user/UserHeader.tsx:409
+#: src/components/_user/user/UserHeader.tsx:411
 msgid " - Reason: {0}"
 msgstr " - Reden: {0}"
 
@@ -116,7 +116,7 @@ msgstr "{battleIcon}Toernooigevecht voor {tournamentName} {score}"
 msgid "{battleIcon}War battle for {regionName} {score}"
 msgstr "{battleIcon}Strijd om {regionName} {score}"
 
-#: src/components/_user/mission/MissionsList.tsx:162
+#: src/components/_user/mission/MissionsList.tsx:171
 msgid "{completedCount}/{totalCount} completed"
 msgstr "{completedCount}/{totalCount} voltooid"
 
@@ -335,15 +335,15 @@ msgstr "<0/> heeft de ronde <1>#{0}</1> in <2/> gewonnen"
 msgid "<0/> won the round <1>#{0}</1> in <2/>!"
 msgstr "<0/> heeft de ronde <1>#{0}</1> in <2/> gewonnen!"
 
-#: src/components/_user/user/UserHeader.tsx:276
+#: src/components/_user/user/UserHeader.tsx:278
 msgid "<0/><1>Buff</1> ends <2/>"
 msgstr "<0/><1>Buff</1> eindigt <2/>"
 
-#: src/components/_user/user/UserHeader.tsx:285
+#: src/components/_user/user/UserHeader.tsx:287
 msgid "<0/><1>Debuff</1> ends <2/>"
 msgstr "<0/><1>Debuff</1> eindigt <2/>"
 
-#: src/components/_user/user/UserHeader.tsx:348
+#: src/components/_user/user/UserHeader.tsx:350
 msgid "<0/>Last connection was <1><2/></1>"
 msgstr "<0/>Laatste verbinding was <1><2/></1>"
 
@@ -950,7 +950,7 @@ msgid "Access war"
 msgstr "Naar oorlog"
 
 #: src/components/_political/country/CountryHeader.tsx:70
-#: src/components/_user/user/UserHeader.tsx:162
+#: src/components/_user/user/UserHeader.tsx:164
 #: src/pages/country/[countryId]/account.tsx:36
 #: src/pages/country/[countryId]/index.tsx:328
 #: src/pages/user/[userId]/account.tsx:25
@@ -996,7 +996,9 @@ msgid "Add User"
 msgstr "Gebruiker toevoegen"
 
 #: src/components/_political/law/Law.tsx:87
+#: src/components/_political/law/LawFormModal.tsx:304
 #: src/components/_political/partyMotion/PartyMotion.tsx:97
+#: src/components/_political/partyMotion/PartyMotionFormModal.tsx:172
 msgid "Additional cost"
 msgstr "Extra kosten"
 
@@ -1005,7 +1007,7 @@ msgstr "Extra kosten"
 msgid "Admin"
 msgstr "Beheer"
 
-#: src/pages/user/[userId]/bans.tsx:135
+#: src/pages/user/[userId]/bans.tsx:262
 msgid "Admin Actions"
 msgstr "Beheerdersacties"
 
@@ -1047,7 +1049,7 @@ msgstr "Agrarisch"
 msgid "All"
 msgstr "Alles"
 
-#: src/components/_social/ArticleList.tsx:119
+#: src/components/_social/ArticleList.tsx:130
 msgid "All categories"
 msgstr "Alle categorieën"
 
@@ -1073,7 +1075,7 @@ msgstr "Alle bedrijven binnen je grenzen krijgen <0>+{0}</0> bonus op munitie- o
 msgid "All event types"
 msgstr "Alle soorten evenementen"
 
-#: src/components/_social/ArticleList.tsx:109
+#: src/components/_social/ArticleList.tsx:120
 msgid "All languages"
 msgstr "Alle talen"
 
@@ -1128,8 +1130,8 @@ msgstr "Bijna klaar..."
 msgid "Ammo"
 msgstr "Munitie"
 
-#: src/components/_political/law/LawFormModal.tsx:229
-#: src/components/_political/law/LawFormModal.tsx:230
+#: src/components/_political/law/LawFormModal.tsx:252
+#: src/components/_political/law/LawFormModal.tsx:253
 msgid "Amount"
 msgstr "Hoeveelheid"
 
@@ -1190,10 +1192,6 @@ msgstr "Solliciteer"
 msgid "Are you sure you want to fire this worker?"
 msgstr "Weet je zeker dat je deze werknemer wilt ontslaan?"
 
-#: src/components/_user/user/UserDropdown.tsx:350
-msgid "Are you sure you want to give the \"Bug finder\" badge to {username}?"
-msgstr "Weet je zeker dat je de \"Bug finder\"-badge aan {gebruikersnaam} wilt geven?"
-
 #: src/pages/country/[countryId]/government.tsx:93
 msgid "Are you sure you want to leave the congress?"
 msgstr "Weet je zeker dat je het congres wilt verlaten?"
@@ -1228,7 +1226,7 @@ msgstr "Weet je zeker dat je deze uitleg wilt overslaan?"
 msgid "Armor"
 msgstr "Pantser"
 
-#: src/components/_political/law/LawFormModal.tsx:196
+#: src/components/_political/law/LawFormModal.tsx:219
 msgid "Article ID"
 msgstr "Artikel ID"
 
@@ -1244,7 +1242,7 @@ msgstr "Artikel Fooi"
 msgid "Article tipped"
 msgstr "Artikel getipt"
 
-#: src/components/_user/user/UserHeader.tsx:202
+#: src/components/_user/user/UserHeader.tsx:204
 #: src/pages/user/[userId]/index.tsx:199
 msgid "Articles"
 msgstr "Artikelen"
@@ -1299,7 +1297,7 @@ msgstr "Geautomatiseerde motor"
 msgid "Automated Engine"
 msgstr "Geautomatiseerde aandrijving"
 
-#: src/components/_user/user/UserDropdown.tsx:153
+#: src/components/_user/user/UserDropdown.tsx:142
 msgid "Avatar removed"
 msgstr "Avatar verwijderd"
 
@@ -1323,7 +1321,11 @@ msgstr "Gebalanceerd"
 msgid "Balanced - No modifiers"
 msgstr "Gebalanceerd - Geen modificatoren"
 
-#: src/components/_user/user/UserDropdown.tsx:275
+#: src/pages/user/[userId]/bans.tsx:288
+msgid "Ban History"
+msgstr ""
+
+#: src/components/_user/user/UserDropdown.tsx:264
 msgid "Ban user"
 msgstr "Gebruiker verbannen"
 
@@ -1331,7 +1333,7 @@ msgstr "Gebruiker verbannen"
 msgid "Bankruptcy"
 msgstr "Faillissement"
 
-#: src/components/_user/user/UserHeader.tsx:397
+#: src/components/_user/user/UserHeader.tsx:399
 msgid "Banned"
 msgstr "Verbannen"
 
@@ -1351,8 +1353,8 @@ msgstr "Bannergeschenk verzonden"
 msgid "Banners"
 msgstr "Banners"
 
-#: src/components/_user/user/UserHeader.tsx:180
-#: src/components/_user/user/UserHeader.tsx:221
+#: src/components/_user/user/UserHeader.tsx:182
+#: src/components/_user/user/UserHeader.tsx:223
 msgid "Bans"
 msgstr "Verbanningen"
 
@@ -1427,7 +1429,7 @@ msgstr "Word kandidaat"
 msgid "Better than nothing, right?"
 msgstr "Beter dan niets, toch?"
 
-#: src/components/_user/user/UserDropdown.tsx:258
+#: src/components/_user/user/UserDropdown.tsx:247
 msgid "Block (hide content)"
 msgstr "Blokkeren (inhoud verbergen)"
 
@@ -1479,7 +1481,7 @@ msgstr "Buff begon"
 
 #: src/components/_user/user/UserDropdown.tsx:138
 msgid "Bug Finder badge given"
-msgstr "'Bug Finder'-badge gegeven"
+msgstr "Bug Finder-badge gegeven"
 
 #: src/components/_economy/company/CompanyList.tsx:156
 msgid "Build a company"
@@ -1492,6 +1494,10 @@ msgstr "Bouw een militaire eenheid"
 #: src/components/_military/mu/MuFormModal.tsx:139
 msgid "Build the military unit"
 msgstr "Bouw de militaire eenheid"
+
+#: src/pages/user/[userId]/bans.tsx:181
+msgid "Buy"
+msgstr ""
 
 #: src/components/_user/mission/mission.frontConfig.tsx:166
 msgid "Buy for <0>{count}</0> money on market"
@@ -1647,7 +1653,7 @@ msgstr "Kies je land"
 msgid "Choose your side and click to deal <0>Damages</0>! Keep hitting to help your team win."
 msgstr "Kies je kant en klik om <0>Schade</0> toe te brengen! Blijf aanvallen om je team te helpen winnen."
 
-#: src/components/_user/user/UserHeader.tsx:269
+#: src/components/_user/user/UserHeader.tsx:271
 msgid "Citizen since <0><1/></0>"
 msgstr "Burger sinds <0><1/></0>"
 
@@ -1761,7 +1767,7 @@ msgstr "Sluit"
 msgid "Colonel"
 msgstr "Kolonel"
 
-#: src/components/_user/user/UserDropdown.tsx:198
+#: src/components/_user/user/UserDropdown.tsx:187
 msgid "Color scheme"
 msgstr "Kleurenschema"
 
@@ -1775,7 +1781,7 @@ msgstr "Commodore"
 
 #: src/components/_layout/LayoutMenu.tsx:182
 #: src/components/_user/user/MyAvatar.tsx:48
-#: src/components/_user/user/UserHeader.tsx:194
+#: src/components/_user/user/UserHeader.tsx:196
 #: src/pages/companies.tsx:96
 msgid "Companies"
 msgstr "Bedrijven"
@@ -1919,7 +1925,7 @@ msgstr "Verbinden via Discord"
 msgid "Connect with email"
 msgstr "Verbind met e-mail"
 
-#: src/pages/user/[userId]/bans.tsx:127
+#: src/pages/user/[userId]/bans.tsx:254
 msgid "Connection"
 msgstr "Verbinding"
 
@@ -1982,7 +1988,7 @@ msgstr "Korporaal"
 msgid "Cost"
 msgstr "Kosten"
 
-#: src/components/_political/partyMotion/PartyMotionFormModal.tsx:110
+#: src/components/_political/partyMotion/PartyMotionFormModal.tsx:134
 msgid "Council member to remove"
 msgstr "Raadslid wordt verwijderd"
 
@@ -2093,7 +2099,7 @@ msgstr "Huidig totaal:"
 msgid "Custom username font"
 msgstr "Aangepaste gebruikersnaam lettertype"
 
-#: src/components/_user/mission/MissionsList.tsx:180
+#: src/components/_user/mission/MissionsList.tsx:189
 msgid "Daily"
 msgstr "Dagelijks"
 
@@ -2133,7 +2139,7 @@ msgstr "Verdomme, jij hebt geluk"
 msgid "Danger zone"
 msgstr "Gevarenzone"
 
-#: src/components/_political/law/LawFormModal.tsx:250
+#: src/components/_political/law/LawFormModal.tsx:273
 msgid "Dark"
 msgstr "Donker"
 
@@ -2285,7 +2291,7 @@ msgstr "Beschrijf de doelen en waarden van je partij"
 msgid "Description"
 msgstr "Beschrijving"
 
-#: src/components/_user/user/UserDropdown.tsx:167
+#: src/components/_user/user/UserDropdown.tsx:156
 msgid "Description removed"
 msgstr "Beschrijving verwijderd"
 
@@ -2293,7 +2299,7 @@ msgstr "Beschrijving verwijderd"
 msgid "Description updated!"
 msgstr "Beschrijving bijgewerkt!"
 
-#: src/components/_user/user/UserDropdown.tsx:330
+#: src/components/_user/user/UserDropdown.tsx:319
 msgid "Destroy item from inventory"
 msgstr "Vernietig een item uit de inventaris"
 
@@ -2438,7 +2444,7 @@ msgstr "Economische wetten"
 msgid "Economic skills"
 msgstr "Economische vaardigheden"
 
-#: src/components/_user/user/UserDropdown.tsx:189
+#: src/components/_user/user/UserDropdown.tsx:178
 msgid "Edit description"
 msgstr "Bewerk beschrijving"
 
@@ -2481,7 +2487,7 @@ msgstr "Elitehelm"
 msgid "Elite Pants"
 msgstr "Elite Broek"
 
-#: src/pages/user/[userId]/bans.tsx:60
+#: src/pages/user/[userId]/bans.tsx:74
 msgid "Email"
 msgstr "E-mail"
 
@@ -2528,7 +2534,7 @@ msgstr "Energie"
 msgid "Ensign"
 msgstr "Vaandel"
 
-#: src/components/_political/law/LawFormModal.tsx:197
+#: src/components/_political/law/LawFormModal.tsx:220
 msgid "Enter article ID"
 msgstr "Voer artikel ID in"
 
@@ -2726,7 +2732,7 @@ msgstr "Zoek een militaire eenheid"
 msgid "Find another job"
 msgstr "Zoek een andere baan"
 
-#: src/components/_user/user/UserDropdown.tsx:316
+#: src/components/_user/user/UserDropdown.tsx:305
 msgid "Fine (remove money)"
 msgstr "Boete (geld verwijderen)"
 
@@ -2755,7 +2761,7 @@ msgid "Fish"
 msgstr "Vis"
 
 #: src/components/_layout/LayoutMapOptions.tsx:276
-#: src/pages/user/[userId]/bans.tsx:90
+#: src/pages/user/[userId]/bans.tsx:104
 msgid "Flags"
 msgstr "Vlaggen"
 
@@ -2767,7 +2773,7 @@ msgstr "Font"
 msgid "Font size"
 msgstr "Lettergrootte"
 
-#: src/components/_user/user/UserDropdown.tsx:207
+#: src/components/_user/user/UserDropdown.tsx:196
 msgid "Font style"
 msgstr "Lettertypestijl"
 
@@ -2812,7 +2818,7 @@ msgstr "Gems worden gebruikt om assets in de winkel te kopen en om supporter maa
 msgid "General"
 msgstr "Generaal"
 
-#: src/components/_user/mission/MissionsList.tsx:232
+#: src/components/_user/mission/MissionsList.tsx:241
 msgid "Generate Missions"
 msgstr "Genereer Missies"
 
@@ -2836,7 +2842,7 @@ msgstr "Cadeau verzonden! Skinpack ontgrendeld voor ontvanger!"
 msgid "Gift sent! Thanks for supporting the game <3"
 msgstr "Cadeau verzonden! Bedankt voor het steunen van het spel <3"
 
-#: src/components/_user/user/UserDropdown.tsx:241
+#: src/components/_user/user/UserDropdown.tsx:230
 msgid "Gift Supporter Plan"
 msgstr "Doe Supporter Plan cadeau"
 
@@ -2848,15 +2854,11 @@ msgstr "Geef dit pakket aan iemand anders"
 msgid "gifted"
 msgstr "gegeven"
 
-#: src/components/_user/user/UserDropdown.tsx:344
-msgid "Give \"Bug finder\" badge"
-msgstr "Geef de \"Bug finder\"-badge"
+#: src/components/_user/user/UserDropdown.tsx:333
+msgid "Give badge"
+msgstr ""
 
-#: src/components/_user/user/UserDropdown.tsx:349
-msgid "Give Bug Finder Badge"
-msgstr "Geef Bug Finder Badge"
-
-#: src/components/_user/user/UserDropdown.tsx:323
+#: src/components/_user/user/UserDropdown.tsx:312
 msgid "Give money"
 msgstr "Geef geld"
 
@@ -2977,7 +2979,7 @@ msgstr "Raak <0>{count}</0> keer in gevechten"
 
 #: src/components/_other/shop/ShopHeader.tsx:16
 #: src/components/_political/country/CountryHeader.tsx:57
-#: src/components/_user/user/UserHeader.tsx:148
+#: src/components/_user/user/UserHeader.tsx:150
 msgid "Home"
 msgstr "Home"
 
@@ -3071,7 +3073,7 @@ msgid "Income from taxes increases by <0>{0}</0>."
 msgstr "Het belastinginkomen stijgt met <0>{0}</0>."
 
 #: src/components/_political/country/CountryTaxes.tsx:21
-#: src/components/_political/law/LawFormModal.tsx:207
+#: src/components/_political/law/LawFormModal.tsx:230
 msgid "Income tax"
 msgstr "Inkomstenbelasting"
 
@@ -3095,12 +3097,11 @@ msgstr "Ingewijde"
 
 #: src/components/_layout/LayoutMenu.tsx:123
 #: src/components/_user/user/MyAvatar.tsx:35
-#: src/components/_user/user/UserHeader.tsx:154
+#: src/components/_user/user/UserHeader.tsx:156
 #: src/pages/companies.tsx:83
 #: src/pages/country/[countryId]/account.tsx:24
 #: src/pages/market/index.tsx:49
 #: src/pages/user/[userId]/account.tsx:19
-#: src/pages/user/[userId]/bans.tsx:100
 #: src/pages/user/[userId]/companies.tsx:46
 #: src/pages/user/[userId]/index.tsx:192
 #: src/pages/user/[userId]/inventory.tsx:30
@@ -3251,7 +3252,7 @@ msgstr "Start voorverkiezing"
 msgid "Law failed"
 msgstr "Wet mislukt"
 
-#: src/components/_political/law/LawFormModal.tsx:72
+#: src/components/_political/law/LawFormModal.tsx:77
 #: src/components/_user/notification/notification.frontConfig.tsx:627
 msgid "Law proposed"
 msgstr "Wet voorgesteld"
@@ -3328,7 +3329,7 @@ msgstr "Bevrijd een regio"
 msgid "Lieutenant"
 msgstr "Luitenant"
 
-#: src/components/_political/law/LawFormModal.tsx:248
+#: src/components/_political/law/LawFormModal.tsx:271
 msgid "Light"
 msgstr "Licht"
 
@@ -3467,7 +3468,7 @@ msgstr "Beheer"
 msgid "map"
 msgstr "Kaart"
 
-#: src/components/_political/law/LawFormModal.tsx:245
+#: src/components/_political/law/LawFormModal.tsx:268
 msgid "Map Accent"
 msgstr "Kaartaccent"
 
@@ -3481,7 +3482,7 @@ msgid "Market"
 msgstr "Markt"
 
 #: src/components/_political/country/CountryTaxes.tsx:24
-#: src/components/_political/law/LawFormModal.tsx:211
+#: src/components/_political/law/LawFormModal.tsx:234
 msgid "Market tax"
 msgstr "Marktbelasting"
 
@@ -3621,7 +3622,7 @@ msgstr "Minister van Buitenlandse Zaken"
 
 #: src/components/_layout/LayoutRightIcons.tsx:254
 #: src/components/_layout/MoreButtonNav.tsx:103
-#: src/components/_user/mission/MissionsList.tsx:159
+#: src/components/_user/mission/MissionsList.tsx:168
 msgid "Missions"
 msgstr "Missies"
 
@@ -3657,7 +3658,7 @@ msgstr "Binnenkort meer premium functies!"
 msgid "Motion failed"
 msgstr "Motie verworpen"
 
-#: src/components/_political/partyMotion/PartyMotionFormModal.tsx:46
+#: src/components/_political/partyMotion/PartyMotionFormModal.tsx:51
 msgid "Motion proposed"
 msgstr "Voorgestelde motie"
 
@@ -3712,7 +3713,7 @@ msgstr "MU-donatie ontvangen"
 msgid "MU Ownership Transferred"
 msgstr "Overdracht van het eigendom van MU"
 
-#: src/components/_user/user/UserDropdown.tsx:289
+#: src/components/_user/user/UserDropdown.tsx:278
 msgid "Mute user"
 msgstr "Demp gebruiker"
 
@@ -3773,9 +3774,9 @@ msgstr "Geef nooit op!"
 msgid "Never stop gambling"
 msgstr "Stop nooit met gokken"
 
-#: src/components/_other/shop/SkinItem.tsx:95
+#: src/components/_other/shop/SkinItem.tsx:119
 #: src/components/_other/shop/SkinPackItem.tsx:83
-#: src/components/_social/ArticleList.tsx:133
+#: src/components/_social/ArticleList.tsx:161
 msgid "New"
 msgstr "Nieuw"
 
@@ -3795,7 +3796,7 @@ msgstr "Nieuwe reactie"
 msgid "New equipment"
 msgstr "Nieuwe uitrusting"
 
-#: src/components/_political/partyMotion/PartyMotionFormModal.tsx:133
+#: src/components/_political/partyMotion/PartyMotionFormModal.tsx:157
 msgid "New ethics configuration"
 msgstr "Nieuwe ethische configuratie"
 
@@ -3943,7 +3944,7 @@ msgstr "Nog geen schaderanglijst."
 msgid "No donations yet"
 msgstr "Nog geen donaties"
 
-#: src/pages/user/[userId]/bans.tsx:68
+#: src/pages/user/[userId]/bans.tsx:82
 msgid "No email found"
 msgstr "Geen e-mail gevonden"
 
@@ -3963,7 +3964,7 @@ msgstr "Nog geen wetten"
 msgid "No military units found"
 msgstr "Geen militaire eenheden gevonden"
 
-#: src/components/_user/mission/MissionsList.tsx:222
+#: src/components/_user/mission/MissionsList.tsx:231
 msgid "No missions available"
 msgstr "Geen missies beschikbaar"
 
@@ -4040,7 +4041,7 @@ msgstr "Nomineer een {title}"
 msgid "Nominated at government"
 msgstr "Genomineerd bij de regering"
 
-#: src/components/_political/law/LawFormModal.tsx:249
+#: src/components/_political/law/LawFormModal.tsx:272
 msgid "Normal"
 msgstr "Normaal"
 
@@ -4060,7 +4061,7 @@ msgstr "Nu gaat het ergens over!"
 msgid "Number of Donors:"
 msgstr "Aantal donateurs:"
 
-#: src/components/_political/partyMotion/PartyMotionFormModal.tsx:118
+#: src/components/_political/partyMotion/PartyMotionFormModal.tsx:142
 msgid "Occupied region"
 msgstr "Bezet gebied"
 
@@ -4507,7 +4508,7 @@ msgstr "Profiel"
 msgid "Promoted to Commander"
 msgstr "Gepromoveerd tot commandant"
 
-#: src/components/_political/partyMotion/PartyMotionFormModal.tsx:101
+#: src/components/_political/partyMotion/PartyMotionFormModal.tsx:125
 #: src/components/_political/partyMotion/PartyMotionList.tsx:48
 msgid "Propose a motion"
 msgstr "Stel een motie voor"
@@ -4525,11 +4526,11 @@ msgstr "Stel een alliantie voor met <0/>, waarbij de schade van je burgers bij h
 msgid "Propose an alliance to another country"
 msgstr "Stel een alliantie voor met een ander land"
 
-#: src/components/_political/law/LawFormModal.tsx:290
+#: src/components/_political/law/LawFormModal.tsx:319
 msgid "Propose law"
 msgstr "Wet voorstellen"
 
-#: src/components/_political/partyMotion/PartyMotionFormModal.tsx:157
+#: src/components/_political/partyMotion/PartyMotionFormModal.tsx:187
 msgid "Propose motion"
 msgstr "Motie voorstellen"
 
@@ -4655,7 +4656,7 @@ msgid "Rear Admiral"
 msgstr "Schout-bij-nacht"
 
 #: src/components/_political/law/Law.tsx:71
-#: src/components/_political/law/LawFormModal.tsx:157
+#: src/components/_political/law/LawFormModal.tsx:180
 msgid "Reason"
 msgstr "Reden"
 
@@ -4687,7 +4688,7 @@ msgstr "Vermindert het gezondheidsverlies bij gevechten"
 msgid "Referral link copied to clipboard"
 msgstr "Verwijzingslink gekopieerd naar klembord"
 
-#: src/components/_user/user/UserHeader.tsx:208
+#: src/components/_user/user/UserHeader.tsx:210
 #: src/components/_user/user/UserRankingsPanel.tsx:50
 #: src/pages/user/[userId]/index.tsx:210
 #: src/pages/user/[userId]/referrals.tsx:67
@@ -4813,7 +4814,7 @@ msgstr "Verwijder een lid uit de partijraad"
 msgid "Remove all"
 msgstr "Alles verwijderen"
 
-#: src/components/_user/user/UserDropdown.tsx:337
+#: src/components/_user/user/UserDropdown.tsx:326
 msgid "Remove all offers"
 msgstr "Verwijder alle aanbiedingen"
 
@@ -4821,7 +4822,7 @@ msgstr "Verwijder alle aanbiedingen"
 msgid "Remove an inactive congress member from its position"
 msgstr "Verwijder een inactief congreslid uit zijn functie"
 
-#: src/components/_user/user/UserDropdown.tsx:367
+#: src/components/_user/user/UserDropdown.tsx:351
 msgid "Remove Avatar"
 msgstr "Avatar verwijderen"
 
@@ -4829,7 +4830,7 @@ msgstr "Avatar verwijderen"
 msgid "Remove council member"
 msgstr "Verwijder raadslid"
 
-#: src/components/_user/user/UserDropdown.tsx:389
+#: src/components/_user/user/UserDropdown.tsx:373
 msgid "Remove Description"
 msgstr "Beschrijving verwijderen"
 
@@ -4859,7 +4860,7 @@ msgstr "Hernoem het bedrijf"
 msgid "Replace all party ethics with a new configuration"
 msgstr "Vervang alle partij-ethiek door een nieuwe configuratie"
 
-#: src/components/_user/user/UserDropdown.tsx:248
+#: src/components/_user/user/UserDropdown.tsx:237
 msgid "Report user"
 msgstr "Rapporteer gebruiker"
 
@@ -4880,7 +4881,7 @@ msgstr "Reroll missie"
 msgid "Reset"
 msgstr "Reset"
 
-#: src/components/_user/user/UserDropdown.tsx:362
+#: src/components/_user/user/UserDropdown.tsx:346
 msgid "Reset avatar"
 msgstr "Avatar resetten"
 
@@ -4888,7 +4889,7 @@ msgstr "Avatar resetten"
 msgid "Reset CAPTCHA"
 msgstr "Reset CAPTCHA"
 
-#: src/components/_user/user/UserDropdown.tsx:384
+#: src/components/_user/user/UserDropdown.tsx:368
 msgid "Reset description"
 msgstr "Beschrijving resetten"
 
@@ -4896,11 +4897,11 @@ msgstr "Beschrijving resetten"
 msgid "Reset tutorials"
 msgstr "Tutorials resetten"
 
-#: src/components/_user/user/UserDropdown.tsx:373
+#: src/components/_user/user/UserDropdown.tsx:357
 msgid "Reset username"
 msgstr "Gebruikersnaam resetten"
 
-#: src/components/_user/user/UserDropdown.tsx:378
+#: src/components/_user/user/UserDropdown.tsx:362
 msgid "Reset Username"
 msgstr "Gebruikersnaam resetten"
 
@@ -5015,7 +5016,7 @@ msgstr "Regerende Partij"
 msgid "Running low on health?"
 msgstr "Zit je bijna zonder levenspunten?"
 
-#: src/pages/user/[userId]/bans.tsx:153
+#: src/pages/user/[userId]/bans.tsx:280
 msgid "Sanction History"
 msgstr "Sanctiegeschiedenis"
 
@@ -5081,11 +5082,11 @@ msgstr "Selecteer een regio"
 msgid "Select all"
 msgstr "Selecteer alles"
 
-#: src/components/_political/partyMotion/PartyMotionFormModal.tsx:119
+#: src/components/_political/partyMotion/PartyMotionFormModal.tsx:143
 msgid "Select an occupied region"
 msgstr "Selecteer een bezet gebied"
 
-#: src/components/_user/user/UserDropdown.tsx:221
+#: src/components/_user/user/UserDropdown.tsx:210
 msgid "Select banner"
 msgstr "Selecteer banner"
 
@@ -5093,7 +5094,7 @@ msgstr "Selecteer banner"
 msgid "Select law type"
 msgstr "Selecteer wetstype"
 
-#: src/components/_political/law/LawFormModal.tsx:246
+#: src/components/_political/law/LawFormModal.tsx:269
 msgid "Select map accent"
 msgstr "Selecteer kaartaccent"
 
@@ -5101,7 +5102,7 @@ msgstr "Selecteer kaartaccent"
 msgid "Select motion type"
 msgstr "Selecteer motietype"
 
-#: src/components/_user/user/UserDropdown.tsx:228
+#: src/components/_user/user/UserDropdown.tsx:217
 msgid "Select skin"
 msgstr "Selecteer skin"
 
@@ -5113,6 +5114,10 @@ msgstr "Zelfstandig werk"
 #: src/components/_user/mission/mission.frontConfig.tsx:62
 msgid "Self work <0>{count}</0> times in your companies"
 msgstr "Werk <0>{count}</0> keer in je eigen bedrijven"
+
+#: src/pages/user/[userId]/bans.tsx:206
+msgid "Sell"
+msgstr ""
 
 #: src/components/_economy/company/CompanyDropdown.tsx:253
 msgid "Sell company?"
@@ -5155,7 +5160,7 @@ msgstr "Stuur <0>{0}</0> naar <1/>"
 msgid "Send <0>{count}</0> messages"
 msgstr "Stuur <0>{count}</0> berichten"
 
-#: src/components/_user/user/UserDropdown.tsx:397
+#: src/components/_user/user/UserDropdown.tsx:381
 msgid "Send a message"
 msgstr "Stuur een bericht"
 
@@ -5175,7 +5180,7 @@ msgstr "Stuur Bericht"
 msgid "Send money to another country"
 msgstr "Stuur geld naar een ander land"
 
-#: src/components/_user/user/UserDropdown.tsx:303
+#: src/components/_user/user/UserDropdown.tsx:292
 msgid "Send warning"
 msgstr "Stuur waarschuwing"
 
@@ -5245,7 +5250,7 @@ msgid "Set your username"
 msgstr "Stel je gebruikersnaam in"
 
 #: src/components/_user/user/MyAvatar.tsx:54
-#: src/components/_user/user/UserHeader.tsx:214
+#: src/components/_user/user/UserHeader.tsx:216
 msgid "Settings"
 msgstr "Instellingen"
 
@@ -5255,7 +5260,7 @@ msgstr "Instellingen"
 msgid "Shop"
 msgstr "Winkel"
 
-#: src/pages/user/[userId]/bans.tsx:119
+#: src/pages/user/[userId]/bans.tsx:246
 msgid "Show Inventory"
 msgstr "Toon inventaris"
 
@@ -5265,12 +5270,16 @@ msgstr "Toon inventaris"
 msgid "Show more"
 msgstr "Laat meer zien"
 
+#: src/components/_social/ArticleList.tsx:140
+msgid "Show only articles with positive score (score >= -5)"
+msgstr ""
+
 #: src/components/_economy/inventory/case/cases.frontConfig.tsx:19
 msgid "Skill issue?"
 msgstr "Vaardigheidsprobleem?"
 
 #: src/components/_user/user/MyAvatar.tsx:41
-#: src/components/_user/user/UserHeader.tsx:169
+#: src/components/_user/user/UserHeader.tsx:171
 #: src/pages/user/[userId]/index.tsx:156
 msgid "Skills"
 msgstr "Vaardigheden"
@@ -5340,7 +5349,7 @@ msgstr "Specialist"
 msgid "Specialization"
 msgstr "Specialisatie"
 
-#: src/components/_political/law/LawFormModal.tsx:272
+#: src/components/_political/law/LawFormModal.tsx:295
 msgid "Specialization item"
 msgstr "Specialisatie-item"
 
@@ -5400,7 +5409,7 @@ msgstr "Begin de revolutie"
 msgid "Started <0/>"
 msgstr "Begonnen <0/>"
 
-#: src/components/_user/mission/MissionsList.tsx:205
+#: src/components/_user/mission/MissionsList.tsx:214
 msgid "Starting"
 msgstr "Start"
 
@@ -5457,7 +5466,7 @@ msgstr "Strategische bron"
 msgid "Strategic resources"
 msgstr "Strategische middelen"
 
-#: src/components/_social/ArticleList.tsx:161
+#: src/components/_social/ArticleList.tsx:189
 msgid "Subscribed"
 msgstr "Geabonneerd"
 
@@ -5487,9 +5496,9 @@ msgid "Supporter"
 msgstr "Supporter"
 
 #: src/components/_economy/inventoryAccount/InventoryAccount.tsx:51
-#: src/components/_user/user/UserDropdown.tsx:192
-#: src/components/_user/user/UserDropdown.tsx:201
-#: src/components/_user/user/UserDropdown.tsx:210
+#: src/components/_user/user/UserDropdown.tsx:181
+#: src/components/_user/user/UserDropdown.tsx:190
+#: src/components/_user/user/UserDropdown.tsx:199
 msgid "Supporter feature"
 msgstr "Supporterkenmerk"
 
@@ -5539,19 +5548,19 @@ msgstr "Houd rekening met de grondstofbronnen"
 msgid "Tank"
 msgstr "Tank"
 
-#: src/components/_political/law/LawFormModal.tsx:171
+#: src/components/_political/law/LawFormModal.tsx:194
 msgid "Target country"
 msgstr "Doelgebied"
 
-#: src/components/_political/law/LawFormModal.tsx:184
+#: src/components/_political/law/LawFormModal.tsx:207
 msgid "Target region"
 msgstr "Doelgebied"
 
-#: src/components/_political/law/LawFormModal.tsx:259
+#: src/components/_political/law/LawFormModal.tsx:282
 msgid "Target user"
 msgstr "Doelgebruiker"
 
-#: src/components/_political/law/LawFormModal.tsx:204
+#: src/components/_political/law/LawFormModal.tsx:227
 msgid "Tax type"
 msgstr "Belastingtype"
 
@@ -5681,15 +5690,15 @@ msgstr "Tip Artikel"
 msgid "Token Name"
 msgstr "Tokennaam"
 
-#: src/components/_social/ArticleList.tsx:153
+#: src/components/_social/ArticleList.tsx:181
 msgid "Top"
 msgstr "Beste"
 
-#: src/components/_social/ArticleList.tsx:140
+#: src/components/_social/ArticleList.tsx:168
 msgid "Top (1d)"
 msgstr "Beste (1d)"
 
-#: src/components/_social/ArticleList.tsx:147
+#: src/components/_social/ArticleList.tsx:175
 msgid "Top (1w)"
 msgstr "Beste (1w)"
 
@@ -5781,7 +5790,7 @@ msgstr "Handel"
 msgid "Trainee"
 msgstr "Leerling"
 
-#: src/components/_user/user/UserHeader.tsx:188
+#: src/components/_user/user/UserHeader.tsx:190
 msgid "Transac."
 msgstr "Transac."
 
@@ -5815,11 +5824,11 @@ msgstr "Uitleg"
 msgid "Tutorials reseted"
 msgstr "Uitleg gereset"
 
-#: src/components/_user/user/UserDropdown.tsx:282
+#: src/components/_user/user/UserDropdown.tsx:271
 msgid "Unban user"
 msgstr "Gebruiker ontbannen"
 
-#: src/components/_user/user/UserDropdown.tsx:257
+#: src/components/_user/user/UserDropdown.tsx:246
 msgid "Unblock (show content)"
 msgstr "Deblokkeren (inhoud tonen)"
 
@@ -5857,11 +5866,11 @@ msgstr "Ontgrendel Produceer alles-knop"
 msgid "Unlocked pack"
 msgstr "Ontgrendeld pakket"
 
-#: src/components/_user/user/UserDropdown.tsx:296
+#: src/components/_user/user/UserDropdown.tsx:285
 msgid "Unmute user"
 msgstr "Gebruiker ontdempen"
 
-#: src/components/_user/user/UserHeader.tsx:405
+#: src/components/_user/user/UserHeader.tsx:407
 msgid "Unmuted <0/>"
 msgstr "Ondempte <0/>"
 
@@ -6010,7 +6019,7 @@ msgstr "Gebruikt om bedrijven, MU's en versterkingen te upgraden"
 msgid "user"
 msgstr "gebruiker"
 
-#: src/pages/user/[userId]/bans.tsx:144
+#: src/pages/user/[userId]/bans.tsx:271
 msgid "User Actions"
 msgstr "Gebruikersacties"
 
@@ -6018,7 +6027,7 @@ msgstr "Gebruikersacties"
 msgid "User already owns all skins"
 msgstr "De gebruiker bezit al alle skins"
 
-#: src/components/_user/user/UserDropdown.tsx:124
+#: src/components/_user/user/UserDropdown.tsx:123
 msgid "User blocked"
 msgstr "Gebruiker geblokkeerd"
 
@@ -6030,7 +6039,7 @@ msgstr "Gebruikersparticipatie op de grondpunten."
 msgid "User removed from family group"
 msgstr "Gebruiker verwijderd uit de familiegroep"
 
-#: src/components/_user/user/UserDropdown.tsx:128
+#: src/components/_user/user/UserDropdown.tsx:127
 msgid "User unblocked"
 msgstr "Gebruiker gedeblokkeerd"
 
@@ -6042,7 +6051,7 @@ msgstr "Gebruiker gedeblokkeerd"
 msgid "Username"
 msgstr "Gebruikersnaam"
 
-#: src/components/_user/user/UserDropdown.tsx:160
+#: src/components/_user/user/UserDropdown.tsx:149
 msgid "Username removed"
 msgstr "Gebruikersnaam verwijderd"
 
@@ -6229,7 +6238,7 @@ msgstr "Rijkdom"
 msgid "Weapon"
 msgstr "Wapen"
 
-#: src/components/_user/mission/MissionsList.tsx:193
+#: src/components/_user/mission/MissionsList.tsx:202
 msgid "Weekly"
 msgstr "Wekelijks"
 
@@ -6270,7 +6279,7 @@ msgstr "Wanneer je <0>Gezondheid</0> op is, open dan dit menu om het te herstell
 msgid "Whole Production"
 msgstr "Hele productie"
 
-#: src/components/_political/law/LawFormModal.tsx:158
+#: src/components/_political/law/LawFormModal.tsx:181
 msgid "Why do you want to propose this law?"
 msgstr "Waarom wilt u deze wet voorstellen?"
 
@@ -6329,7 +6338,7 @@ msgstr "Werken voor anderen is een geweldige manier om geld te verdienen als je 
 msgid "Wow congratulations! Anyway have you considered buying premium?"
 msgstr "Wauw, gefeliciteerd! Heb je overwogen om premium te kopen?"
 
-#: src/components/_political/law/LawFormModal.tsx:147
+#: src/components/_political/law/LawFormModal.tsx:170
 #: src/components/_political/law/LawList.tsx:58
 msgid "Write a law"
 msgstr "Schrijf een wet"
@@ -6771,6 +6780,6 @@ msgstr "Je wekelijkse missies zijn opnieuw ingesteld! Voltooi ze om beloningen t
 msgid "your@email.com"
 msgstr "your@email.com"
 
-#: src/components/_social/ArticleList.tsx:167
+#: src/components/_social/ArticleList.tsx:195
 msgid "Yours"
 msgstr "Van jou"

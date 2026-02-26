@@ -1007,7 +1007,7 @@ msgstr "Ek maliyet"
 msgid "Admin"
 msgstr "Admin"
 
-#: src/pages/user/[userId]/bans.tsx:261
+#: src/pages/user/[userId]/bans.tsx:262
 msgid "Admin Actions"
 msgstr "Admin Eylemleri"
 
@@ -1321,6 +1321,10 @@ msgstr "Dengeli"
 msgid "Balanced - No modifiers"
 msgstr "Dengeli - Değiştirici yok"
 
+#: src/pages/user/[userId]/bans.tsx:288
+msgid "Ban History"
+msgstr ""
+
 #: src/components/_user/user/UserDropdown.tsx:264
 msgid "Ban user"
 msgstr "Kullanıcıyı yasakla"
@@ -1487,7 +1491,7 @@ msgstr "Askeri birlik kur"
 msgid "Build the military unit"
 msgstr "Askeri birliği kur"
 
-#: src/pages/user/[userId]/bans.tsx:180
+#: src/pages/user/[userId]/bans.tsx:181
 msgid "Buy"
 msgstr ""
 
@@ -1917,7 +1921,7 @@ msgstr "Discord ile bağlan"
 msgid "Connect with email"
 msgstr "E-posta ile bağlan"
 
-#: src/pages/user/[userId]/bans.tsx:253
+#: src/pages/user/[userId]/bans.tsx:254
 msgid "Connection"
 msgstr "Bağlantı"
 
@@ -2479,7 +2483,7 @@ msgstr "Elit Miğfer"
 msgid "Elite Pants"
 msgstr "Elit Pantolon"
 
-#: src/pages/user/[userId]/bans.tsx:73
+#: src/pages/user/[userId]/bans.tsx:74
 msgid "Email"
 msgstr "E-posta"
 
@@ -2753,7 +2757,7 @@ msgid "Fish"
 msgstr "Balık"
 
 #: src/components/_layout/LayoutMapOptions.tsx:276
-#: src/pages/user/[userId]/bans.tsx:103
+#: src/pages/user/[userId]/bans.tsx:104
 msgid "Flags"
 msgstr "Bayraklar"
 
@@ -3936,7 +3940,7 @@ msgstr "Henüz hasar sıralaması yok."
 msgid "No donations yet"
 msgstr "Henüz bağış yok"
 
-#: src/pages/user/[userId]/bans.tsx:81
+#: src/pages/user/[userId]/bans.tsx:82
 msgid "No email found"
 msgstr "E-posta bulunamadı"
 
@@ -5008,7 +5012,7 @@ msgstr "İktidar Partisi"
 msgid "Running low on health?"
 msgstr "Sağlık mı azalıyor?"
 
-#: src/pages/user/[userId]/bans.tsx:279
+#: src/pages/user/[userId]/bans.tsx:280
 msgid "Sanction History"
 msgstr "Yaptırım Geçmişi"
 
@@ -5107,7 +5111,7 @@ msgstr "Kendi İşin"
 msgid "Self work <0>{count}</0> times in your companies"
 msgstr "Şirketlerinde <0>{count}</0> kez kendi işini yap"
 
-#: src/pages/user/[userId]/bans.tsx:205
+#: src/pages/user/[userId]/bans.tsx:206
 msgid "Sell"
 msgstr ""
 
@@ -5252,7 +5256,7 @@ msgstr "Ayarlar"
 msgid "Shop"
 msgstr "Mağaza"
 
-#: src/pages/user/[userId]/bans.tsx:245
+#: src/pages/user/[userId]/bans.tsx:246
 msgid "Show Inventory"
 msgstr "Envanteri Göster"
 
@@ -5262,7 +5266,7 @@ msgstr "Envanteri Göster"
 msgid "Show more"
 msgstr "Daha fazla göster"
 
-#: src/components/_social/ArticleList.tsx:141
+#: src/components/_social/ArticleList.tsx:140
 msgid "Show only articles with positive score (score >= -5)"
 msgstr ""
 
@@ -6011,7 +6015,7 @@ msgstr "Şirketleri, AB'leri ve tahkimatları yükseltmek için kullanılır"
 msgid "user"
 msgstr "kullanıcı"
 
-#: src/pages/user/[userId]/bans.tsx:270
+#: src/pages/user/[userId]/bans.tsx:271
 msgid "User Actions"
 msgstr "Kullanıcı Eylemleri"
 

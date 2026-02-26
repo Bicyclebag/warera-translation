@@ -1007,7 +1007,7 @@ msgstr "Papildu maksa"
 msgid "Admin"
 msgstr "Administrators"
 
-#: src/pages/user/[userId]/bans.tsx:261
+#: src/pages/user/[userId]/bans.tsx:262
 msgid "Admin Actions"
 msgstr "Administratora Darbības"
 
@@ -1321,6 +1321,10 @@ msgstr "Centrisms"
 msgid "Balanced - No modifiers"
 msgstr "Centrisms - Nav modifikātoru"
 
+#: src/pages/user/[userId]/bans.tsx:288
+msgid "Ban History"
+msgstr ""
+
 #: src/components/_user/user/UserDropdown.tsx:264
 msgid "Ban user"
 msgstr "Nobanot lietotāju"
@@ -1487,7 +1491,7 @@ msgstr "Izveidot militāro vienību"
 msgid "Build the military unit"
 msgstr "Izveidot militāro vienību"
 
-#: src/pages/user/[userId]/bans.tsx:180
+#: src/pages/user/[userId]/bans.tsx:181
 msgid "Buy"
 msgstr ""
 
@@ -1917,7 +1921,7 @@ msgstr "Pieslēgties ar Discord"
 msgid "Connect with email"
 msgstr "Pieslēgties ar e-pastu"
 
-#: src/pages/user/[userId]/bans.tsx:253
+#: src/pages/user/[userId]/bans.tsx:254
 msgid "Connection"
 msgstr "Savienojums"
 
@@ -2479,7 +2483,7 @@ msgstr "Violetā Ķivere"
 msgid "Elite Pants"
 msgstr "Violetās Bikses"
 
-#: src/pages/user/[userId]/bans.tsx:73
+#: src/pages/user/[userId]/bans.tsx:74
 msgid "Email"
 msgstr "E-pasts"
 
@@ -2753,7 +2757,7 @@ msgid "Fish"
 msgstr "Zivs"
 
 #: src/components/_layout/LayoutMapOptions.tsx:276
-#: src/pages/user/[userId]/bans.tsx:103
+#: src/pages/user/[userId]/bans.tsx:104
 msgid "Flags"
 msgstr "Karogi"
 
@@ -3936,7 +3940,7 @@ msgstr "Nav bojājumu kopvērtējumā."
 msgid "No donations yet"
 msgstr "Vēl nav ziedojumu"
 
-#: src/pages/user/[userId]/bans.tsx:81
+#: src/pages/user/[userId]/bans.tsx:82
 msgid "No email found"
 msgstr "E-pasta adrese nav atrasta"
 
@@ -5008,7 +5012,7 @@ msgstr "Vadošā Partija"
 msgid "Running low on health?"
 msgstr "Maz dzīvību?"
 
-#: src/pages/user/[userId]/bans.tsx:279
+#: src/pages/user/[userId]/bans.tsx:280
 msgid "Sanction History"
 msgstr "Sankciju Vēsture"
 
@@ -5107,7 +5111,7 @@ msgstr "Pašdarbs"
 msgid "Self work <0>{count}</0> times in your companies"
 msgstr "Nostrādā savos uzņēmumos <0>{count}</0> reizes"
 
-#: src/pages/user/[userId]/bans.tsx:205
+#: src/pages/user/[userId]/bans.tsx:206
 msgid "Sell"
 msgstr ""
 
@@ -5252,7 +5256,7 @@ msgstr "Iestatījumi"
 msgid "Shop"
 msgstr "Veikals"
 
-#: src/pages/user/[userId]/bans.tsx:245
+#: src/pages/user/[userId]/bans.tsx:246
 msgid "Show Inventory"
 msgstr "Rādīt Inventāru"
 
@@ -5262,7 +5266,7 @@ msgstr "Rādīt Inventāru"
 msgid "Show more"
 msgstr "Rādīt vairāk"
 
-#: src/components/_social/ArticleList.tsx:141
+#: src/components/_social/ArticleList.tsx:140
 msgid "Show only articles with positive score (score >= -5)"
 msgstr ""
 
@@ -6011,7 +6015,7 @@ msgstr "Uzņēmumu, MV un celtņu uzlabošanai"
 msgid "user"
 msgstr "lietotāju"
 
-#: src/pages/user/[userId]/bans.tsx:270
+#: src/pages/user/[userId]/bans.tsx:271
 msgid "User Actions"
 msgstr "Lietotāja Darbības"
 
