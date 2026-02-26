@@ -45,7 +45,7 @@ msgstr "{0} actieve burgers vereist"
 #. placeholder {0}: data.userId && ( <UserUsername userId={data.userId} withAvatar withFlag /> )
 #: src/components/_user/notification/notification.frontConfig.tsx:606
 msgid "{0} bought your item offer"
-msgstr "{0} heeft jouw product gekocht"
+msgstr "{0} heeft je product gekocht"
 
 #. placeholder {0}: Math.floor(cooldownHours / 24)
 #: src/components/_political/partyMotion/PartyMotionTypeSelect.tsx:144
@@ -240,12 +240,12 @@ msgstr "<0/> doet mee aan het gesprek"
 
 #: src/components/_user/notification/notification.frontConfig.tsx:686
 msgid "<0/> joined the game with your referral link!"
-msgstr "<0/> is met jouw verwijzingslink aangemeld bij het spel!"
+msgstr "<0/> is met je verwijzingslink aangemeld bij het spel!"
 
 #. placeholder {0}: data.wage
 #: src/components/_user/notification/notification.frontConfig.tsx:515
 msgid "<0/> joined your company <1/> for <2>{0}</2> wage"
-msgstr "<0/> bij jouw bedrijf begonnen <1/> voor <2>{0}</2> loon"
+msgstr "<0/> bij je bedrijf begonnen <1/> voor <2>{0}</2> loon"
 
 #: src/components/_political/message/systemMessage.frontConfig.tsx:34
 msgid "<0/> kicked <1/> from the conversation"
@@ -254,7 +254,7 @@ msgstr "<0/> heeft <1/> uit het gesprek verwijderd"
 #. placeholder {0}: data.company && <CompanyNameById companyId={data.company} />
 #: src/components/_user/notification/notification.frontConfig.tsx:531
 msgid "<0/> left his job in your company {0}"
-msgstr "<0/> heeft zijn baan bij jouw bedrijf opgezegd {0}"
+msgstr "<0/> heeft zijn baan bij je bedrijf opgezegd {0}"
 
 #: src/components/_political/message/systemMessage.frontConfig.tsx:25
 msgid "<0/> left the conversation"
@@ -1067,7 +1067,7 @@ msgstr "Alle coca-, graan-, vee- en vis grondstofbronnen binnen je grenzen geven
 #: src/components/_political/party/party.frontConfig.tsx:323
 #: src/components/_political/party/party.frontConfig.tsx:337
 msgid "All companies in your borders get <0>+{0}</0> bonus towards ammo or construction specialization good."
-msgstr "Alle bedrijven binnen jouw grenzen krijgen <0>+{0}</0> bonus op munitie- of bouwspecialisatie."
+msgstr "Alle bedrijven binnen je grenzen krijgen <0>+{0}</0> bonus op munitie- of bouwspecialisatie."
 
 #: src/components/_political/event/EventList.tsx:134
 msgid "All event types"
@@ -1597,7 +1597,7 @@ msgstr "Landbelasting veranderen"
 #: src/components/_economy/company/CompanyChangeItemFormModal.tsx:67
 #: src/components/_economy/company/CompanyChangeItemFormModal.tsx:82
 msgid "Change produced item"
-msgstr "Geproduceerde artikel wijzigen"
+msgstr "Geproduceerde item wijzigen"
 
 #: src/components/_economy/company/CompanyDropdown.tsx:159
 msgid "Change production"
@@ -1645,7 +1645,7 @@ msgstr "Kies je land"
 
 #: src/components/_other/tour/tuto.frontConfig.tsx:146
 msgid "Choose your side and click to deal <0>Damages</0>! Keep hitting to help your team win."
-msgstr "Kies jouw kant en klik om <0>Schade</0> toe te brengen! Blijf aanvallen om je team te helpen winnen."
+msgstr "Kies je kant en klik om <0>Schade</0> toe te brengen! Blijf aanvallen om je team te helpen winnen."
 
 #: src/components/_user/user/UserHeader.tsx:269
 msgid "Citizen since <0><1/></0>"
@@ -1727,7 +1727,7 @@ msgstr "Klik op een gevecht om te zien wat er gebeurt en doe mee."
 
 #: src/components/_other/tour/tuto.frontConfig.tsx:213
 msgid "Click on your country's conversation to chat with fellow citizens."
-msgstr "Klik op het gesprek van jouw land om met medeburgers te praten."
+msgstr "Klik op het gesprek van je land om met medeburgers te praten."
 
 #: src/components/_other/tour/tuto.frontConfig.tsx:67
 msgid "Click to apply and start earning money right away."
@@ -1868,7 +1868,7 @@ msgstr "Gefeliciteerd! Je aanvraag voor <0/> is geaccepteerd"
 
 #: src/components/_user/notification/notification.frontConfig.tsx:1406
 msgid "Congratulations! Your team <0/> won the tournament <1/>!"
-msgstr "Gefeliciteerd! Jouw team <0/> heeft toernooi <1/> gewonnen!"
+msgstr "Gefeliciteerd! je team <0/> heeft toernooi <1/> gewonnen!"
 
 #: src/components/_political/election/election.frontConfig.tsx:28
 msgid "Congress election"
@@ -2511,7 +2511,7 @@ msgstr "Einde"
 #: src/components/_military/war/WarHeader.tsx:67
 #: src/components/_military/war/WarItem.tsx:102
 msgid "Ended <0/>"
-msgstr "Eindigde <0/>"
+msgstr "Eindigde op <0/>"
 
 #: src/components/_military/battle/ActiveBattlesList.tsx:105
 #: src/components/_military/battle/ActiveBattlesList.tsx:160
@@ -2526,16 +2526,16 @@ msgstr "Energie"
 
 #: src/components/_user/user/militaryRankings.frontConfig.tsx:81
 msgid "Ensign"
-msgstr "Vaandrig"
+msgstr "Vaandel"
 
 #: src/components/_political/law/LawFormModal.tsx:197
 msgid "Enter article ID"
-msgstr "Voer artikel-ID in"
+msgstr "Voer artikel ID in"
 
 #: src/components/_user/auth/ConnectFromModal.tsx:138
 #: src/components/_user/auth/ConnectFromModal.tsx:144
 msgid "Enter the code we sent to your email."
-msgstr "Voer de code in die we naar je e-mail hebben gestuurd."
+msgstr "Voer de code in die we naar je e-mail hebben verzonden."
 
 #: src/components/_user/user/skills.frontConfig.tsx:168
 #: src/components/_user/user/skills.frontConfig.tsx:169
@@ -2567,7 +2567,7 @@ msgstr "Ethiek"
 
 #: src/pages/party/[partyId]/index.tsx:51
 msgid "Ethics are bonuses from the party, applied when the president is a member of this party."
-msgstr "Ethiek zijn bonussen van de partij, toegepast wanneer de president lid is van deze partij."
+msgstr "Ethiek is een bonus van de partij, toegepast als de president lid is van deze partij."
 
 #: src/components/_political/partyMotion/PartyMotionTypeSelect.tsx:83
 msgid "Ethics motions"
@@ -2575,7 +2575,7 @@ msgstr "Ethische moties"
 
 #: src/components/_political/government/PoliticalEthics.tsx:495
 msgid "Ethics Points:"
-msgstr "Ethische punten:"
+msgstr "Ethiek punten:"
 
 #: src/components/_layout/LayoutRightIcons.tsx:325
 #: src/components/_layout/MoreButtonNav.tsx:94
@@ -2589,7 +2589,7 @@ msgstr "Iedereen doet automatisch mee"
 
 #: src/pages/region/[regionId]/index.tsx:79
 msgid "Expires in"
-msgstr "Verloopt in"
+msgstr "Verloopt over"
 
 #: src/components/_user/apiToken/ApiTokenList.tsx:92
 msgid "Failed to copy"
@@ -2597,7 +2597,7 @@ msgstr "Niet gekopieerd"
 
 #: src/pages/user/[userId]/referrals.tsx:90
 msgid "Failed to copy text: "
-msgstr "Tekst niet kunnen kopiëren: "
+msgstr "Tekst kopiëren mislukt: "
 
 #: src/components/_user/auth/ConnectFromModal.tsx:102
 msgid "Failed to start Discord login."
@@ -2613,11 +2613,11 @@ msgstr "Familiegroep"
 
 #: src/components/_political/party/party.frontConfig.tsx:276
 msgid "Fanatic Agrarian"
-msgstr "Fanatische Agrarische"
+msgstr "Fanatieke landbouwer"
 
 #: src/components/_political/party/party.frontConfig.tsx:170
 msgid "Fanatic Diplomatic"
-msgstr "Fanatiek Diplomatiek"
+msgstr "Fanatieke Diplomaat"
 
 #: src/components/_political/party/party.frontConfig.tsx:251
 msgid "Fanatic Imperialist"
@@ -2629,19 +2629,19 @@ msgstr "Fanatieke Industrieel"
 
 #: src/components/_political/party/party.frontConfig.tsx:123
 msgid "Fanatic Isolationist"
-msgstr "Fanatische isolationist"
+msgstr "Fanatieke isolationist"
 
 #: src/components/_political/party/party.frontConfig.tsx:96
 msgid "Fanatic Militarist"
-msgstr "Fanatiek militarist"
+msgstr "Fanatieke militarist"
 
 #: src/components/_political/party/party.frontConfig.tsx:47
 msgid "Fanatic Pacifist"
-msgstr "Fanatische Pacifist"
+msgstr "Fanatieke Pacifist"
 
 #: src/components/_political/party/party.frontConfig.tsx:191
 msgid "Fanatic Republican"
-msgstr "Fanatiek Republikein"
+msgstr "Fanatieke Republikein"
 
 #: src/components/_military/battle/ActiveBattlesList.tsx:87
 #: src/components/_military/battle/ActiveBattlesList.tsx:167
@@ -2655,11 +2655,11 @@ msgstr "Feed"
 
 #: src/components/_user/worker/WorkerItem.tsx:110
 msgid "Fidelity Bonus"
-msgstr "Getrouwheidsbonus"
+msgstr "Vertrouwensbonus"
 
 #: src/components/_economy/workOffer/EstimatedCompanyBenefit.tsx:164
 msgid "Fidelity bonus:"
-msgstr "Getrouwheidsbonus:"
+msgstr "Vertrouwensbonus:"
 
 #: src/components/_user/user/skills.frontConfig.tsx:190
 msgid "Fight skills"
@@ -2671,7 +2671,7 @@ msgstr "Vecht!"
 
 #: src/utils/translations.tsx:27
 msgid "Fighter Jet"
-msgstr "Jachtvliegtuig"
+msgstr "Straaljager"
 
 #: src/components/_economy/transaction/TransactionList.tsx:104
 msgid "Filter by transaction type"
@@ -2683,7 +2683,7 @@ msgstr "Eindelijk bovengemiddeld!"
 
 #: src/components/_political/partyMotion/partyMotion.frontConfig.tsx:128
 msgid "Finance a resistance battle in <0/>"
-msgstr "Financier een verzetsstrijd in <0/>"
+msgstr "Een verzetsstrijd in financieren in <0/>"
 
 #: src/components/_political/partyMotion/partyMotion.frontConfig.tsx:122
 msgid "Finance a resistance battle in an occupied region of your country"
@@ -2699,11 +2699,11 @@ msgstr "Financier een opstand om <0/> te bevrijden"
 
 #: src/components/_political/law/law.frontConfig.tsx:424
 msgid "Finance foreign resistance"
-msgstr "Financier buitenlandse weerstand"
+msgstr "Financier een buitenlandse weerstand"
 
 #: src/components/_political/partyMotion/partyMotion.frontConfig.tsx:121
 msgid "Finance local resistance"
-msgstr "Financier lokaal verzet"
+msgstr "Financier een lokaal verzet"
 
 #: src/pages/companies.tsx:59
 #: src/pages/user/[userId]/companies.tsx:73
@@ -2794,7 +2794,7 @@ msgstr "uit rondeklassement"
 
 #: src/components/_economy/inventory/case/cases.frontConfig.tsx:27
 msgid "Fun fact: The house always wins"
-msgstr "Leuk weetje: Het huis wint altijd"
+msgstr "Fun fact: Het huis wint altijd"
 
 #: src/components/_user/user/Level.tsx:88
 msgid "Gain <0>Xp</0> by finishing your missions!"
@@ -2802,11 +2802,11 @@ msgstr "Verdien <0>Xp</0> door je missies af te ronden!"
 
 #: src/pages/shop/index.tsx:139
 msgid "Gems"
-msgstr "Edelstenen"
+msgstr "Gems"
 
 #: src/pages/shop/index.tsx:136
 msgid "Gems are used to buy assets in the shop and to gift supporter months to other players"
-msgstr "Edelstenen worden gebruikt om assets in de winkel te kopen en om supporter maanden aan andere spelers te schenken"
+msgstr "Gems worden gebruikt om assets in de winkel te kopen en om supporter maanden aan andere spelers te schenken"
 
 #: src/components/_user/user/militaryRankings.frontConfig.tsx:148
 msgid "General"
@@ -2818,15 +2818,15 @@ msgstr "Genereer Missies"
 
 #: src/components/_other/shop/SkinCollectionModal.tsx:94
 msgid "Get multiple skins at once with a 30% discount!"
-msgstr "Krijg meerdere skins tegelijk met 30% korting!"
+msgstr "Krijg meerdere skins met 30% korting!"
 
 #: src/components/_economy/inventory/DismantleModal.tsx:220
 msgid "Get supporter plan"
-msgstr "Haal een supporterplan"
+msgstr "Neem een supporterplan"
 
 #: src/components/_economy/inventory/case/cases.frontConfig.tsx:94
 msgid "Gift from Vatou, don't tell anyone"
-msgstr "Cadeau van Vatou, vertel het aan niemand"
+msgstr "Cadeau van Vatou, niet doorvertellen"
 
 #: src/components/_other/shop/SkinPackModal.tsx:98
 msgid "Gift sent! Skin pack unlocked for recipient!"
@@ -2838,7 +2838,7 @@ msgstr "Cadeau verzonden! Bedankt voor het steunen van het spel <3"
 
 #: src/components/_user/user/UserDropdown.tsx:241
 msgid "Gift Supporter Plan"
-msgstr "Gift Supporter Plan"
+msgstr "Doe Supporter Plan cadeau"
 
 #: src/components/_other/shop/SkinPackModal.tsx:225
 msgid "Gift this pack to someone"
@@ -2903,7 +2903,7 @@ msgstr "Goud"
 
 #: src/components/_political/country/CountryHeader.tsx:88
 msgid "Government"
-msgstr "Bestuur"
+msgstr "Overheid"
 
 #: src/utils/translations.tsx:28
 msgid "Grain"
@@ -2915,7 +2915,7 @@ msgstr "Graticule"
 
 #: src/components/_other/tour/tuto.frontConfig.tsx:176
 msgid "Great job! Hit a few more times to help your side win the battle."
-msgstr "Goed gedaan! Sla nog een paar keer toe om je kant te helpen de strijd te winnen."
+msgstr "Goed gedaan! Sla nog een paar keer toe om je team te helpen de strijd te winnen."
 
 #: src/components/_user/user/UserRankingsPanel.tsx:33
 msgid "Ground"
@@ -2923,7 +2923,7 @@ msgstr "Grond"
 
 #: src/components/_military/battle/BattleSystem.tsx:531
 msgid "ground per tick"
-msgstr "Grond per tik"
+msgstr "Grond per tick"
 
 #: src/components/_military/damageRanking/DamageRankingSides.tsx:121
 msgid "Ground points"
@@ -2949,11 +2949,11 @@ msgstr "Helm"
 
 #: src/components/_user/mission/mission.frontConfig.tsx:250
 msgid "Help <0>{count}</0> MU members"
-msgstr "Help <0>{count}</0> ME-leden"
+msgstr "Help <0>{count}</0> MU leden"
 
 #: src/components/_user/mission/mission.frontConfig.tsx:248
 msgid "Help MU Members"
-msgstr "Help ME-leden"
+msgstr "Help MU leden"
 
 #: src/components/_user/premium/PremiumFeatureList.tsx:41
 msgid "Help the game to grow"
@@ -3152,7 +3152,7 @@ msgstr "Baan aanbod"
 
 #: src/pages/market/index.tsx:77
 msgid "Job offers"
-msgstr "Jobaanbiedingen"
+msgstr "Vacatures"
 
 #: src/components/_economy/market/MarketHeader.tsx:32
 msgid "Jobs"
@@ -3160,11 +3160,11 @@ msgstr "Banen"
 
 #: src/components/_user/mission/mission.frontConfig.tsx:355
 msgid "Join a Military Unit"
-msgstr "Sluit je aan bij een militaire eenheid"
+msgstr "Sluit je aan bij een militaire Unit"
 
 #: src/components/_user/mission/mission.frontConfig.tsx:354
 msgid "Join MU"
-msgstr "Word lid van ME"
+msgstr "Word lid van MU"
 
 #: src/components/_other/tour/tuto.frontConfig.tsx:65
 msgid "Join this company!"
@@ -3184,7 +3184,7 @@ msgstr "Als je aan een nieuwe baan begint, verlaat je je huidige baan!"
 
 #: src/components/_economy/inventory/case/cases.frontConfig.tsx:22
 msgid "Just 1 more..."
-msgstr "Nog 1 meer..."
+msgstr "Nog ééntje dan..."
 
 #: src/components/_economy/inventory/case/cases.frontConfig.tsx:50
 msgid "Just one more… what could go wrong?"
@@ -3233,7 +3233,7 @@ msgstr "Later"
 
 #: src/pages/shop/index.tsx:149
 msgid "Latest Pack"
-msgstr "Laatste Pack"
+msgstr "Laatste pakket"
 
 #: src/components/_political/partyMotion/partyMotion.frontConfig.tsx:50
 msgid "Launch council election"
@@ -3346,11 +3346,11 @@ msgstr "Vind <0>{count}</0> berichten leuk"
 
 #: src/components/_user/mission/mission.frontConfig.tsx:314
 msgid "Like Article"
-msgstr "Vind artikel leuk"
+msgstr "Artikel leukvinden'"
 
 #: src/components/_user/mission/mission.frontConfig.tsx:385
 msgid "Like Message"
-msgstr "Vind Bericht leuk"
+msgstr "Bericht leukvinden"
 
 #: src/utils/translations.tsx:30
 msgid "Limestone"
@@ -3410,7 +3410,7 @@ msgstr "Loot <0>{count}</0> uit gevechten"
 
 #: src/components/_user/mission/mission.frontConfig.tsx:300
 msgid "Loot Cases"
-msgstr "Loot Cases"
+msgstr "Kisten"
 
 #: src/components/_military/hit/BattleLootChanceCard.tsx:38
 #: src/components/_user/user/skills.frontConfig.tsx:155
@@ -3444,7 +3444,7 @@ msgstr "Luitenant-generaal"
 
 #: src/components/_economy/inventory/case/cases.frontConfig.tsx:59
 msgid "Luck is finally on payroll"
-msgstr "Het geluk is eindelijk op de loonlijst"
+msgstr "Eindelijk staat er geluk op de loonstrook"
 
 #: src/components/_political/law/Law.tsx:96
 msgid "Maintenance cost"
@@ -3547,7 +3547,7 @@ msgstr "Ontmoet andere spelers in de chat. Wees niet verlegen, stel jezelf voor!
 
 #: src/pages/party/[partyId]/applications.tsx:39
 msgid "Member Applications"
-msgstr "Leden aanvragen"
+msgstr "Ledenaanvragen"
 
 #: src/pages/party/[partyId]/index.tsx:75
 #: src/pages/party/[partyId]/members.tsx:21
@@ -3556,7 +3556,7 @@ msgstr "Leden"
 
 #: src/components/_user/notification/notification.frontConfig.tsx:1304
 msgid "Mentioned in message"
-msgstr "Genoemd in bericht"
+msgstr "Vermeld in bericht"
 
 #: src/components/_other/shop/SkinPackModal.tsx:237
 msgid "Message (Optional)"
@@ -3593,19 +3593,19 @@ msgstr "Militaire rangen"
 
 #: src/components/_layout/MoreButtonNav.tsx:150
 msgid "Military Unit"
-msgstr "Militaire Eenheid"
+msgstr "Militaire Unit"
 
 #: src/components/_military/mu/MuFormModal.tsx:51
 msgid "Military unit created"
-msgstr "Militaire eenheid opgericht"
+msgstr "Militaire Unit opgericht"
 
 #: src/components/_military/damageRanking/DamageRankingSides.tsx:103
 msgid "Military units"
-msgstr "Militaire eenheden"
+msgstr "Militaire Units"
 
 #: src/components/_political/law/Law.tsx:118
 msgid "Min. active citizens"
-msgstr "Min. actieve burgers"
+msgstr "Minimale actieve burgers"
 
 #: src/components/_political/government/Government.tsx:68
 msgid "Minister of Defense"
@@ -3639,11 +3639,11 @@ msgstr "Geldoverdracht"
 
 #: src/components/_user/referral/ReferralList.tsx:115
 msgid "Money won"
-msgstr "Geld gewonnen"
+msgstr "Verdiende geld"
 
 #: src/components/_user/referral/ReferralList.tsx:79
 msgid "Money Won"
-msgstr "Geld Gewonnen"
+msgstr "Verdiende geld"
 
 #: src/components/_layout/MoreButtonNav.tsx:194
 msgid "More"
@@ -3651,7 +3651,7 @@ msgstr "Meer"
 
 #: src/components/_user/premium/PremiumFeatureList.tsx:147
 msgid "More premium features coming soon!"
-msgstr "Meer premium functies komen binnenkort!"
+msgstr "Binnenkort meer premium functies!"
 
 #: src/components/_political/partyMotion/PartyMotion.tsx:74
 msgid "Motion failed"
@@ -3681,11 +3681,11 @@ msgstr "Verhuis bedrijf"
 
 #: src/components/_economy/company/MoveCompanyForm.tsx:88
 msgid "Move the company"
-msgstr "Verplaats het bedrijf"
+msgstr "Verhuis het bedrijf"
 
 #: src/components/_economy/company/CompanyDropdown.tsx:170
 msgid "Move to top"
-msgstr "Naar boven gaan"
+msgstr "Naar het begin"
 
 #: src/components/_user/notification/notification.frontConfig.tsx:559
 msgid "Moved to a new company"
@@ -3694,23 +3694,23 @@ msgstr "Overgestapt naar een nieuw bedrijf"
 #: src/components/_layout/LayoutMenu.tsx:135
 #: src/components/_military/tournament/TournamentRegisterButton.tsx:135
 msgid "MU"
-msgstr "ME"
+msgstr "MU"
 
 #: src/components/_user/notification/notification.frontConfig.tsx:1202
 msgid "MU Application Accepted"
-msgstr "ME-aanvraag geaccepteerd"
+msgstr "MU-aanvraag geaccepteerd"
 
 #: src/components/_user/notification/notification.frontConfig.tsx:1189
 msgid "MU Application Rejected"
-msgstr "ME-aanvraag afgewezen"
+msgstr "MU-aanvraag afgewezen"
 
 #: src/components/_user/notification/notification.frontConfig.tsx:1290
 msgid "MU Donation Received"
-msgstr "ME-donatie ontvangen"
+msgstr "MU-donatie ontvangen"
 
 #: src/components/_user/notification/notification.frontConfig.tsx:1272
 msgid "MU Ownership Transferred"
-msgstr "Overdracht van het eigendom van ME"
+msgstr "Overdracht van het eigendom van MU"
 
 #: src/components/_user/user/UserDropdown.tsx:289
 msgid "Mute user"
@@ -4054,11 +4054,11 @@ msgstr "Niet indrukwekkend, maar ook niet beschamend"
 
 #: src/components/_economy/inventory/case/cases.frontConfig.tsx:61
 msgid "Now we're talking!"
-msgstr "Nu hebben we het over iets!"
+msgstr "Nu gaat het ergens over!"
 
 #: src/components/_economy/donation/DonationList.tsx:71
 msgid "Number of Donors:"
-msgstr "Aantal donoren:"
+msgstr "Aantal donateurs:"
 
 #: src/components/_political/partyMotion/PartyMotionFormModal.tsx:118
 msgid "Occupied region"
@@ -4091,7 +4091,7 @@ msgstr "Alleen buffs en voedseldepots verschijnen in je borders (coca, graan, ve
 
 #: src/components/_military/tournament/TournamentRegisterButton.tsx:156
 msgid "Only MU owners/commanders can register their MU"
-msgstr "Alleen ME-eigenaren/commandanten kunnen hun ME registreren"
+msgstr "Alleen MU-eigenaren/commandanten kunnen hun ME registreren"
 
 #: src/components/_military/tournament/TournamentRegisterButton.tsx:148
 msgid "Only presidents can register their country"
@@ -4131,11 +4131,11 @@ msgstr "Open e-mail"
 
 #: src/utils/translations.tsx:96
 msgid "Open it to get a better random item"
-msgstr "Open het om een beter willekeurig item te krijgen"
+msgstr "Maak open om een beter willekeurig item te krijgen"
 
 #: src/utils/translations.tsx:93
 msgid "Open it to get a random item"
-msgstr "Open het om een willekeurig item te krijgen"
+msgstr "Maak open om een willekeurig item te krijgen"
 
 #: src/components/_user/premium/PremiumFeatureList.tsx:47
 msgid "Open multiple <0>Cases</0> at same time"
@@ -4274,7 +4274,7 @@ msgstr "Partijdonatie ontvangen"
 
 #: src/components/_political/election/election.frontConfig.tsx:33
 msgid "Party Leader election"
-msgstr "Verkiezing tot partijleider"
+msgstr "Partijleider verkiezingen"
 
 #: src/components/_user/notification/notification.frontConfig.tsx:246
 msgid "Party Leader election candidacy is now open in <0/>"
@@ -4286,11 +4286,11 @@ msgstr "Kandidaat voor partijleiderverkiezing open"
 
 #: src/components/_user/notification/notification.frontConfig.tsx:290
 msgid "Party Leader election ended"
-msgstr "Partijleiderverkiezing beëindigd"
+msgstr "Partijleider verkiezingen beëindigd"
 
 #: src/components/_user/notification/notification.frontConfig.tsx:296
 msgid "Party Leader election has ended in <0/>. Check the results!"
-msgstr "De verkiezing van partijleider is afgelopen op <0/>. Bekijk de resultaten!"
+msgstr "De verkiezing voor partijleider is afgelopen op <0/>. Bekijk de resultaten!"
 
 #: src/components/_user/notification/notification.frontConfig.tsx:265
 msgid "Party Leader election vote open"
@@ -4552,7 +4552,7 @@ msgstr "Stel voor om <0/> te kopen van <1/> voor <2>{0}</2>"
 
 #: src/components/_political/law/law.frontConfig.tsx:306
 msgid "Propose to buy a region"
-msgstr "Voorstel om een regio te kopen"
+msgstr "Stel voor om een regio te kopen"
 
 #: src/components/_political/law/law.frontConfig.tsx:307
 msgid "Propose to buy a region from another country"
@@ -4712,19 +4712,19 @@ msgstr "Vernieuwt elk uur"
 
 #: src/components/_layout/LayoutUserMenu.tsx:189
 msgid "Regen in..."
-msgstr "Regeneratie in..."
+msgstr "Regenereerd in..."
 
 #: src/utils/translations.tsx:57
 msgid "Regens <0>10</0> when consumed"
-msgstr "Regeneraties <0>10</0> wanneer verbruikt"
+msgstr "Regenereerd <0>10</0> wanneer gegeten"
 
 #: src/utils/translations.tsx:66
 msgid "Regens <0>20</0> when consumed"
-msgstr "Regens <0>20</0> wanneer verbruikt"
+msgstr "Regenereerd <0>20</0> wanneer gegeten"
 
 #: src/utils/translations.tsx:45
 msgid "Regens <0>30</0> when consumed"
-msgstr "Regens <0>30</0> wanneer verbruikt"
+msgstr "Regenereerd <0>30</0> wanneer gegeten"
 
 #: src/components/_political/party/PartyFormModal.tsx:109
 msgid "Region"
@@ -4752,7 +4752,7 @@ msgstr "regio's"
 
 #: src/components/_political/country/CountryHeader.tsx:114
 msgid "Regions"
-msgstr "Regio's"
+msgstr "Regios"
 
 #: src/components/_military/tournament/TournamentRegisterButton.tsx:131
 msgid "Register"
@@ -4781,7 +4781,7 @@ msgstr "Versterkte Broek"
 #: src/components/_political/law/Law.tsx:181
 #: src/components/_political/partyMotion/PartyMotion.tsx:180
 msgid "Reject"
-msgstr "Weiger"
+msgstr "Weigeren"
 
 #: src/components/_political/law/LawStatus.tsx:45
 #: src/components/_political/partyMotion/PartyMotionStatus.tsx:54
@@ -4811,7 +4811,7 @@ msgstr "Verwijder een lid uit de partijraad"
 #: src/pages/market/index.tsx:174
 #: src/pages/market/index.tsx:234
 msgid "Remove all"
-msgstr "Verwijder alles"
+msgstr "Alles verwijderen"
 
 #: src/components/_user/user/UserDropdown.tsx:337
 msgid "Remove all offers"
@@ -4823,7 +4823,7 @@ msgstr "Verwijder een inactief congreslid uit zijn functie"
 
 #: src/components/_user/user/UserDropdown.tsx:367
 msgid "Remove Avatar"
-msgstr "Verwijder Avatar"
+msgstr "Avatar verwijderen"
 
 #: src/components/_political/partyMotion/partyMotion.frontConfig.tsx:31
 msgid "Remove council member"
@@ -4831,7 +4831,7 @@ msgstr "Verwijder raadslid"
 
 #: src/components/_user/user/UserDropdown.tsx:389
 msgid "Remove Description"
-msgstr "Verwijder beschrijving"
+msgstr "Beschrijving verwijderen"
 
 #: src/components/_political/law/law.frontConfig.tsx:278
 msgid "Remove enemy"
@@ -4848,7 +4848,7 @@ msgstr "Verwijderd uit de Militaire Eenheid"
 
 #: src/components/_economy/company/CompanyDropdown.tsx:211
 msgid "Rename"
-msgstr "Hernoem"
+msgstr "Hernoemen"
 
 #: src/components/_economy/company/CompanyRenameFormModal.tsx:66
 #: src/components/_economy/company/CompanyRenameFormModal.tsx:82
@@ -4874,7 +4874,7 @@ msgstr "Verzoeken:"
 
 #: src/components/_user/mission/MissionItem.tsx:113
 msgid "Reroll Mission"
-msgstr "Reroll-missie"
+msgstr "Reroll missie"
 
 #: src/pages/user/[userId]/skills.tsx:161
 msgid "Reset"
@@ -4890,7 +4890,7 @@ msgstr "Reset CAPTCHA"
 
 #: src/components/_user/user/UserDropdown.tsx:384
 msgid "Reset description"
-msgstr "Beschrijving reseten"
+msgstr "Beschrijving resetten"
 
 #: src/pages/user/[userId]/settings.tsx:72
 msgid "Reset tutorials"
@@ -5193,11 +5193,11 @@ msgstr "Stel een verwijzer in"
 
 #: src/components/_political/law/law.frontConfig.tsx:340
 msgid "Set a welcome article for your country"
-msgstr "Stel een welkomstartikel voor jouw land in"
+msgstr "Stel een welkomstartikel voor je land in"
 
 #: src/components/_political/law/law.frontConfig.tsx:345
 msgid "Set a welcome article for your country<0/>"
-msgstr "Stel een welkomstartikel in voor jouw land<0/>"
+msgstr "Stel een welkomstartikel in voor je land<0/>"
 
 #: src/components/_political/law/law.frontConfig.tsx:355
 msgid "Set country color"
@@ -5285,15 +5285,15 @@ msgstr "Vaardigheden opgeslagen!"
 
 #: src/components/_user/notification/notification.frontConfig.tsx:1693
 msgid "Skin gift received"
-msgstr "Skin-geschenk ontvangen"
+msgstr "Skin geschenk ontvangen"
 
 #: src/components/_user/notification/notification.frontConfig.tsx:1661
 msgid "Skin gift sent"
-msgstr "Skin-cadeau verzonden"
+msgstr "Skin cadeau verzonden"
 
 #: src/components/_user/notification/notification.frontConfig.tsx:1725
 msgid "Skin pack gift sent"
-msgstr "Skin pack cadeau verzonden"
+msgstr "Skin pakket cadeau verzonden"
 
 #: src/components/_other/shop/SkinPackModal.tsx:85
 msgid "Skin pack unlocked! All skins equipped!"
@@ -5467,7 +5467,7 @@ msgstr "Abonnees"
 
 #: src/components/_user/auth/ConnectFromModal.tsx:118
 msgid "Successfully logged in with Discord!"
-msgstr "Succesvol ingelogd met Discord!"
+msgstr "Succesvol ingelogd via Discord!"
 
 #: src/components/_user/premium/PremiumActions.tsx:57
 msgid "Support the game"
@@ -5475,7 +5475,7 @@ msgstr "Steun het spel"
 
 #: src/components/_economy/inventory/DismantleModal.tsx:208
 msgid "Support the game and quickly dismantle items!"
-msgstr "Steun het spel en haal snel items af!"
+msgstr "Steun het spel en demonteer snel items!"
 
 #: src/components/_economy/inventoryAccount/InventoryAccount.tsx:60
 msgid "Support us"
@@ -5602,7 +5602,7 @@ msgstr "Het dubbele XP-evenement is afgelopen."
 
 #: src/components/_user/notification/notification.frontConfig.tsx:858
 msgid "The effect of your consumed buffs has ended. The debuff phase has begun and will last <0>{debuffDuration}h</0>."
-msgstr "Het effect van je verbruikte buffs is voorbij. De debufffase is begonnen en duurt <0>{debuffDuration}h</0>."
+msgstr "Het effect van je verbruikte buffs is voorbij. De debuff fase is begonnen en duurt <0>{debuffDuration}h</0>."
 
 #: src/components/_user/notification/notification.frontConfig.tsx:1554
 msgid "The giveaway has ended. Check if you won!"
@@ -5614,7 +5614,7 @@ msgstr "De strategische hulpbron zal in de volgende tijd worden herschud."
 
 #: src/components/_user/notification/notification.frontConfig.tsx:1451
 msgid "The tournament has ended for your team <0/>. Check the results!"
-msgstr "Het toernooi is voorbij voor jouw team <0/>. Bekijk de resultaten!"
+msgstr "Het toernooi is voorbij voor je team <0/>. Bekijk de resultaten!"
 
 #: src/components/_economy/inventory/case/cases.frontConfig.tsx:12
 msgid "The universe owes you something big"
@@ -5683,35 +5683,35 @@ msgstr "Tokennaam"
 
 #: src/components/_social/ArticleList.tsx:153
 msgid "Top"
-msgstr "Top"
+msgstr "Beste"
 
 #: src/components/_social/ArticleList.tsx:140
 msgid "Top (1d)"
-msgstr "Top (1d)"
+msgstr "Beste (1d)"
 
 #: src/components/_social/ArticleList.tsx:147
 msgid "Top (1w)"
-msgstr "Top (1w)"
+msgstr "Beste (1w)"
 
 #: src/components/_economy/workOffer/WageInfoAlert.tsx:84
 msgid "Top 3 offers"
-msgstr "Top 3 aanbiedingen"
+msgstr "Beste 3 aanbiedingen"
 
 #: src/pages/index.tsx:144
 msgid "Top countries"
-msgstr "Toplanden"
+msgstr "Beste landen"
 
 #: src/components/_economy/donation/DonationList.tsx:87
 msgid "Top Donors"
-msgstr "Topdonateurs"
+msgstr "Hoogste donateurs"
 
 #: src/components/_economy/workOffer/WageInfoAlert.tsx:66
 msgid "Top eligible offer:"
-msgstr "Top in aanmerking komende aanbieding:"
+msgstr "Beste in aanmerking komende aanbieding:"
 
 #: src/pages/shop/index.tsx:85
 msgid "Top gift givers of the month"
-msgstr "Top cadeaugevers van de maand"
+msgstr "Meeste cadeaus gegeven deze maand"
 
 #: src/components/_military/battle/BattleSystem.tsx:522
 msgid "total"
@@ -5809,11 +5809,11 @@ msgstr "Soldaat"
 
 #: src/pages/user/[userId]/settings.tsx:65
 msgid "Tutorials"
-msgstr "Tutorials"
+msgstr "Uitleg"
 
 #: src/pages/user/[userId]/settings.tsx:31
 msgid "Tutorials reseted"
-msgstr "Tutorials gereset"
+msgstr "Uitleg gereset"
 
 #: src/components/_user/user/UserDropdown.tsx:282
 msgid "Unban user"
@@ -6004,7 +6004,7 @@ msgstr "Gebruikt om staal te produceren"
 
 #: src/utils/translations.tsx:109
 msgid "Used to upgrade companies, MUs and fortifications"
-msgstr "Gebruikt om bedrijven, ME's en versterkingen te upgraden"
+msgstr "Gebruikt om bedrijven, MU's en versterkingen te upgraden"
 
 #: src/components/_layout/LoadingScreenContent.tsx:22
 msgid "user"
@@ -6056,19 +6056,19 @@ msgstr "UwU"
 
 #: src/components/_other/shop/skin.frontConfig.tsx:8
 msgid "Valentine Ammo"
-msgstr "Valentine Ammo"
+msgstr "Valentijn Ammo"
 
 #: src/components/_other/shop/skin.frontConfig.tsx:47
 msgid "Valentine Boots"
-msgstr "Valentine Boots"
+msgstr "Valentijn Boots"
 
 #: src/components/_other/shop/skin.frontConfig.tsx:26
 msgid "Valentine Cat Ears"
-msgstr "Valentine Kattoren"
+msgstr "Valentijn Kattoren"
 
 #: src/components/_other/shop/skin.frontConfig.tsx:29
 msgid "Valentine Chest"
-msgstr "Valentine Borstbeschermer"
+msgstr "Valentijn Borstbeschermer"
 
 #: src/components/_other/shop/skin.frontConfig.tsx:53
 msgid "Valentine Gloves"
@@ -6080,7 +6080,7 @@ msgstr "Valentijn Handgeweer"
 
 #: src/components/_other/shop/skin.frontConfig.tsx:14
 msgid "Valentine Heavy Ammo"
-msgstr "Valentine Zware Munitie"
+msgstr "Valentijn Zware Munitie"
 
 #: src/components/_other/shop/skin.frontConfig.tsx:35
 msgid "Valentine Knife"
@@ -6597,7 +6597,7 @@ msgstr "Je wordt een legende voor, zeg maar, 100 hits!"
 
 #: src/components/_economy/inventory/case/cases.frontConfig.tsx:49
 msgid "You're literally one case away from greatness"
-msgstr "Je bent letterlijk één geval verwijderd van grootsheid"
+msgstr "Je bent letterlijk één kist verwijderd van grootsheid"
 
 #: src/components/_economy/inventory/case/cases.frontConfig.tsx:47
 msgid "You're officially better than 80% of players"
@@ -6609,7 +6609,7 @@ msgstr "Je piekt"
 
 #: src/components/_other/tour/tuto.frontConfig.tsx:185
 msgid "You've completed some missions! Let's collect your XP rewards."
-msgstr "Je hebt een aantal missies voltooid! Laten we je XP-beloningen verzamelen."
+msgstr "Je hebt een aantal missies voltooid! Pak je XP beloning!."
 
 #: src/components/_user/user/Level.tsx:122
 msgid "You've reached max level!"
@@ -6643,23 +6643,23 @@ msgstr "Je burgerschap gaat veranderen"
 
 #: src/components/_military/battle/ActiveBattlesList.tsx:146
 msgid "Your country"
-msgstr "Jouw land"
+msgstr "Je land"
 
 #: src/components/_user/notification/notification.frontConfig.tsx:1017
 msgid "Your country is under attack!"
-msgstr "Jouw land wordt aangevallen!"
+msgstr "Je land wordt aangevallen!"
 
 #: src/components/_user/notification/notification.frontConfig.tsx:1031
 msgid "Your country launched an attack!"
-msgstr "Jouw land heeft een aanval gelanceerd!"
+msgstr "Je land heeft een aanval gelanceerd!"
 
 #: src/components/_user/notification/notification.frontConfig.tsx:1062
 msgid "Your country started a revolt in <0/> against <1/>"
-msgstr "Jouw land begon in <0/> een opstand tegen <1/>"
+msgstr "Je land begon in <0/> een opstand tegen <1/>"
 
 #: src/components/_user/notification/notification.frontConfig.tsx:645
 msgid "Your country started the construction of <0/> in <1/>"
-msgstr "Jouw land begon met de bouw van <0/> in <1/>"
+msgstr "Je land begon met de bouw van <0/> in <1/>"
 
 #: src/components/_economy/workOffer/WorkOfferList.tsx:109
 msgid "Your current job"
@@ -6747,15 +6747,15 @@ msgstr "Je verwijzingslink"
 
 #: src/components/_user/notification/notification.frontConfig.tsx:1465
 msgid "Your team <0/> has been eliminated from the <1/>"
-msgstr "Jouw team <0/> is geëlimineerd uit de <1/>"
+msgstr "je team <0/> is geëlimineerd uit de <1/>"
 
 #: src/components/_user/notification/notification.frontConfig.tsx:1376
 msgid "Your team <0/> won a round in <1/>!"
-msgstr "Jouw team <0/> won een ronde in <1/>!"
+msgstr "je team <0/> won een ronde in <1/>!"
 
 #: src/pages/events/index.tsx:124
 msgid "Your team:"
-msgstr "Jouw team:"
+msgstr "je team:"
 
 #. placeholder {0}: data.oldWage
 #. placeholder {1}: data.newWage
