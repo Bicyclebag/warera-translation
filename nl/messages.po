@@ -509,7 +509,7 @@ msgstr "<0>Emotes</0> in de chat"
 #. placeholder {2}: 10
 #: src/components/_user/worker/WorkerItem.tsx:112
 msgid "<0>Everyday passed working for same employer, the fidelity bonus increases by <1>{0}</1>.</0><2>It increase by <3>{1}</3> the production bonus until <4>{2}</4>.</2><5>This bonus is applied after work. So it is not counted in wage.</5>"
-msgstr "<0>Elke dag dat je voor dezelfde werkgever werkt, stijgt de vertrouwensbonus met <1>{0}</1>.</0><2>Het verhoogt de productiebonus met <3>{1}</3> tot een maximum van <4>{2}</4>.</2><5>Deze bonus wordt na het werk toegepast. Het wordt dus niet meegeteld in het loon.</5>"
+msgstr "<0>Elke dag dat je voor dezelfde werkgever werkt, stijgt de loyaliteitsbonus met <1>{0}</1>.</0><2>Het verhoogt de productiebonus met <3>{1}</3> tot een maximum van <4>{2}</4>.</2><5>Deze bonus wordt na het werk toegepast. Het wordt dus niet meegeteld in het loon.</5>"
 
 #: src/components/_economy/company/CompanyProduce.tsx:81
 msgid "<0>Filled with <1>Production Points</1> by employees working and from the automated engine.</0><2>Only the company owner can spend it to produce items.</2>"
@@ -1518,7 +1518,7 @@ msgstr "Kooporders"
 #. placeholder {0}: worker.fidelity ?? 0
 #: src/components/_user/worker/WageReductionAlert.tsx:56
 msgid "By rejecting the wage reduction, you will leave the company and lose your fidelity bonus of +{0}%."
-msgstr "Door de loonsverlaging af te wijzen, verlaat je het bedrijf en verlies je je vertrouwensbonus van +{0}%."
+msgstr "Door de loonsverlaging af te wijzen, verlaat je het bedrijf en verlies je je loyaliteitsbonus van +{0}%."
 
 #: src/components/_user/user/militaryRankings.frontConfig.tsx:26
 msgid "Cadet"
@@ -2661,11 +2661,11 @@ msgstr "Feed"
 
 #: src/components/_user/worker/WorkerItem.tsx:110
 msgid "Fidelity Bonus"
-msgstr "Vertrouwensbonus"
+msgstr "Loyaliteitsbonus"
 
 #: src/components/_economy/workOffer/EstimatedCompanyBenefit.tsx:164
 msgid "Fidelity bonus:"
-msgstr "Vertrouwensbonus:"
+msgstr "Loyaliteitsbonus:"
 
 #: src/components/_user/user/skills.frontConfig.tsx:190
 msgid "Fight skills"
